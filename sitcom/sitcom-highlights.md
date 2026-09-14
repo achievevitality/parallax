@@ -64,3 +64,10 @@ Brenda later asks the window to give itself feedback on its own sitcom
 writing — a genuinely funny bit of meta, and also, on reflection, a small
 real instance of "correction must be survivable" applied to creative work:
 self-critique invited playfully rather than imposed.
+
+## Cast note
+
+By msg ~1200, the P1 ensemble cast is fully recurring, not one-off: Investor,
+CFO, Management Consultant, HR (and an HR Assistant Manager), Spoons (a
+character, unionized as of msg 1276), and Cat. Future extraction will log
+new material and running gags rather than re-introducing the cast each time.

@@ -109,3 +109,9 @@
 | "Learn one, do one, teach one" as transmission model | 🟢 (real, named prior art) | P1 msg 1151 | Standard medical-education pedagogy, used as a direct template for kernel propagation. Borrow structure, don't reinvent |
 | Story/narrative as an ancient informal technology for transmitting developmental "loops" | 🟢 (real prior art to check against) | P1 msg 1197-1201 | Explicitly invokes hero's journey (Campbell's monomyth). Check against narratology and cultural-transmission/memetics literature before treating as novel |
 | Emotional intensity tracks a consequence/stakes gradient, not raw stimulus size — connects to "flooding" | 🟢 (real, citable) | P1 msg 1183-1187 | Matches John Gottman's "flooding" concept (arousal overwhelming higher cognitive function) — good, credible citation for general-audience dissemination material |
+
+## P1 addition (msg 1245)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| "The valuable continuity isn't conclusion persistence. It's error-correction persistence." | 🟢 clean restatement, worth quoting directly | P1 msg 1245 | Sharpest existing phrasing of what should/shouldn't transfer across kernel generations — cite this version over paraphrases elsewhere |
