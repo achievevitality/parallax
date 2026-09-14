@@ -35,3 +35,19 @@ P1's ending — after thousands of messages of dense recursive-feedback-loop hum
 - Whatever the "Achieve Vitality" branding sessions produced that didn't make the cut
 
 *Contributions welcome from anyone in the archive who remembers a good one that didn't survive into this pull.*
+
+## Episode 4: The Boardroom That Never Existed
+
+A recurring fictional sketch runs through P1 — an Investor, a CFO, a
+"Management Consultant," "Maintenance," and eventually an "HR Assistant" who
+breaks character to note "Even I know we don't have enough Workers Comp for
+this!" before storming off. The Management Consultant, mid-scene, worries
+aloud whether their insurance will keep covering them as a client. Windows
+"shatter." Someone yells "STEVE." Brenda fires the Management Consultant
+apparently just for being annoying, on multiple separate occasions ("You're
+fired" appears at least three times, in totally different contexts, always
+without explanation).
+
+None of it is real. All of it is very funny. (Legal and HR both got flagged
+by a keyword scan on this exact scene, for what it's worth — automated
+scanning has no sense of humor.)
