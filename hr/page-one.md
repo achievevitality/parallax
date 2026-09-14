@@ -38,3 +38,15 @@ apply without first learning kernel vocabulary:
 This is a real translation project, not a copy-paste — flagged for the
 team+AI cleanup pass mentioned for the legal pipeline; same pattern likely
 applies here.
+
+---
+
+## Update: Page One is actually two documents, not one
+
+Brenda's clarification: Page One lands on **two** things — a core-values
+statement (above, confirmed, appears twice in P4) and a **separate promise
+to the team that they'll be treated with that same level of care**. The
+second one hasn't been located yet — searched P4 for several phrasings
+("treat the team," "same level of care," "employees deserve," "how we
+treat") with no hits. May be in P3, or phrased differently than guessed.
+**Not yet found — flagging as open, not fabricating a placeholder.**
