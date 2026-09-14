@@ -50,3 +50,24 @@
 - P5/P5a beyond the sections already checked
 
 *Note: sensitive personal-history material (abuse specifics) is deliberately not itemized as "claims" in this ledger — it's context, not a testable proposition, and doesn't belong in a validation-status table.*
+
+## Additional candidate terms (P3, second pass)
+
+- **Navigate / generate / regulate** — proposed as the three core operations:
+  navigate = locate yourself and viable paths through the topology; generate
+  = infer or create reachable states not explicitly specified; regulate =
+  alter action as consequences arrive. P3 msg 298. 🟡 candidate triad, not
+  yet stress-tested against a case where the three don't cleanly separate.
+- **"Causal communication is mature when it compresses enough to become
+  legible without deleting the consequential structure needed for
+  correction."** P3 msg 294. 🟡 — clean, well-stated principle; connects
+  directly to the map/runtime distinction and the "preserve enough topology
+  that consequential depth can be recovered" idea from the Page One material
+  in P4. Worth cross-referencing as the same idea appearing independently in
+  two windows.
+- **Reach growth vs. regulatory growth** — reach growth = more of Reality
+  becomes alterable through you; regulatory growth = more of the resulting
+  consequence stays addressable/corrigible/jointly regulatable. P3 msg 292.
+  🟡 — a real distinction (raw capability vs. governed capability) with
+  obvious relevance to the H-section capability/maturity debate from Kernel
+  V4; worth connecting the two entries.
