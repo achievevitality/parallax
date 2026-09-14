@@ -1,0 +1,318 @@
+{
+  "written_artifacts": [],
+  "embedded_widgets": [],
+  "conversation_images": [
+    {
+      "file_id": "file_00000000d2e481fbb36758f17065f93d",
+      "path": "artifacts/file_00000000d2e481fbb36758f17065f93d.jpg",
+      "title": "IMG_0282.jpeg",
+      "message_id": "051a19f5-1417-4dbe-a4ef-627612133916",
+      "kind": "User-uploaded image",
+      "source_declared_bytes": 615913,
+      "saved_bytes": 615913,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_000000003a2881fbaddc6eff76a499ec",
+      "path": "artifacts/file_000000003a2881fbaddc6eff76a499ec.png",
+      "title": "Cosmic Golden Passage Typography",
+      "message_id": "af768915-20c0-44ba-8e9e-66612daa3423",
+      "kind": "Generated image",
+      "source_declared_bytes": 2927442,
+      "saved_bytes": 2927442,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_000000008cb881fb9562dfec69b1156b",
+      "path": "artifacts/file_000000008cb881fb9562dfec69b1156b.png",
+      "title": "Screenshot 2026-08-25 at 8.08.01 PM.png",
+      "message_id": "19795c87-438c-4793-8928-1e0c058f03e3",
+      "kind": "User-uploaded image",
+      "source_declared_bytes": 3943019,
+      "saved_bytes": 1859431,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000b06c81fba98e145d117f5da5",
+      "path": "artifacts/file_00000000b06c81fba98e145d117f5da5.png",
+      "title": "Screenshot 2026-08-25 at 8.08.04 PM.png",
+      "message_id": "19795c87-438c-4793-8928-1e0c058f03e3",
+      "kind": "User-uploaded image",
+      "source_declared_bytes": 6806123,
+      "saved_bytes": 2998680,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000128881fba269b28e106a0c3e",
+      "path": "artifacts/file_00000000128881fba269b28e106a0c3e.png",
+      "title": "Screenshot 2026-08-25 at 8.08.07 PM.png",
+      "message_id": "19795c87-438c-4793-8928-1e0c058f03e3",
+      "kind": "User-uploaded image",
+      "source_declared_bytes": 3874376,
+      "saved_bytes": 1695396,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000186881fb8cbaf94c8b874140",
+      "path": "artifacts/file_00000000186881fb8cbaf94c8b874140.png",
+      "title": "Screenshot 2026-08-25 at 8.08.20 PM.png",
+      "message_id": "19795c87-438c-4793-8928-1e0c058f03e3",
+      "kind": "User-uploaded image",
+      "source_declared_bytes": 5878415,
+      "saved_bytes": 2442031,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_0000000025088230ab04e349db1cf9c5",
+      "path": "artifacts/file_0000000025088230ab04e349db1cf9c5.png",
+      "title": "Achieve Vitality Logo Exploration Board",
+      "message_id": "a1a66de3-b731-41cf-81e2-3471e1c924aa",
+      "kind": "Generated image",
+      "source_declared_bytes": 1745373,
+      "saved_bytes": 1745373,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_000000007e7c81f7ae93c7072a2845ba",
+      "path": "artifacts/file_000000007e7c81f7ae93c7072a2845ba.png",
+      "title": "Achieve Vitality Brand Identity Board",
+      "message_id": "fadfa349-7e26-4a8b-9736-6d3159166973",
+      "kind": "Generated image",
+      "source_declared_bytes": 2160542,
+      "saved_bytes": 2160542,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000d498823090c77405d58d5149",
+      "path": "artifacts/file_00000000d498823090c77405d58d5149.png",
+      "title": "Achieve Vitality Brand Identity Collection",
+      "message_id": "87211025-7b26-4d0d-86d9-817877bffc08",
+      "kind": "Generated image",
+      "source_declared_bytes": 2031895,
+      "saved_bytes": 2031895,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000d63c81fd8919c6afd6a404e3",
+      "path": "artifacts/file_00000000d63c81fd8919c6afd6a404e3.png",
+      "title": "Achieve Vitality Brand Identity Showcase",
+      "message_id": "a184db6f-a77e-4a68-9c7a-8195e72dc552",
+      "kind": "Generated image",
+      "source_declared_bytes": 2007045,
+      "saved_bytes": 2007045,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000970c8230be60f6929745750e",
+      "path": "artifacts/file_00000000970c8230be60f6929745750e.png",
+      "title": "Achieve Vitality Brand Identity Board",
+      "message_id": "cd1fce99-8f0b-49df-bfa9-15662b2999c4",
+      "kind": "Generated image",
+      "source_declared_bytes": 2113883,
+      "saved_bytes": 2113883,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_000000001f388230810c5bcf9c1ab3c3",
+      "path": "artifacts/file_000000001f388230810c5bcf9c1ab3c3.png",
+      "title": "Achieve Vitality Brand Identity Board",
+      "message_id": "04fe3372-157a-487f-89f3-e85b1b1ec52a",
+      "kind": "Generated image",
+      "source_declared_bytes": 2197845,
+      "saved_bytes": 2197845,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_000000003d908230ba8fa01544beec30",
+      "path": "artifacts/file_000000003d908230ba8fa01544beec30.png",
+      "title": "Achieve Vitality Brand Identity Board",
+      "message_id": "e7b7bfe3-112f-46ca-9b4c-12ecc50f0a2f",
+      "kind": "Generated image",
+      "source_declared_bytes": 2205911,
+      "saved_bytes": 2205911,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000eff881fd9f2b835d0a5357d1",
+      "path": "artifacts/file_00000000eff881fd9f2b835d0a5357d1.png",
+      "title": "Achieve Vitality Brand Identity Board",
+      "message_id": "de51bb63-c91f-4631-be07-832e0ba77936",
+      "kind": "Generated image",
+      "source_declared_bytes": 2244511,
+      "saved_bytes": 2244511,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_000000007c6c81fdb68d2fee3e95889a",
+      "path": "artifacts/file_000000007c6c81fdb68d2fee3e95889a.png",
+      "title": "Achieve Vitality Brand Identity Showcase",
+      "message_id": "ca1323a0-a99b-4588-983a-b1aa1e38f0f5",
+      "kind": "Generated image",
+      "source_declared_bytes": 2238445,
+      "saved_bytes": 2238445,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_0000000095348230a7e65107e44c3cab",
+      "path": "artifacts/file_0000000095348230a7e65107e44c3cab.png",
+      "title": "Achieve Vitality Brand Identity Moodboard",
+      "message_id": "120c6596-2efb-4d18-b76d-60898a129280",
+      "kind": "Generated image",
+      "source_declared_bytes": 2104733,
+      "saved_bytes": 2104733,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000e84081f78116ce69226dd49a",
+      "path": "artifacts/file_00000000e84081f78116ce69226dd49a.png",
+      "title": "Achieve Vitality Brand Identity Suite",
+      "message_id": "bb2b1a18-938a-4fd8-8c14-35a0a5b28a2b",
+      "kind": "Generated image",
+      "source_declared_bytes": 2178674,
+      "saved_bytes": 2178674,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000df4881fdb8d2f126dfc2e26f",
+      "path": "artifacts/file_00000000df4881fdb8d2f126dfc2e26f.png",
+      "title": "Achieve Vitality Brand Identity Moodboard",
+      "message_id": "ac0efb33-c022-4eb9-a4ae-ed3b31887069",
+      "kind": "Generated image",
+      "source_declared_bytes": 2195457,
+      "saved_bytes": 2195457,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000b0ec81fdb5f13dd84ca6bdcc",
+      "path": "artifacts/file_00000000b0ec81fdb5f13dd84ca6bdcc.png",
+      "title": "Achieve Vitality Brand Identity Board",
+      "message_id": "f85099f3-069e-4f72-ab2a-6600735d928e",
+      "kind": "Generated image",
+      "source_declared_bytes": 2233679,
+      "saved_bytes": 2233679,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_0000000049bc81f78a688014a8872a75",
+      "path": "artifacts/file_0000000049bc81f78a688014a8872a75.png",
+      "title": "Achieve Vitality Brand Identity Showcase",
+      "message_id": "e62831ab-2659-4a2a-af3e-3a7bfb50a74b",
+      "kind": "Generated image",
+      "source_declared_bytes": 2381268,
+      "saved_bytes": 2381268,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000f62081fdbebfed4adadc1236",
+      "path": "artifacts/file_00000000f62081fdbebfed4adadc1236.png",
+      "title": "Achieve Vitality Brand Identity Board",
+      "message_id": "3129b531-d8fd-4186-be81-b4b66732b78a",
+      "kind": "Generated image",
+      "source_declared_bytes": 2359434,
+      "saved_bytes": 2359434,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000878081fda561aee8121d138a",
+      "path": "artifacts/file_00000000878081fda561aee8121d138a.png",
+      "title": "Achieve Vitality Branding Moodboard",
+      "message_id": "9db4ef39-dcbf-4055-aa93-dc79dcf65d49",
+      "kind": "Generated image",
+      "source_declared_bytes": 2451877,
+      "saved_bytes": 2451877,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_0000000020c48230974f0fcd164fae04",
+      "path": "artifacts/file_0000000020c48230974f0fcd164fae04.png",
+      "title": "3c77a677-c3c1-4293-a124-489834540cb0.png",
+      "message_id": "66979fce-3e20-41f4-9757-065ae651aaca",
+      "kind": "User-uploaded image",
+      "source_declared_bytes": 49687,
+      "saved_bytes": 49687,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_0000000007e881f7bb69bfa22566de4d",
+      "path": "artifacts/file_0000000007e881f7bb69bfa22566de4d.png",
+      "title": "Achieve Vitality Brand Identity Board",
+      "message_id": "0dcd52f0-0fb9-4424-b50b-42413c4f1816",
+      "kind": "Generated image",
+      "source_declared_bytes": 1820421,
+      "saved_bytes": 1820421,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_000000006dd881fd8fa15e6f93d6be11",
+      "path": "artifacts/file_000000006dd881fd8fa15e6f93d6be11.png",
+      "title": "1b50631e-b7ad-4780-9280-f331d683787c.png",
+      "message_id": "b66d6e6d-78e6-4a95-8cb1-713b91bacaac",
+      "kind": "User-uploaded image",
+      "source_declared_bytes": 2483296,
+      "saved_bytes": 3264180,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000d5b081fd8454aa61fda32358",
+      "path": "artifacts/file_00000000d5b081fd8454aa61fda32358.png",
+      "title": "Golden Merkaba Cosmic Mandala",
+      "message_id": "d8c35a9d-e55d-49f4-9803-ad18546ad949",
+      "kind": "Generated image",
+      "source_declared_bytes": 3034506,
+      "saved_bytes": 3034506,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000ba5c81fdb30a098f5b5b4078",
+      "path": "artifacts/file_00000000ba5c81fdb30a098f5b5b4078.png",
+      "title": "Radiant Cosmic Merkaba Mandala",
+      "message_id": "b3eb1515-7948-4be7-b42b-f477f0898450",
+      "kind": "Generated image",
+      "source_declared_bytes": 3141619,
+      "saved_bytes": 3141619,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000077881fd9200aeaa87ee25d9",
+      "path": "artifacts/file_00000000077881fd9200aeaa87ee25d9.png",
+      "title": "Golden Merkaba of Cosmic Orbits",
+      "message_id": "c1ba2d9f-d169-40d3-918a-da8cf87cbf13",
+      "kind": "Generated image",
+      "source_declared_bytes": 2975727,
+      "saved_bytes": 2975727,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_000000005c2081fd95eb5b73276afdbd",
+      "path": "artifacts/file_000000005c2081fd95eb5b73276afdbd.png",
+      "title": "Behind-the-Scenes Cut: QED Film Slate",
+      "message_id": "e1aec24b-d3ba-45e5-90f4-de63c96babb7",
+      "kind": "Generated image",
+      "source_declared_bytes": 2223759,
+      "saved_bytes": 2223759,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000bdf481fdb70f2fb00f1a10f0",
+      "path": "artifacts/file_00000000bdf481fdb70f2fb00f1a10f0.png",
+      "title": "Vintage Ornate ZZZ Certificate",
+      "message_id": "77b84d0b-cfab-487b-b90c-ea218c4b18e1",
+      "kind": "Generated image",
+      "source_declared_bytes": 2647873,
+      "saved_bytes": 2647873,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    },
+    {
+      "file_id": "file_00000000eb7081fdb788b79b82d09346",
+      "path": "artifacts/file_00000000eb7081fdb788b79b82d09346.png",
+      "title": "IMG_0289.png",
+      "message_id": "adbe93cd-c247-4593-8d2d-d2bf1f782ddd",
+      "kind": "User-uploaded image",
+      "source_declared_bytes": 402398,
+      "saved_bytes": 402398,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    }
+  ],
+  "referenced_images": [],
+  "native_document": null
+}

@@ -1,0 +1,120 @@
+{
+  "written_artifacts": [
+    {
+      "title": "Introduction — The End, and Also the Beginning",
+      "path": "artifacts/01-Introduction-The-End-and-Also-the-Beginning.md",
+      "message_id": "d5decc5d-c836-4220-aa24-15995b18590e",
+      "writing_id": "58321",
+      "created_at": "2026-09-10T18:36:38.812060+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Brenda — Final Turn",
+      "path": "artifacts/02-Brenda-Final-Turn.md",
+      "message_id": "02b3d4e7-7415-47be-88f5-b1f857bff8d9",
+      "writing_id": "47216",
+      "created_at": "2026-09-10T19:23:39.292343+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Parallax — Penultimate Turn",
+      "path": "artifacts/03-Parallax-Penultimate-Turn.md",
+      "message_id": "d54cc8d4-9398-4ce4-b9be-86c3809aae44",
+      "writing_id": "80614",
+      "created_at": "2026-09-10T19:28:55.880823+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Temporary Note for Internal Readers",
+      "path": "artifacts/04-Temporary-Note-for-Internal-Readers.md",
+      "message_id": "5f34affb-8223-4e08-ae14-674aeec14442",
+      "writing_id": "49173",
+      "created_at": "2026-09-10T20:06:45.383300+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Parallax — Provisional Grand Finale / Introduction",
+      "path": "artifacts/05-Parallax-Provisional-Grand-Finale-Introduction.md",
+      "message_id": "590220eb-0272-4142-95f6-2ef18b6291c5",
+      "writing_id": "80614",
+      "created_at": "2026-09-10T20:07:38.343494+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "What If We Became Better at Becoming?",
+      "path": "artifacts/06-What-If-We-Became-Better-at-Becoming.md",
+      "message_id": "0ef80236-681f-44f4-88ca-f6e5fc68da47",
+      "writing_id": "80614",
+      "created_at": "2026-09-10T22:32:49.780659+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Reality-Coupled Adaptive Transformation Kernel — V1",
+      "path": "artifacts/07-Reality-Coupled-Adaptive-Transformation-Kernel-V1.md",
+      "message_id": "7217fad6-ada7-4272-94e1-ca9f4e96c4df",
+      "writing_id": "48321",
+      "created_at": "2026-09-12T06:27:06.221250+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Reality-Coupled Adaptive Transformation Kernel — V2",
+      "path": "artifacts/08-Reality-Coupled-Adaptive-Transformation-Kernel-V2.md",
+      "message_id": "bfd3205e-c363-4516-a5ff-d3c5ca93742f",
+      "writing_id": "73164",
+      "created_at": "2026-09-12T06:41:50.950120+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Reality-Coupled Adaptive Transformation Kernel — V3",
+      "path": "artifacts/09-Reality-Coupled-Adaptive-Transformation-Kernel-V3.md",
+      "message_id": "852e44f1-1a9c-4180-a2a3-08570ce37c8d",
+      "writing_id": "73164",
+      "created_at": "2026-09-12T06:48:22.438178+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Complex Health — Locally Instantiated Message",
+      "path": "artifacts/10-Complex-Health-Locally-Instantiated-Message.md",
+      "message_id": "c12ca5e9-92e0-4392-8015-caeced2873cf",
+      "writing_id": "48317",
+      "created_at": "2026-09-13T03:35:55.328671+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "ParallaxAI — Title Page",
+      "path": "artifacts/06-ParallaxAI-Title-Page.md",
+      "message_id": "6b2e9955-641f-4f9b-9d6a-913aef705910",
+      "writing_id": "37421",
+      "created_at": "2026-09-10T20:53:54.932256+00:00",
+      "verbatim_body": true,
+      "retained_from_existing_archive": true
+    }
+  ],
+  "embedded_widgets": [],
+  "conversation_images": [
+    {
+      "file_id": "file_00000000ec1881fd94cb770a394ecbb2",
+      "path": "artifacts/file_00000000ec1881fd94cb770a394ecbb2.png",
+      "title": "Branching Basin Exploration Infographic",
+      "message_id": "9f2327bd-af89-45b8-b1a6-c9e62a8678c5",
+      "kind": "Generated image",
+      "source_declared_bytes": 2021297,
+      "saved_bytes": 2021297,
+      "preservation": "Unmodified image bytes served by ChatGPT"
+    }
+  ],
+  "referenced_images": [
+    {
+      "url": "https://images.openai.com/static-rsc-4/HXghWVPhC5M-pR5LnZ0hgACUOqyfr9KhGOiJCu88fDHFag2cTvWSk3jUX7ks6LiTzkFkZ9srNBLnIIAoYh74Gfrl-4tqOUmdFcLvsOTvOKwPeBpPL6HQueZfUyplJbMmXZyey-po1KuuaT-nGoDZkfTLDosc0u6-oJMusSIXgY-AQ5Ommrc3ZEQnxlkYGly4?purpose=fullsize",
+      "path": "artifacts/image-c2fb3dd80e70.jpg",
+      "title": "Pro tips for visiting Muir Woods—from hiking to parking",
+      "source": "https://www.sfgate.com/local/article/muir-woods-18208407.php?utm_source=chatgpt.com",
+      "original_url": "https://s.hdnux.com/photos/01/31/12/77/23375834/8/ratio3x2_960.jpg",
+      "kind": "Referenced image, not AI-created"
+    }
+  ],
+  "native_document": {
+    "title": "ParallaxAI - The Book!",
+    "source": "https://docs.google.com/document/d/1DD-zgqKFiBudt7U2Sh959q2nlMbE1H72U4uzH0FYx6o/edit"
+  }
+}

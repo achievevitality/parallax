@@ -1,0 +1,40 @@
+{
+  "written_artifacts": [
+    {
+      "title": "Reality-Coupled Adaptive Transformation Kernel — Update Recommendation Packet",
+      "path": "artifacts/01-Reality-Coupled-Adaptive-Transformation-Kernel-Update-Recommendation-Packet.md",
+      "message_id": "e7d564cf-171d-4e54-8210-77e96729ac85",
+      "writing_id": "48317",
+      "created_at": "2026-09-12T22:45:57.104698+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Reality-Coupled Adaptive Transformation Kernel — V2 Update Recommendation Packet",
+      "path": "artifacts/02-Reality-Coupled-Adaptive-Transformation-Kernel-V2-Update-Recommendation-Packet.md",
+      "message_id": "ab61e214-2b25-46cf-82c2-0fe8fd49640c",
+      "writing_id": "74261",
+      "created_at": "2026-09-12T22:49:46.072332+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Reality-Coupled Adaptive Transformation Kernel — V3 Update Recommendation Packet",
+      "path": "artifacts/03-Reality-Coupled-Adaptive-Transformation-Kernel-V3-Update-Recommendation-Packet.md",
+      "message_id": "08ae279a-9d23-4fcc-baa7-17eab7112eea",
+      "writing_id": "91834",
+      "created_at": "2026-09-12T22:52:23.403378+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Reality-Coupled Adaptive Transformation Kernel — V3 Update Recommendation Packet",
+      "path": "artifacts/04-Reality-Coupled-Adaptive-Transformation-Kernel-V3-Update-Recommendation-Packet.md",
+      "message_id": "354c3939-7191-44ba-8091-c16ac6d7fbfd",
+      "writing_id": "91834",
+      "created_at": "2026-09-12T22:55:23.217352+00:00",
+      "verbatim_body": true
+    }
+  ],
+  "embedded_widgets": [],
+  "conversation_images": [],
+  "referenced_images": [],
+  "native_document": null
+}

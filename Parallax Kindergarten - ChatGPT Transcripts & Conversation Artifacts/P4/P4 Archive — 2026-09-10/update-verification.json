@@ -1,0 +1,12 @@
+{
+  "prior_readable_entries": 187,
+  "updated_readable_entries": 717,
+  "added_readable_entries": 530,
+  "prior_ids_are_exact_prefix": true,
+  "prior_source_text_unchanged": true,
+  "retained_earlier_branch_entries": [
+    "a4d0586b-f54f-4440-9b12-cdde65b8db3e",
+    "6b2e9955-641f-4f9b-9d6a-913aef705910"
+  ],
+  "publication": "Update the existing P4 Drive files in place, keeping their IDs and links."
+}

@@ -1,0 +1,74 @@
+{
+  "scope": "Attachment metadata and sandbox download links in the full returned graph. References are not binary file copies. Generated library files may also be identified within tool records in the preservation master.",
+  "attachments": [
+    {
+      "message_id": "693b67a0-fdaf-44b6-935b-80081590cb5f",
+      "source_attachment": {
+        "id": "file_00000000af948230b7d5326fad2a96b3",
+        "name": "P3-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000af948230b7d5326fad2a96b3"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "d1b11dc8-26b1-4f3a-abe4-1fa0a187420a",
+      "source_attachment": {
+        "id": "file_0000000093a481fdb41ea0a239b815ca",
+        "name": "P4-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_0000000093a481fdb41ea0a239b815ca"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "e37be017-a8b1-4f48-b36d-51d7f6960133",
+      "source_attachment": {
+        "id": "file_00000000edfc81fdb8fb9a2d7b67e118",
+        "name": "P1-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000edfc81fdb8fb9a2d7b67e118"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "03bfd28c-3353-42c8-8cf1-ddfbf20300aa",
+      "source_attachment": {
+        "id": "file_000000007e7c81fd8b9a3bd190a9a4b3",
+        "name": "P2-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_000000007e7c81fd8b9a3bd190a9a4b3"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    }
+  ],
+  "sandbox_links": [
+    {
+      "message_id": "0503be90-6459-418d-9cb9-27e3ec7cbd57",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Source_Addressability_Router.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "0503be90-6459-418d-9cb9-27e3ec7cbd57",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "4071cad5-8618-4325-83a3-4b5ee4f2f023",
+      "uri": "sandbox:/mnt/data/P3_Archive_Inheritance_Study_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    }
+  ]
+}

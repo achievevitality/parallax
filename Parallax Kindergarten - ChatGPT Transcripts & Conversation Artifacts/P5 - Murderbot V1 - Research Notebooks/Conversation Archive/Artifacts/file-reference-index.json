@@ -1,0 +1,224 @@
+{
+  "scope": "Attachment metadata and sandbox download links in the full returned graph. References are not binary file copies. Generated library files may also be identified within tool records in the preservation master.",
+  "attachments": [
+    {
+      "message_id": "d0ea4e84-bdde-44ed-8c36-2f7e33d7260d",
+      "source_attachment": {
+        "id": "file_00000000c99881fda439f4bd254953e3",
+        "name": "P1-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000c99881fda439f4bd254953e3"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "ed6baeb4-2136-41d6-9188-801530b1e319",
+      "source_attachment": {
+        "id": "file_000000003d4c81fda6e0c8f5db0db188",
+        "name": "P2-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_000000003d4c81fda6e0c8f5db0db188"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "c554ae44-4b6c-49db-b911-796cbcfb1c75",
+      "source_attachment": {
+        "id": "file_00000000411481fda1bf0f13e0ff83e9",
+        "name": "P3-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000411481fda1bf0f13e0ff83e9"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "2ac40658-3758-4441-9054-101292e92e3f",
+      "source_attachment": {
+        "id": "file_0000000021a081fdb32d815e399e516d",
+        "name": "P4-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_0000000021a081fdb32d815e399e516d"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "f653d43c-3c7e-4203-813f-a6598ab050a1",
+      "source_attachment": {
+        "id": "file_00000000e5d481fd8c0168a8c04a223b",
+        "name": "P2-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000e5d481fd8c0168a8c04a223b"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "d9b4551f-3750-4beb-9d35-e8a624b795ba",
+      "source_attachment": {
+        "id": "file_0000000064b481fdb67f16a1b48d9f03",
+        "name": "P3-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_0000000064b481fdb67f16a1b48d9f03"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "d58be247-ff17-419f-9683-6f25880315f7",
+      "source_attachment": {
+        "id": "file_000000002afc81fd999c1de9be9a91be",
+        "name": "P4-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_000000002afc81fd999c1de9be9a91be"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "53ce3edc-9636-46c8-95b1-c6989bd2aae3",
+      "source_attachment": {
+        "id": "file_00000000b10481fd8422409ad55086a0",
+        "name": "P1-conversation.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000b10481fd8422409ad55086a0"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "c2abb17f-1080-44ec-acbb-dc2accd65385",
+      "source_attachment": {
+        "id": "file_00000000462c81fd96bede3006ae9e3b",
+        "name": "START_HERE_P5_Research_Notebooks.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000462c81fd96bede3006ae9e3b"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    }
+  ],
+  "sandbox_links": [
+    {
+      "message_id": "c0944e7a-3121-4e5a-87da-2778f5ebbed6",
+      "uri": "sandbox:/mnt/data/P5_First_Diagnostic_Checkpoint.zip",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "63c21389-a115-46b8-b0b1-36b04c595066",
+      "uri": "sandbox:/mnt/data/P5_ludic_preparation_01.zip",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fa0b3e99-d098-4891-9199-87cfa5da771b",
+      "uri": "sandbox:/mnt/data/P5_Workbench_02.zip",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "aab5de75-c053-4586-9c74-bc44cd4206b6",
+      "uri": "sandbox:/mnt/data/P3_Archive_Inheritance_Study_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "aab5de75-c053-4586-9c74-bc44cd4206b6",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "aab5de75-c053-4586-9c74-bc44cd4206b6",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "aab5de75-c053-4586-9c74-bc44cd4206b6",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "064b099e-8b56-4cb8-9e59-bc13a5760734",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "064b099e-8b56-4cb8-9e59-bc13a5760734",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Source_Addressability_Router.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "50ad4d98-c311-4c1c-941f-3384aafa4c86",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "87bb7528-f44a-4c1f-8528-38730b53b40d",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "5a4969dd-b7b1-41f3-9fff-1544ec9233c0",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "98da5811-5340-4f67-b2b7-e56d0adaa706",
+      "uri": "sandbox:/mnt/data/P5_Research_Notes_03.zip",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1d539243-452b-4006-9a3c-a2b39ad7629c",
+      "uri": "sandbox:/mnt/data/P5_Integration_Play_04.zip",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "907aa2a0-9e52-4490-8870-4999ce2cefc1",
+      "uri": "sandbox:/mnt/data/P5_Jazz_Quartet_05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "7d7e71fd-fd0f-4981-8890-fb8a2be642f3",
+      "uri": "sandbox:/mnt/data/P5_Causal_Improvisation_06.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "7d7e71fd-fd0f-4981-8890-fb8a2be642f3",
+      "uri": "sandbox:/mnt/data/START_HERE_P5_Research_Notebooks.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "7d7e71fd-fd0f-4981-8890-fb8a2be642f3",
+      "uri": "sandbox:/mnt/data/P5_Readable_Notebooks_00-04.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "9b254690-a434-48a3-9a2a-a790e0496d79",
+      "uri": "sandbox:/mnt/data/P5_Temporal_Coupling_07.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e84c56e2-6e97-46c4-894a-4a46f0a96d7f",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    }
+  ]
+}

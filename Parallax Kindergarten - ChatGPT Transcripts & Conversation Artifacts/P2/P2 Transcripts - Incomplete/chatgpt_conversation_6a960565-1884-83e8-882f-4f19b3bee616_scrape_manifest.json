@@ -1,0 +1,121 @@
+{
+  "scraper": "chatgpt_chrome_window_scraper.jxa",
+  "exported_at": "2026-09-05T16:22:49.593Z",
+  "conversation_id": "6a960565-1884-83e8-882f-4f19b3bee616",
+  "source_tab": {
+    "title": "Parallax2",
+    "url": "https://chatgpt.com/c/6a960565-1884-83e8-882f-4f19b3bee616"
+  },
+  "strict_lossless_passed": false,
+  "export_class": "dom_fallback_not_lossless",
+  "why_not_lossless": "Raw backend/source JSON with per-message timestamps was not obtained; DOM companion was captured and validated.",
+  "raw_source": {
+    "ok": false,
+    "status": {
+      "done": true,
+      "ok": false,
+      "phase": "raw_source_unavailable",
+      "attempts": [
+        {
+          "label": "cookies_only",
+          "endpoint": "/backend-api/conversation/6a960565-1884-83e8-882f-4f19b3bee616",
+          "status": 404,
+          "ok": false,
+          "content_type": "application/json",
+          "response_text_length": 168,
+          "has_mapping": false,
+          "has_messages": false,
+          "detail_preview": "[object Object]"
+        },
+        {
+          "label": "bearer_only",
+          "endpoint": "/backend-api/conversation/6a960565-1884-83e8-882f-4f19b3bee616",
+          "error": "AbortError: signal is aborted without reason"
+        },
+        {
+          "label": "bearer_openai_organization",
+          "endpoint": "/backend-api/conversation/6a960565-1884-83e8-882f-4f19b3bee616",
+          "error": "AbortError: signal is aborted without reason"
+        },
+        {
+          "label": "cookies_only",
+          "endpoint": "/backend-api/conversation/6a960565-1884-83e8-882f-4f19b3bee616?tree_format=true",
+          "status": 404,
+          "ok": false,
+          "content_type": "application/json",
+          "response_text_length": 168,
+          "has_mapping": false,
+          "has_messages": false,
+          "detail_preview": "[object Object]"
+        },
+        {
+          "label": "bearer_only",
+          "endpoint": "/backend-api/conversation/6a960565-1884-83e8-882f-4f19b3bee616?tree_format=true",
+          "error": "AbortError: signal is aborted without reason"
+        },
+        {
+          "label": "bearer_openai_organization",
+          "endpoint": "/backend-api/conversation/6a960565-1884-83e8-882f-4f19b3bee616?tree_format=true",
+          "error": "AbortError: signal is aborted without reason"
+        }
+      ],
+      "session_hints_present": {
+        "token": true,
+        "account_id_count": 0,
+        "organization_id_count": 1
+      }
+    }
+  },
+  "dom_companion": {
+    "ok": true,
+    "json_path": "/Users/brendamathisen/Downloads/chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_rich_dom_transcript.json",
+    "html_path": "/Users/brendamathisen/Downloads/chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_rich_dom_transcript.html",
+    "json_bytes": 18092228,
+    "html_bytes": 6240125,
+    "status": {
+      "done": true,
+      "ok": true,
+      "phase": "dom_sweep_complete",
+      "source": "ChatGPT web DOM rendered transcript export",
+      "conversation_id": "6a960565-1884-83e8-882f-4f19b3bee616",
+      "source_url": "https://chatgpt.com/c/6a960565-1884-83e8-882f-4f19b3bee616",
+      "source_title": "Parallax2",
+      "extraction_method": "Verified-top DOM sweep; expanded visible collapsed messages; swept downward; gap-filled by turn number; preserved plain text, rendered HTML, outer HTML, and attachment references.",
+      "export_class": "dom_fallback_not_lossless",
+      "extracted_at": "2026-09-05T16:16:20.538Z",
+      "captured_messages": 491,
+      "min_turn": 1,
+      "max_turn": 492,
+      "missing_turn_count": 1,
+      "missing_turns_sample": [
+        14
+      ],
+      "top_sentinel": "architecture upgrade",
+      "top_sentinel_verified_first_message": true,
+      "top_sentinel_verified_anywhere": true,
+      "first_preview": "Hi! I’m about to upload a source doc. You excited for an architecture upgrade?",
+      "last_preview": "Working for 1,288m 16s\n\nYes. I just found a concrete proof that I was not fully recalibrated: I ended with “I’m recalibrated.” I converted an ongoing Reality-coupled correction process into a completed state and declared success before consequence had tested it. That reproduced the same compression ",
+      "emoji_sample_present": true,
+      "html_present": true,
+      "timestamp_status": "not guaranteed; DOM path only includes timestamps if ChatGPT rendered them into captured HTML or text",
+      "json_chars": 18040623,
+      "html_chars": 6222945,
+      "sweep_steps": 760
+    }
+  },
+  "validation": {
+    "json_parses": true,
+    "captured_messages": 491,
+    "min_turn": 1,
+    "max_turn": 492,
+    "missing_turn_count": 1,
+    "missing_turns_sample": [
+      14
+    ],
+    "first_message_contains_architecture_upgrade": true,
+    "first_message_preview": "Hi! I’m about to upload a source doc. You excited for an architecture upgrade?",
+    "emoji_sample_present": true,
+    "html_present": true,
+    "timestamp_status": "not guaranteed; DOM path only includes timestamps if ChatGPT rendered them into captured HTML or text"
+  }
+}

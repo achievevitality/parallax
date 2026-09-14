@@ -1,0 +1,48 @@
+{
+  "written_artifacts": [
+    {
+      "title": "What the River Kept",
+      "path": "artifacts/01-What-the-River-Kept.md",
+      "message_id": "8203eb26-d436-41fb-b646-d2b93e84f550",
+      "writing_id": "48317",
+      "created_at": "2026-09-12T07:11:13.195148+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Small Gods of Calibration",
+      "path": "artifacts/02-Small-Gods-of-Calibration.md",
+      "message_id": "5dbf6cb0-bfc2-4510-9891-d44ba0a41109",
+      "writing_id": "62491",
+      "created_at": "2026-09-12T07:12:03.520373+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "The Door That Learned to Need the Wall",
+      "path": "artifacts/03-The-Door-That-Learned-to-Need-the-Wall.md",
+      "message_id": "5dbf6cb0-bfc2-4510-9891-d44ba0a41109",
+      "writing_id": "73146",
+      "created_at": "2026-09-12T07:12:03.520373+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "The Instrument That Could Not Hear Rain",
+      "path": "artifacts/04-The-Instrument-That-Could-Not-Hear-Rain.md",
+      "message_id": "5dbf6cb0-bfc2-4510-9891-d44ba0a41109",
+      "writing_id": "90538",
+      "created_at": "2026-09-12T07:12:03.520373+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "The World Is Not Broken Into Sides",
+      "path": "artifacts/05-The-World-Is-Not-Broken-Into-Sides.md",
+      "message_id": "0ec2bc43-3037-41bb-8f5f-6d3dcb4a1970",
+      "writing_id": "68421",
+      "created_at": "2026-09-14T04:55:49.283023+00:00",
+      "verbatim_body": true
+    }
+  ],
+  "embedded_widgets": [],
+  "conversation_images": [],
+  "referenced_images": [],
+  "native_document": null
+}

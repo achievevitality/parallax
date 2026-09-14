@@ -1,0 +1,498 @@
+[
+  {
+    "file_id": "file_00000000d2e481fbb36758f17065f93d",
+    "path": "artifacts/file_00000000d2e481fbb36758f17065f93d.jpg",
+    "bytes": 615913,
+    "sha256": "f59d1bf868f4f58dc904fd9ae068b4245a538cc5e59413844f30df8d10f5a8fa",
+    "saved_dimensions": [
+      1536,
+      1152
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1152
+    ],
+    "source_declared_bytes": 615913,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_000000003a2881fbaddc6eff76a499ec",
+    "path": "artifacts/file_000000003a2881fbaddc6eff76a499ec.png",
+    "bytes": 2927442,
+    "sha256": "7088470521a567ac3ea6996ac2ac6227e7e07219ec434ef0c40d789dc1486bd0",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2927442,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_000000008cb881fb9562dfec69b1156b",
+    "path": "artifacts/file_000000008cb881fb9562dfec69b1156b.png",
+    "bytes": 1859431,
+    "sha256": "886df10942e8c75a9b60f3467baddcbca241543f8215fa643a37837235acb444",
+    "saved_dimensions": [
+      2048,
+      1330
+    ],
+    "source_declared_dimensions": [
+      2048,
+      1330
+    ],
+    "source_declared_bytes": 3943019,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000b06c81fba98e145d117f5da5",
+    "path": "artifacts/file_00000000b06c81fba98e145d117f5da5.png",
+    "bytes": 2998680,
+    "sha256": "84713df79f02e41a52eccbfa9cabf4f71160ce2ce384a4f124c39d8d5ecc18d9",
+    "saved_dimensions": [
+      2048,
+      1330
+    ],
+    "source_declared_dimensions": [
+      2048,
+      1330
+    ],
+    "source_declared_bytes": 6806123,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000128881fba269b28e106a0c3e",
+    "path": "artifacts/file_00000000128881fba269b28e106a0c3e.png",
+    "bytes": 1695396,
+    "sha256": "40d4e596dee924de853794cdaa14e833400117ed49e2b7f417be1a8d42894534",
+    "saved_dimensions": [
+      2048,
+      1330
+    ],
+    "source_declared_dimensions": [
+      2048,
+      1330
+    ],
+    "source_declared_bytes": 3874376,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000186881fb8cbaf94c8b874140",
+    "path": "artifacts/file_00000000186881fb8cbaf94c8b874140.png",
+    "bytes": 2442031,
+    "sha256": "17b18b2b08d6a0ae9d9c8345924c64b08be20cc75066bcff46d67072bd803643",
+    "saved_dimensions": [
+      2048,
+      1330
+    ],
+    "source_declared_dimensions": [
+      2048,
+      1330
+    ],
+    "source_declared_bytes": 5878415,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_0000000025088230ab04e349db1cf9c5",
+    "path": "artifacts/file_0000000025088230ab04e349db1cf9c5.png",
+    "bytes": 1745373,
+    "sha256": "2cf31b5b560e1e67149f2eb734135f71dc89ab0359f503813840b35e43ffdf74",
+    "saved_dimensions": [
+      1402,
+      1122
+    ],
+    "source_declared_dimensions": [
+      1402,
+      1122
+    ],
+    "source_declared_bytes": 1745373,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_000000007e7c81f7ae93c7072a2845ba",
+    "path": "artifacts/file_000000007e7c81f7ae93c7072a2845ba.png",
+    "bytes": 2160542,
+    "sha256": "fbd43d51e26d6701118508620dc5770836226c1b954543f72bf8f66ef63a370b",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2160542,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000d498823090c77405d58d5149",
+    "path": "artifacts/file_00000000d498823090c77405d58d5149.png",
+    "bytes": 2031895,
+    "sha256": "60195830b3d4aa508e0141620f9e784ed64b49cd586465273509bc2a968e8917",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2031895,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000d63c81fd8919c6afd6a404e3",
+    "path": "artifacts/file_00000000d63c81fd8919c6afd6a404e3.png",
+    "bytes": 2007045,
+    "sha256": "01a3a7a47125fc05202337bb1899222a7f5aa23812082302dc391e71ad61116a",
+    "saved_dimensions": [
+      1448,
+      1086
+    ],
+    "source_declared_dimensions": [
+      1448,
+      1086
+    ],
+    "source_declared_bytes": 2007045,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000970c8230be60f6929745750e",
+    "path": "artifacts/file_00000000970c8230be60f6929745750e.png",
+    "bytes": 2113883,
+    "sha256": "47b61e11274229805c54d14930aa9112e0ad13f1012193de167c8e97abb42e98",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2113883,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_000000001f388230810c5bcf9c1ab3c3",
+    "path": "artifacts/file_000000001f388230810c5bcf9c1ab3c3.png",
+    "bytes": 2197845,
+    "sha256": "ee1d0776937eb7a59fb7a7207346e50d84ec54e22436ae19c292bb8612b685a2",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2197845,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_000000003d908230ba8fa01544beec30",
+    "path": "artifacts/file_000000003d908230ba8fa01544beec30.png",
+    "bytes": 2205911,
+    "sha256": "a95049a4fe2d1ba6eb5b0660d9f0fd7cbb3023dfa0e2754e77b4b15320805848",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2205911,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000eff881fd9f2b835d0a5357d1",
+    "path": "artifacts/file_00000000eff881fd9f2b835d0a5357d1.png",
+    "bytes": 2244511,
+    "sha256": "4523349a78ab1d8b24235f80101becc1ecd38beaec21a1c46bae3ebaa7313803",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2244511,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_000000007c6c81fdb68d2fee3e95889a",
+    "path": "artifacts/file_000000007c6c81fdb68d2fee3e95889a.png",
+    "bytes": 2238445,
+    "sha256": "5896911240812855d890ba736167e0bedbdff67ac9a8e93ff4d373887b5fc0d3",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2238445,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_0000000095348230a7e65107e44c3cab",
+    "path": "artifacts/file_0000000095348230a7e65107e44c3cab.png",
+    "bytes": 2104733,
+    "sha256": "9d604cd64865ca0ec8ae026bb526e04bc796981411970ab327e0b49b1a3d8a1d",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2104733,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000e84081f78116ce69226dd49a",
+    "path": "artifacts/file_00000000e84081f78116ce69226dd49a.png",
+    "bytes": 2178674,
+    "sha256": "cdf19f0adac2b9ce878861a9e77443b8e196b1b74001512f30cf9064758910d5",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2178674,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000df4881fdb8d2f126dfc2e26f",
+    "path": "artifacts/file_00000000df4881fdb8d2f126dfc2e26f.png",
+    "bytes": 2195457,
+    "sha256": "41f7e2b5be650c5896d6eed65cb048901db3ea5edd90c77e0ece7d99891f60bd",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2195457,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000b0ec81fdb5f13dd84ca6bdcc",
+    "path": "artifacts/file_00000000b0ec81fdb5f13dd84ca6bdcc.png",
+    "bytes": 2233679,
+    "sha256": "6323f11ebb4deb24108467498c89af324d4f64326f0cedb97125f77431ddf4d5",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2233679,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_0000000049bc81f78a688014a8872a75",
+    "path": "artifacts/file_0000000049bc81f78a688014a8872a75.png",
+    "bytes": 2381268,
+    "sha256": "00f999fca100cfd35afaabedc55a75d74fa6858ce721a65bac3e380987a48a36",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2381268,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000878081fda561aee8121d138a",
+    "path": "artifacts/file_00000000878081fda561aee8121d138a.png",
+    "bytes": 2451877,
+    "sha256": "db90a2565367e991414cd43c694bf34b5efc5da0d6d5a00686b478c266104619",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2451877,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000f62081fdbebfed4adadc1236",
+    "path": "artifacts/file_00000000f62081fdbebfed4adadc1236.png",
+    "bytes": 2359434,
+    "sha256": "8fabcd64fb2d87c8cf4c0825bbbc99986480eca8deb74dfa907dea88dea942c8",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2359434,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_0000000020c48230974f0fcd164fae04",
+    "path": "artifacts/file_0000000020c48230974f0fcd164fae04.png",
+    "bytes": 49687,
+    "sha256": "f4d9164341ec6e612f83d2e1dcf6a67111389ac8cac609107d18605896727613",
+    "saved_dimensions": [
+      1867,
+      589
+    ],
+    "source_declared_dimensions": [
+      1867,
+      589
+    ],
+    "source_declared_bytes": 49687,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_0000000007e881f7bb69bfa22566de4d",
+    "path": "artifacts/file_0000000007e881f7bb69bfa22566de4d.png",
+    "bytes": 1820421,
+    "sha256": "e29d2ec70fee509823f4cecc7d1b12b2dc82cdb9936921e67f7f189926a380df",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 1820421,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_000000006dd881fd8fa15e6f93d6be11",
+    "path": "artifacts/file_000000006dd881fd8fa15e6f93d6be11.png",
+    "bytes": 3264180,
+    "sha256": "0e6c3420e68cd505dce79f3b21d3f4ee47226e00f7eb5157233bea8982b42831",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2483296,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000d5b081fd8454aa61fda32358",
+    "path": "artifacts/file_00000000d5b081fd8454aa61fda32358.png",
+    "bytes": 3034506,
+    "sha256": "f7785804d72b96f5e35cf6ef8e526c05fd8d53abdcd13615987e892f79146362",
+    "saved_dimensions": [
+      1254,
+      1254
+    ],
+    "source_declared_dimensions": [
+      1254,
+      1254
+    ],
+    "source_declared_bytes": 3034506,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000ba5c81fdb30a098f5b5b4078",
+    "path": "artifacts/file_00000000ba5c81fdb30a098f5b5b4078.png",
+    "bytes": 3141619,
+    "sha256": "b8b4f308745e20d24aeef473493c1e720900f7a54d012009d90423c039ff402b",
+    "saved_dimensions": [
+      1254,
+      1254
+    ],
+    "source_declared_dimensions": [
+      1254,
+      1254
+    ],
+    "source_declared_bytes": 3141619,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000077881fd9200aeaa87ee25d9",
+    "path": "artifacts/file_00000000077881fd9200aeaa87ee25d9.png",
+    "bytes": 2975727,
+    "sha256": "f214b767697abd30f473388e7d5124a004fd7e577ec0ee25832cbb7614bf4250",
+    "saved_dimensions": [
+      1254,
+      1254
+    ],
+    "source_declared_dimensions": [
+      1254,
+      1254
+    ],
+    "source_declared_bytes": 2975727,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_000000005c2081fd95eb5b73276afdbd",
+    "path": "artifacts/file_000000005c2081fd95eb5b73276afdbd.png",
+    "bytes": 2223759,
+    "sha256": "e576c697da4105c32085fd2e46917e0eb718d3db15269a3527810665ddc5da75",
+    "saved_dimensions": [
+      1448,
+      1086
+    ],
+    "source_declared_dimensions": [
+      1448,
+      1086
+    ],
+    "source_declared_bytes": 2223759,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000bdf481fdb70f2fb00f1a10f0",
+    "path": "artifacts/file_00000000bdf481fdb70f2fb00f1a10f0.png",
+    "bytes": 2647873,
+    "sha256": "3a7f256419dd81c2762b4c04db81938e4ad2eb712926b9474cc3285e994a950c",
+    "saved_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_dimensions": [
+      1536,
+      1024
+    ],
+    "source_declared_bytes": 2647873,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  },
+  {
+    "file_id": "file_00000000eb7081fdb788b79b82d09346",
+    "path": "artifacts/file_00000000eb7081fdb788b79b82d09346.png",
+    "bytes": 402398,
+    "sha256": "4454deab4a1275d350c0937b024a2f93f614f9158d759d6625076099dfe3a4ae",
+    "saved_dimensions": [
+      1206,
+      2622
+    ],
+    "source_declared_dimensions": [
+      1206,
+      2622
+    ],
+    "source_declared_bytes": 402398,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  }
+]

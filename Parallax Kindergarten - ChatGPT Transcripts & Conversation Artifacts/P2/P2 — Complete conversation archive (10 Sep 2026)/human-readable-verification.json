@@ -1,0 +1,10 @@
+{
+  "status": "Verified active-conversation reading edition with byte-identical source attachment",
+  "pages": 1270,
+  "readable_entries": 621,
+  "bytes": 52376978,
+  "sha256": "6225fdfa85597c0bbb6b8507eca46049e6eadaf44a2b9cb2dcf614dd962eae8d",
+  "embedded_source_sha256": "a0dae81d980b6c845438b2815b0944eedfc0c87329c549b5dd711426bfdf0b3a",
+  "full_text_comparison": "All readable HTML entry text verified against PDF extraction. Only generated ordered-list markers and repeated table headers differ after whitespace and Unicode normalization. Equations are images with original TeX preserved in the machine archive.",
+  "scope": "Readable active branch, including progress replies and recovered conversation images; full graph, alternate branches, tool records and original metadata are preserved in the embedded JSON and machine-readable archive."
+}

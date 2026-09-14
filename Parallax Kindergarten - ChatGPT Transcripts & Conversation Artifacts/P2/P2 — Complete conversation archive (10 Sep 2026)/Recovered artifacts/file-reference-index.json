@@ -1,0 +1,640 @@
+{
+  "scope": "Attachment metadata and sandbox download links in the full returned graph. References are not binary file copies. Generated library files may also be identified within tool records in the preservation master.",
+  "attachments": [
+    {
+      "message_id": "91cb3c46-57c0-4f47-af0e-8c44006a7d4b",
+      "source_attachment": {
+        "id": "file_000000005dc081fda43bae326dc9d936",
+        "size": 6166926,
+        "name": "ff9a862b-c3c1-437d-892e-0d62868b29cd.html",
+        "mime_type": "text/html",
+        "source": "local",
+        "library_file_id": "libfile_364ac3b8bedc8191bd55fd62ca1014a6",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "57489c1f-b753-4ab9-b24c-ddd72bd4dfd5",
+      "source_attachment": {
+        "id": "file_00000000ac7481f5baa998043efb690f",
+        "size": 6329203,
+        "name": "chatgpt_conversation_6a8ccd63-6680-83e8-9514-0e7a7b93bafb_transcript.json",
+        "mime_type": "application/json",
+        "source": "local",
+        "library_file_id": "libfile_57251d59b9408191b61d116bc7652ced",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    }
+  ],
+  "sandbox_links": [
+    {
+      "message_id": "06ba12c5-fc04-5112-bdb2-e97a3507dbdc",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Research_Object_v0.1.pdf",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "06ba12c5-fc04-5112-bdb2-e97a3507dbdc",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Research_Object_v0.1.docx",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "8262df97-8639-579b-aaa8-ac9d353441cc",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "6e5ba377-507e-5742-877d-58a259a17e8c",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Source_Addressability_Router.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "6e5ba377-507e-5742-877d-58a259a17e8c",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "2ec015c7-8313-559a-a5e1-4d7e4b8ce2e3",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "2ec015c7-8313-559a-a5e1-4d7e4b8ce2e3",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Source_Addressability_Router.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "182e0893-c12f-5dee-bb00-e8a940812494",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1a09d2cf-d297-58bf-920c-77257a17f5e4",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Source_Addressability_Router.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b206cad7-b071-5197-9469-dfba6a43d1df",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "38fef0a6-e1b1-50e0-85a7-690b296f1753",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b7450b46-f597-55b1-8154-e5f27cd50dc7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "42a644f2-1a81-5b6a-a301-05a32dc0e586",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "42a644f2-1a81-5b6a-a301-05a32dc0e586",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Source_Addressability_Router.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "42a644f2-1a81-5b6a-a301-05a32dc0e586",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "28659e3a-9bd2-506b-8bb5-3877dfaee4d7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "28659e3a-9bd2-506b-8bb5-3877dfaee4d7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b2f44d53-90d2-5e1d-b133-96dafafe14c6",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b2f44d53-90d2-5e1d-b133-96dafafe14c6",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "ff483175-ba86-56ed-9c44-f11757776771",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "ff483175-ba86-56ed-9c44-f11757776771",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "01447295-26f7-5d3f-a84e-8fb263aced24",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "01447295-26f7-5d3f-a84e-8fb263aced24",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "227ec6df-5d08-557c-a956-85dadb16a411",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "227ec6df-5d08-557c-a956-85dadb16a411",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d1c69c8b-c3ae-586a-b595-a9e65b3e7690",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d1c69c8b-c3ae-586a-b595-a9e65b3e7690",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e3b58e9f-62cd-5480-8abd-3fb1874c85a5",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Multi-Participant_Coupling_Architecture.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e3b58e9f-62cd-5480-8abd-3fb1874c85a5",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e3b58e9f-62cd-5480-8abd-3fb1874c85a5",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e3b58e9f-62cd-5480-8abd-3fb1874c85a5",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fcff304d-e2e6-5533-8529-52cefda69af8",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Multi-Participant_Coupling_Architecture.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fcff304d-e2e6-5533-8529-52cefda69af8",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fcff304d-e2e6-5533-8529-52cefda69af8",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fcff304d-e2e6-5533-8529-52cefda69af8",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "72700720-a059-5123-8942-566f653f16dc",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "72700720-a059-5123-8942-566f653f16dc",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "72700720-a059-5123-8942-566f653f16dc",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "de5bb16c-a419-54f4-8455-3b9712168239",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "de5bb16c-a419-54f4-8455-3b9712168239",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "de5bb16c-a419-54f4-8455-3b9712168239",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e58a9df9-bb51-5db9-8c66-05112f142f2f",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e58a9df9-bb51-5db9-8c66-05112f142f2f",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Lens_on_Physics_After_Newton.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e58a9df9-bb51-5db9-8c66-05112f142f2f",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Architectural_Precursor_Register.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e58a9df9-bb51-5db9-8c66-05112f142f2f",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e58a9df9-bb51-5db9-8c66-05112f142f2f",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "e58a9df9-bb51-5db9-8c66-05112f142f2f",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1d79d27d-8883-59ec-bdcd-0863ae159342",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1d79d27d-8883-59ec-bdcd-0863ae159342",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Participant_Privacy_and_Consent_Architecture.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1d79d27d-8883-59ec-bdcd-0863ae159342",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Multi-Participant_Coupling_Architecture.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1d79d27d-8883-59ec-bdcd-0863ae159342",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1d79d27d-8883-59ec-bdcd-0863ae159342",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1d79d27d-8883-59ec-bdcd-0863ae159342",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1d79d27d-8883-59ec-bdcd-0863ae159342",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Lens_on_Physics_After_Newton.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "34a93ee1-df30-50fd-85af-b3db073ba18b",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "34a93ee1-df30-50fd-85af-b3db073ba18b",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "34a93ee1-df30-50fd-85af-b3db073ba18b",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Participant_Privacy_and_Consent_Architecture.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "34a93ee1-df30-50fd-85af-b3db073ba18b",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Multi-Participant_Coupling_Architecture.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "34a93ee1-df30-50fd-85af-b3db073ba18b",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "34a93ee1-df30-50fd-85af-b3db073ba18b",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "42b19e8f-57b0-5bee-9f26-30013fdbc2a1",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "42b19e8f-57b0-5bee-9f26-30013fdbc2a1",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "42b19e8f-57b0-5bee-9f26-30013fdbc2a1",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "42b19e8f-57b0-5bee-9f26-30013fdbc2a1",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Architectural_Precursor_Register.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "42b19e8f-57b0-5bee-9f26-30013fdbc2a1",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "f671cbf1-1427-5d5d-ab50-adf118dc33c7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Three_Integration_Episodes_and_Transformation_Taxonomy.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "f671cbf1-1427-5d5d-ab50-adf118dc33c7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Life_Death_and_Bounded_Transformation.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "f671cbf1-1427-5d5d-ab50-adf118dc33c7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_100-Year_Projection_v2.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "f671cbf1-1427-5d5d-ab50-adf118dc33c7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "f671cbf1-1427-5d5d-ab50-adf118dc33c7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "f671cbf1-1427-5d5d-ab50-adf118dc33c7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "f671cbf1-1427-5d5d-ab50-adf118dc33c7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "f671cbf1-1427-5d5d-ab50-adf118dc33c7",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Architectural_Precursor_Register.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_100-Year_Causal_Horizon_v3.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_100-Year_Projection_v2.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Three_Integration_Episodes_and_Transformation_Taxonomy.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Architectural_Precursor_Register.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Life_Death_and_Bounded_Transformation.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "753c51e8-1cbc-5788-88bf-6aacd1fdbc37",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fe89ff2e-6cd8-58db-b092-120174979982",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Pre-Print_QA_and_Entropy_Containment_Loops.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fe89ff2e-6cd8-58db-b092-120174979982",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Saved_View_Brenda_Functional_Camera_v0.1.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fe89ff2e-6cd8-58db-b092-120174979982",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fe89ff2e-6cd8-58db-b092-120174979982",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fe89ff2e-6cd8-58db-b092-120174979982",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Runtime_Seam_Monitoring_and_Participation_Channel.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fe89ff2e-6cd8-58db-b092-120174979982",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Architectural_Precursor_Register.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fe89ff2e-6cd8-58db-b092-120174979982",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Three_Integration_Episodes_and_Transformation_Taxonomy.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "fe89ff2e-6cd8-58db-b092-120174979982",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "cae3b331-c689-5ca7-a1f5-b2b5c3ea147a",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_First_Teaching_Transfer_Experiment.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "cae3b331-c689-5ca7-a1f5-b2b5c3ea147a",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "cae3b331-c689-5ca7-a1f5-b2b5c3ea147a",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_100-Year_Causal_Horizon_v3.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "cae3b331-c689-5ca7-a1f5-b2b5c3ea147a",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "ccca677c-695f-5bee-a6b9-f98a530b6e7f",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_First_Teaching_Transfer_Experiment.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "ccca677c-695f-5bee-a6b9-f98a530b6e7f",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "7229b522-5b30-5d38-a0cf-6e1ef3545354",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_First_Teaching_Transfer_Experiment.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "7229b522-5b30-5d38-a0cf-6e1ef3545354",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "07f62769-9433-596e-ab1f-1ef1068a4e69",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Pre-Print_QA_and_Entropy_Containment_Loops.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "07f62769-9433-596e-ab1f-1ef1068a4e69",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "23e20e3d-277a-5942-977f-c20ea73b7ae9",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Saved_View_Brenda_Functional_Camera_v0.1.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "23e20e3d-277a-5942-977f-c20ea73b7ae9",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Pre-Print_QA_and_Entropy_Containment_Loops.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "23e20e3d-277a-5942-977f-c20ea73b7ae9",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d11fda84-9712-5bb9-ab3d-e6b0dd2cb8b3",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d11fda84-9712-5bb9-ab3d-e6b0dd2cb8b3",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Pre-Print_QA_and_Entropy_Containment_Loops.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d11fda84-9712-5bb9-ab3d-e6b0dd2cb8b3",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_100-Year_Causal_Horizon_v3.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d11fda84-9712-5bb9-ab3d-e6b0dd2cb8b3",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d11fda84-9712-5bb9-ab3d-e6b0dd2cb8b3",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "eb5b3f46-0789-5657-8808-a8d2d47e6300",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "eb5b3f46-0789-5657-8808-a8d2d47e6300",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "eb5b3f46-0789-5657-8808-a8d2d47e6300",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b4a57c22-3bc0-54b4-b2bd-dca0002f7cba",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Seven_Blind_Mice_Reality_as_Rin.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b4a57c22-3bc0-54b4-b2bd-dca0002f7cba",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Working_Theory_Registry.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b4a57c22-3bc0-54b4-b2bd-dca0002f7cba",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b4a57c22-3bc0-54b4-b2bd-dca0002f7cba",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b5e9d74c-b8a6-55e6-bb71-5f7d82dba619",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Elephant_Provenance_Audit_P1_P2.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b5e9d74c-b8a6-55e6-bb71-5f7d82dba619",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_First_Teaching_Transfer_Experiment.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b5e9d74c-b8a6-55e6-bb71-5f7d82dba619",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Architectural_Precursor_Register.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b5e9d74c-b8a6-55e6-bb71-5f7d82dba619",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Seven_Blind_Mice_Reality_as_Rin.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b5e9d74c-b8a6-55e6-bb71-5f7d82dba619",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Candidate_and_Open_Loop_Ledger.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "b5e9d74c-b8a6-55e6-bb71-5f7d82dba619",
+      "uri": "sandbox:/workspace/scratch/c87e94151196/Parallax_Verbatim_Runtime_Notes_Log.md",
+      "status": "source link retained; external file bytes not recovered"
+    }
+  ]
+}
