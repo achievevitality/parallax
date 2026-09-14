@@ -20,3 +20,13 @@ strategic-implication claims.
   you... creating more optionality for him." Context/relationship to Reed
   not specified in this passage — flagging the name and motivation as found,
   not inferring who he is.
+
+## More outreach candidates (P5a)
+
+- **Tom Chi** — msg 134: "understands team development and selection...
+  enough engineering background to know what kind of engineering is going
+  into AI, and what is probably missing."
+- **David Sze** — msg 134: "I already know David Sze can see some of it."
+- **Reed** — more context, msg 132: already shared the P4 statement with
+  him; he responded well to the questions it asked, specifically read
+  Section 3 rather than the full transcript.
