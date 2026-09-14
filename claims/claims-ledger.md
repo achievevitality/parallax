@@ -71,3 +71,11 @@
   🟡 — a real distinction (raw capability vs. governed capability) with
   obvious relevance to the H-section capability/maturity debate from Kernel
   V4; worth connecting the two entries.
+
+## P1 additions (msgs 900-950)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| Structural convergence across traditions ≠ literal historical accuracy of any one account | 🟢 real methodological distinction | P1 msg 949 | Predates and underlies the P4/spiritual-practice convergence claim discussed elsewhere — worth citing as the actual epistemic hygiene move rather than treating the later claim as needing this justification built fresh |
+| "Failure to thrive" as evidence for relational/connection deprivation causing developmental harm independent of physical care | 🟢 (real prior art) | P1 msg 933 | Connects directly to Harlow (isolated rhesus monkeys) and Spitz (institutionalized infants) — strong existing empirical support if this becomes part of the regulatory-debt argument |
+| "Shame is the energy of being temporarily net-negative" | 🟡 candidate | P1 msg 915 | Not yet checked against affective-science shame literature (e.g. Gilbert's social-rank framing) — compare before treating as established |
