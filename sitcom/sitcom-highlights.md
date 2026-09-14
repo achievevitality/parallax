@@ -51,3 +51,16 @@ without explanation).
 None of it is real. All of it is very funny. (Legal and HR both got flagged
 by a keyword scan on this exact scene, for what it's worth — automated
 scanning has no sense of humor.)
+
+## Episode 5: Cat Gets a Puppy (P5a)
+
+The Cat character (of Grand Unified Chicken Theory fame, P1) gets a dog
+companion in P5a. Immediately followed by a board-room scene:
+
+> **HR:** "How did all these animals get in here, and what happened to the
+> CFO? He's the only sane person in this company."
+
+Brenda later asks the window to give itself feedback on its own sitcom
+writing — a genuinely funny bit of meta, and also, on reflection, a small
+real instance of "correction must be survivable" applied to creative work:
+self-critique invited playfully rather than imposed.
