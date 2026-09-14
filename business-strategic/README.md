@@ -30,3 +30,9 @@ strategic-implication claims.
 - **Reed** — more context, msg 132: already shared the P4 statement with
   him; he responded well to the questions it asked, specifically read
   Section 3 rather than the full transcript.
+
+## More outreach candidates (P1)
+
+- **Udi Dahan** — msg 1113, named with permission ("if he wishes to be
+  named") — entrepreneur & consultant friend, was about to share an
+  organizational-development insight.

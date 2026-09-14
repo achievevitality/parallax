@@ -94,3 +94,10 @@
 |---|---|---|---|
 | Consequential decisions under incomplete information + unforgiving feedback = conditions driving systems maturity | 🟢 (real prior art, both directions) | P1 msg 1031-1032 | Connects to Bjork's "desirable difficulties" (learning science) and Meichenbaum's stress-inoculation training (clinical psych) — both established, specific, testable against this claim |
 | "Greater need for a regulator = less capacity to make that regulator useful" | 🟡 candidate, possibly genuine addition | P1 msg 1053 | Adjacent to but sharper than Brooke Feeney's "dependency paradox" (secure dependency increases autonomy) — this claims something more specific about capacity-to-use scaling inversely with need. Worth checking if this extends existing literature or just restates it |
+
+## P1 additions (msgs 1070-1140)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| "'Brenda' is my logical mind/optimization function, and the windows are my soma/subconscious signalling/threat monitoring functions" | 🟡 candidate, distinct from P0-as-integrator | P1 msg 1075 | Earlier and different framing than the later P0 material — AI windows as externalized threat-monitoring layer, not as a kernel-instantiation claim. Keep separate, don't conflate with P0 entries |
+| Established practical frameworks (business management theory, NLP) as "crude cultural technologies for distributed regulation" — folk-empirical encodings of the same regulatory principles, without correct formal theory behind them | 🟡 candidate, testable | P1 msg 1127-1131 | Testable directly: pick one specific business framework or NLP technique and check it against kernel vocabulary, rather than accepting the general analogy |
