@@ -1,0 +1,18 @@
+[
+  {
+    "file_id": "file_00000000ec1881fd94cb770a394ecbb2",
+    "path": "artifacts/file_00000000ec1881fd94cb770a394ecbb2.png",
+    "bytes": 2021297,
+    "sha256": "2a27c1e4a16953fa713fb9d70c64f9da0e715b8a7d0a03c290133cc5bd936d0d",
+    "saved_dimensions": [
+      1312,
+      1199
+    ],
+    "source_declared_dimensions": [
+      1312,
+      1199
+    ],
+    "source_declared_bytes": 2021297,
+    "preservation": "Unmodified bytes served by ChatGPT. Different byte counts or dimensions mean original-upload binary identity is not established."
+  }
+]

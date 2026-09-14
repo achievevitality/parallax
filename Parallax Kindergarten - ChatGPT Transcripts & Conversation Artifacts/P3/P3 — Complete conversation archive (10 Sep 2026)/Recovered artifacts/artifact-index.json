@@ -1,0 +1,32 @@
+{
+  "written_artifacts": [
+    {
+      "title": "Working Epistemic Note",
+      "path": "artifacts/01-Working-Epistemic-Note.md",
+      "message_id": "5f2c77a6-4d8e-4b6b-9eb0-47e6e3cd272f",
+      "writing_id": "58321",
+      "created_at": "2026-09-07T07:06:58.210262+00:00",
+      "verbatim_body": true
+    }
+  ],
+  "embedded_widgets": [],
+  "referenced_images": [
+    {
+      "url": "https://images.openai.com/static-rsc-4/qPws9F3nPc6q1aVKWbG1iJV_z8I2aWxfqHrOldKc3bmHkvNOO9Xt1ZCYiGB-0SJ2Sniv-RYi-AddJvRGJFx0wfI03balhztN1eqvx4QcySiWAnkGVpWJIt2xddSGgyGc5qDljJoMsggKoXnuHrOszwVljLDQJmuQLwv0VkmgX94dddl3KqrSbv2oYTEbQD9f?purpose=fullsize",
+      "path": "artifacts/image-c67fd6e07099.jpg",
+      "title": "Tom Chi | about.me",
+      "source": "https://about.me/thegoodtomchi",
+      "original_url": "https://about.me/cdn-cgi/image/q%3D80%2Cdpr%3D1%2Cf%3Dauto%2Cfit%3Dcover%2Cw%3D1024%2Ch%3D512%2Cgravity%3Dauto/https%3A/assets.about.me/background/thegoodtomchi_1355786655_84.jpg",
+      "kind": "Referenced image, not AI-created"
+    },
+    {
+      "url": "https://images.openai.com/static-rsc-4/NcpqMnYvJcAMW385V6lcKzldHfpYU3VR155sqc1Tj-ZGQMqYsiVqD9gBYPv86OuQOxSd3dwzEJog-Funn6DndhA_vZkxi29Ohq4yfWskqnW46TCU49DmsPio7l9WEe9-UBQHjSXIkXokZWqv3e-gpEC2gsQ3WM60isy3bwJyid0GdRZ1jUH2Uxqkb8-hLxHr?purpose=fullsize",
+      "path": "artifacts/image-f8284438ee90.jpg",
+      "title": "Rapid Prototyping Google Glass - San Francisco Design Week",
+      "source": "https://sfdesignweek.org/rapid-prototyping-google-glass/",
+      "original_url": "https://sfdesignweek.org/wp-content/uploads/2016/04/Screen-Shot-2016-04-12-at-10.22.25-PM-1024x523.png",
+      "kind": "Referenced image, not AI-created"
+    }
+  ],
+  "native_document": null
+}

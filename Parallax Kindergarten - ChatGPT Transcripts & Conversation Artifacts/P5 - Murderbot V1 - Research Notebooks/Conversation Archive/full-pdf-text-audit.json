@@ -1,0 +1,205 @@
+{
+  "pages": 1055,
+  "messages": 444,
+  "sparse_pages": [],
+  "full_text_mismatches": [],
+  "formatting_only_differences": [
+    {
+      "id": "0973c6e2-b312-4f1f-b4f8-a57c45414528",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "a6e94eca-2428-4b91-ad03-5adf6b0bd9b1",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "954cfb49-ce13-4714-b117-fd99a4016325",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "364349ee-8d01-4aa7-8bb2-bb69424cceff",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "7cd4deab-a871-4000-8f7d-627b4636633f",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "582a0693-3c31-4040-9f89-e476da2a1ca6",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "2f2b2877-9841-4e6a-a84b-1956bcfaa5c3",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "c08b76b5-0331-4196-8378-a2f301b4f40c",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "fbbd5887-49e2-4e46-937a-130e08fa9477",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "afa8e083-5dfd-474e-b3cc-18e81c2cec1f",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "cded91e0-8c3d-4e9f-ae47-22991b9a0044",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "cfdeaa80-5446-4068-9de8-ba407f0638f0",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "4c3b96cf-0aa0-4432-be1b-c820f7887a18",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "b44622d2-3a47-4dc9-9441-36d3c12ed696",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "ae235a57-a100-4e1b-9469-5c3d14e44aa2",
+      "differences": [
+        [
+          "insert",
+          "",
+          "ArrangementDialafter40updatesBehaviorinthismodel"
+        ]
+      ],
+      "list_markers": []
+    },
+    {
+      "id": "21d55796-7311-4b4a-b5a7-b8d5e7a0687c",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "1680b71f-5a78-4b69-9462-8471f5a8bd4a",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "1d539243-452b-4006-9a3c-a2b39ad7629c",
+      "differences": [
+        [
+          "insert",
+          "",
+          "ArrangementWhathappenstothediscrepancy’smagnitudeeachstep?"
+        ]
+      ],
+      "list_markers": []
+    },
+    {
+      "id": "8a579336-cfdf-4a15-8680-060b83a7dc01",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "acf22cfb-3dd5-471c-aa22-ef31f00e65ec",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "a5ac6f0b-cb09-4cf3-8c7e-8320e29515e9",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "0f32c920-b0b1-436b-9f76-670bd6811b09",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "2aedd60e-fe0c-46fc-aadc-b46942a7528e",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "4171f0a1-fb42-43c1-883c-9ed2bfcc78cc",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "4667070e-8578-481c-b1cf-c0bbccd53ee9",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "0adf7977-830d-4f27-b069-67e5cd286086",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "44a62b70-0aaa-4398-a0d3-f516d5c886ae",
+      "differences": [
+        [
+          "insert",
+          "",
+          "1."
+        ],
+        [
+          "insert",
+          "",
+          "2."
+        ],
+        [
+          "insert",
+          "",
+          "3."
+        ],
+        [
+          "insert",
+          "",
+          "4."
+        ],
+        [
+          "insert",
+          "",
+          "5."
+        ],
+        [
+          "insert",
+          "",
+          "6."
+        ],
+        [
+          "insert",
+          "",
+          "7."
+        ],
+        [
+          "insert",
+          "",
+          "8."
+        ],
+        [
+          "insert",
+          "",
+          "9."
+        ],
+        [
+          "insert",
+          "",
+          "10."
+        ],
+        [
+          "insert",
+          "",
+          "RuntimefunctionCurrentevidenceProvisionalstatus"
+        ]
+      ],
+      "list_markers": [
+        "1.",
+        "2.",
+        "3.",
+        "4.",
+        "5.",
+        "6.",
+        "7.",
+        "8.",
+        "9.",
+        "10."
+      ]
+    },
+    {
+      "id": "1ef79178-dc91-4f24-b7b4-fa370f5bc69e",
+      "difference": "Generated ordered-list markers only"
+    }
+  ],
+  "normalization": "Whitespace, Unicode compatibility normalization and emoji presentation selectors. Generated list markers checked separately.",
+  "null_characters": 0,
+  "private_use_characters": 0
+}

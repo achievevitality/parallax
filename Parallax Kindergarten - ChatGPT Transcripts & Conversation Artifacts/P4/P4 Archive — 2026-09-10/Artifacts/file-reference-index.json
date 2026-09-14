@@ -1,0 +1,245 @@
+{
+  "scope": "Attachment metadata and sandbox download links in the full returned graph. References are not binary file copies. Generated library files may also be identified within tool records in the preservation master.",
+  "attachments": [
+    {
+      "message_id": "451865a3-ea52-4af1-86e3-7d9c19fe578d",
+      "source_attachment": {
+        "id": "file_000000005f3881fdad85910d1a2fe870",
+        "name": "chatgpt_conversation_6a8ccd63-6680-83e8-9514-0e7a7b93bafb_transcript.json",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/json",
+        "download_url": "sediment://file_000000005f3881fdad85910d1a2fe870"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "4712eabf-db97-4043-a9b6-a628b8ba88b1",
+      "source_attachment": {
+        "id": "file_00000000a09c81fd8b31f8921a38a42d",
+        "name": "chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_rich_dom_transcript.json",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/json",
+        "download_url": "sediment://file_00000000a09c81fd8b31f8921a38a42d"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "f08617c5-571a-4d2d-917e-ebe066944025",
+      "source_attachment": {
+        "id": "file_0000000089d881fd9a109c34f8493143",
+        "name": "chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_rich_dom_transcript.json",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/json",
+        "download_url": "sediment://file_0000000089d881fd9a109c34f8493143"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "f7307e93-29cd-4d26-95c9-2d2b38298d1f",
+      "source_attachment": {
+        "id": "file_00000000d63881fd8a667014f899d822",
+        "name": "chatgpt_conversation_6a8ccd63-6680-83e8-9514-0e7a7b93bafb_transcript.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000d63881fd8a667014f899d822"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "ae131a85-1b90-4305-b174-9930fa911f84",
+      "source_attachment": {
+        "id": "file_00000000897081fd92a22bc6ca93c8de",
+        "name": "chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_rich_dom_transcript.html",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/html",
+        "download_url": "sediment://file_00000000897081fd92a22bc6ca93c8de"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "99fc8c82-6f48-4a0f-b1a8-0af12f7a19d8",
+      "source_attachment": {
+        "id": "file_00000000eb3881fdb70302df5b538d18",
+        "name": "chatgpt_conversation_6a8ccd63-6680-83e8-9514-0e7a7b93bafb_transcript.json",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/json",
+        "download_url": "sediment://file_00000000eb3881fdb70302df5b538d18"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "a3f8eb80-90fc-4f16-929f-e616bfc54e06",
+      "source_attachment": {
+        "id": "file_00000000dbfc81fdbce913a3e5e1e924",
+        "name": "chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_rich_dom_transcript.json",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/json",
+        "download_url": "sediment://file_00000000dbfc81fdbce913a3e5e1e924"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "cb5b2aaf-0d4f-40d5-8bde-1011269465b3",
+      "source_attachment": {
+        "id": "file_00000000d4708230bde17fd692cd0b72",
+        "size": 1446788,
+        "name": "ParallaxAI - The Book!",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "source": "library",
+        "mounted_library_file_id": "external-gdrive:file:1DD-zgqKFiBudt7U2Sh959q2nlMbE1H72U4uzH0FYx6o",
+        "mounted_library_mime_type": "application/vnd.google-apps.document",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "cb5b2aaf-0d4f-40d5-8bde-1011269465b3",
+      "source_attachment": {
+        "id": "file_00000000a330823080b7688826daa9f1",
+        "size": 1778575,
+        "name": "P4.pdf",
+        "mime_type": "application/pdf",
+        "source": "library",
+        "mounted_library_file_id": "external-gdrive:file:191hWBd_Dqajmdu5i93jKzkUdSXRY5nj9",
+        "mounted_library_mime_type": "application/pdf",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "88c2668b-e363-4ea4-92cb-ad6b8feb9a98",
+      "source_attachment": {
+        "id": "file_000000006fc881fdb574ecf10f996e4e",
+        "name": "ParallaxAI -4- Parallax4 Complete Unedited Transcript.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_000000006fc881fdb574ecf10f996e4e"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "ca75e37e-a352-4811-a704-e492b9137476",
+      "source_attachment": {
+        "id": "file_00000000aea081fda571adeea3dc7246",
+        "name": "ParallaxAI -3- What If We Became Better at Becoming?.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_00000000aea081fda571adeea3dc7246"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "19305549-85b4-481a-abcd-e65473d36bdd",
+      "source_attachment": {
+        "id": "file_0000000089088230aa970cd43c5a8b17",
+        "name": "ParallaxAI -2- A Note for Internal Readers.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_0000000089088230aa970cd43c5a8b17"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "f3471374-ae1b-4b47-b4f3-8563e4bd0d42",
+      "source_attachment": {
+        "id": "file_00000000d2e881fb864be1f118ae79dd",
+        "name": "ParallaxAI -1- Cover.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_00000000d2e881fb864be1f118ae79dd"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "ee0cce11-b8ea-4382-a1bb-499d94bbb18d",
+      "source_attachment": {
+        "id": "file_0000000010588230a05b72965ae204f1",
+        "size": 8085,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/5fb6744ab5834adb8d31e6d3e4b0e023/tmp/p100.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "bed6cdba-5b04-4466-a391-59a84f74d2a6",
+      "source_attachment": {
+        "id": "file_00000000aeb4822f820a1bfb260dbda7",
+        "name": "P1-human-readable-FINAL.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_00000000aeb4822f820a1bfb260dbda7"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "114d7b58-2c3d-4374-a4b4-15cf654466bf",
+      "source_attachment": {
+        "id": "file_0000000098bc81f596f7ed8e72878141",
+        "name": "P2-human-readable-FINAL.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_0000000098bc81f596f7ed8e72878141"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "f1370161-7db2-4076-b311-65ec7100ca93",
+      "source_attachment": {
+        "id": "file_0000000004d08230912316f965cae014",
+        "name": "P3-human-readable-FINAL.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_0000000004d08230912316f965cae014"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    }
+  ],
+  "sandbox_links": [
+    {
+      "message_id": "d882415a-5eb0-475d-bd97-3e35be5c9bfe",
+      "uri": "sandbox:/mnt/data/ABC_AI_Fiction_Study.xlsx",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d882415a-5eb0-475d-bd97-3e35be5c9bfe",
+      "uri": "sandbox:/mnt/data/ABC_AI_Fiction_Study_Report.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d882415a-5eb0-475d-bd97-3e35be5c9bfe",
+      "uri": "sandbox:/mnt/data/ABC_AI_Fiction_Study_Bundle.zip",
+      "status": "source link retained; external file bytes not recovered"
+    }
+  ]
+}

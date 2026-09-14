@@ -1,0 +1,777 @@
+#!/usr/bin/osascript -l JavaScript
+
+ObjC.import("Foundation");
+
+function sleepSec(seconds) {
+  $.NSThread.sleepForTimeInterval(seconds);
+}
+
+function nsString(value) {
+  return $.NSString.alloc.initWithUTF8String(String(value));
+}
+
+function readUtf8(path) {
+  const data = $.NSData.dataWithContentsOfFile(path);
+  if (!data) throw new Error(`Could not read ${path}`);
+  return ObjC.unwrap($.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding));
+}
+
+function writeUtf8(path, text) {
+  const data = nsString(text).dataUsingEncoding($.NSUTF8StringEncoding);
+  if (!data.writeToFileAtomically(path, true)) throw new Error(`Could not write ${path}`);
+}
+
+function appendUtf8(path, text) {
+  const handle = $.NSFileHandle.fileHandleForWritingAtPath(path);
+  if (!handle) throw new Error(`Could not append to ${path}`);
+  handle.seekToEndOfFile;
+  handle.writeData(nsString(text).dataUsingEncoding($.NSUTF8StringEncoding));
+  handle.closeFile;
+}
+
+function ensureEmptyFile(path) {
+  $.NSFileManager.defaultManager.createFileAtPathContentsAttributes(path, $.NSData.data, null);
+  writeUtf8(path, "");
+}
+
+function fileSize(path) {
+  const attrs = $.NSFileManager.defaultManager.attributesOfItemAtPathError(path, null);
+  return attrs ? ObjC.unwrap(attrs.objectForKey($.NSFileSize)) : null;
+}
+
+function conversationIdFrom(target) {
+  const raw = String(target || "").trim();
+  const match = raw.match(/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/i);
+  return match ? match[0] : raw;
+}
+
+function sanitizeFilePart(value) {
+  return String(value || "")
+    .replace(/^https?:\/\/chatgpt\.com\/c\//, "")
+    .replace(/[^A-Za-z0-9._-]+/g, "_")
+    .replace(/^_+|_+$/g, "")
+    .slice(0, 160);
+}
+
+function jsString(value) {
+  return JSON.stringify(String(value || ""));
+}
+
+function findChromeTab(chrome, conversationId) {
+  for (let wi = 0; wi < chrome.windows.length; wi += 1) {
+    const win = chrome.windows[wi];
+    for (let ti = 0; ti < win.tabs.length; ti += 1) {
+      const tab = win.tabs[ti];
+      const url = String(tab.url() || "");
+      if (url.includes(conversationId)) return { win, tab, wi, ti, url, title: String(tab.title() || "") };
+    }
+  }
+  throw new Error(`No Chrome tab found for ChatGPT conversation ${conversationId}`);
+}
+
+function execRaw(tab, javascript) {
+  return String(tab.execute({ javascript }));
+}
+
+function execJson(tab, javascript, retries) {
+  let last = null;
+  for (let i = 0; i <= (retries || 0); i += 1) {
+    try {
+      return JSON.parse(execRaw(tab, javascript));
+    } catch (error) {
+      last = error;
+      sleepSec(1);
+    }
+  }
+  throw last;
+}
+
+function writeBrowserVariableInChunks(tab, variableName, path) {
+  ensureEmptyFile(path);
+  const length = Number(execRaw(tab, `String((window.${variableName} || "").length)`));
+  const chunkSize = 180000;
+  for (let offset = 0; offset < length; offset += chunkSize) {
+    appendUtf8(path, execRaw(tab, `(window.${variableName} || "").slice(${offset}, ${offset + chunkSize})`));
+  }
+  return length;
+}
+
+function startRawSourceExtractionJs(conversationId, sentinel) {
+  return `(() => {
+    window.__cgsRawText = "";
+    window.__cgsRawStatus = { done: false, ok: false, phase: "starting_raw_source_probe", started_at: new Date().toISOString() };
+
+    (async () => {
+      const conversationId = ${jsString(conversationId)};
+      const sentinel = ${jsString(sentinel)};
+      const attempts = [];
+
+      function textFromContent(content) {
+        if (!content) return "";
+        if (typeof content === "string") return content;
+        if (Array.isArray(content.parts)) {
+          return content.parts.map((part) => {
+            if (typeof part === "string") return part;
+            if (part && typeof part === "object") return part.text || part.content || JSON.stringify(part);
+            return "";
+          }).join("\\n");
+        }
+        if (content.text) return content.text;
+        return "";
+      }
+
+      function analyzeRaw(raw, sourceType, responseText) {
+        const mapping = raw && typeof raw === "object" ? raw.mapping : null;
+        const nodes = mapping && typeof mapping === "object" ? Object.values(mapping) : [];
+        const messageNodes = nodes.filter((node) => node && node.message);
+        const timestampNodes = messageNodes.filter((node) => Number.isFinite(node.message.create_time) || Number.isFinite(node.message.update_time));
+        const currentNode = raw.current_node || raw.currentNode || null;
+        const branch = [];
+        if (mapping && currentNode && mapping[currentNode]) {
+          let cursor = currentNode;
+          const seen = new Set();
+          while (cursor && mapping[cursor] && !seen.has(cursor)) {
+            seen.add(cursor);
+            branch.push(mapping[cursor]);
+            cursor = mapping[cursor].parent;
+          }
+          branch.reverse();
+        }
+        const branchMessages = branch.filter((node) => node && node.message && node.message.author && ["user", "assistant"].includes(node.message.author.role));
+        const firstMessage = branchMessages[0] && branchMessages[0].message;
+        const firstText = firstMessage ? textFromContent(firstMessage.content) : "";
+        const allBranchText = branchMessages.map((node) => textFromContent(node.message.content)).join("\\n\\n");
+        return {
+          source_type: sourceType,
+          raw_text_length: responseText.length,
+          valid_raw_source: !!(mapping && nodes.length && messageNodes.length),
+          mapping_count: nodes.length,
+          message_node_count: messageNodes.length,
+          current_node: currentNode,
+          current_branch_node_count: branch.length,
+          current_branch_message_count: branchMessages.length,
+          message_timestamp_count: timestampNodes.length,
+          has_message_timestamps: timestampNodes.length > 0,
+          first_branch_message_preview: firstText.slice(0, 300),
+          sentinel_verified_first_branch_message: sentinel ? firstText.toLowerCase().includes(sentinel.toLowerCase()) : null,
+          sentinel_verified_anywhere_in_branch: sentinel ? allBranchText.toLowerCase().includes(sentinel.toLowerCase()) : null
+        };
+      }
+
+      function findConversationObject(root) {
+        const queue = [{ value: root, path: "$", depth: 0 }];
+        const seen = new WeakSet();
+        while (queue.length) {
+          const item = queue.shift();
+          const value = item.value;
+          if (!value || typeof value !== "object") continue;
+          if (seen.has(value)) continue;
+          seen.add(value);
+          if (value.mapping && typeof value.mapping === "object" && (value.current_node || value.currentNode)) return value;
+          if (Array.isArray(value.messages) && value.messages.length > 10) return value;
+          if (item.depth >= 8) continue;
+          if (Array.isArray(value)) {
+            for (const child of value.slice(0, 200)) queue.push({ value: child, path: item.path + "[]", depth: item.depth + 1 });
+          } else {
+            for (const [key, child] of Object.entries(value).slice(0, 220)) {
+              if (/token|secret|credential/i.test(key)) continue;
+              queue.push({ value: child, path: item.path + "." + key, depth: item.depth + 1 });
+            }
+          }
+        }
+        return null;
+      }
+
+      for (const script of Array.from(document.querySelectorAll("script[type='application/json'], script")).slice(0, 120)) {
+        const text = script.textContent || "";
+        if (!text || (!text.includes(conversationId) && !/mapping|messages|conversation/i.test(text))) continue;
+        try {
+          const parsed = JSON.parse(text);
+          const found = findConversationObject(parsed);
+          if (found && found.mapping) {
+            const rawText = JSON.stringify(found, null, 2);
+            window.__cgsRawText = rawText;
+            window.__cgsRawStatus = {
+              done: true,
+              ok: true,
+              phase: "raw_source_obtained_from_embedded_json",
+              analysis: analyzeRaw(found, "embedded_application_json", rawText),
+              attempts
+            };
+            return;
+          }
+        } catch (_) {}
+      }
+
+      function collectHeaderHints() {
+        const hints = { token: null, accountIds: [], organizationIds: [] };
+        function visit(value, key, depth) {
+          if (depth > 7) return;
+          if (typeof value === "string") {
+            if (!hints.token && /access[_-]?token|auth[_-]?token|jwt/i.test(String(key || "")) && value.length > 40) hints.token = value;
+            if (/account/i.test(String(key || "")) && /^[A-Za-z0-9_-]{8,}$/.test(value)) hints.accountIds.push(value);
+            if (/organi[sz]ation|org/i.test(String(key || "")) && /^[A-Za-z0-9_-]{8,}$/.test(value)) hints.organizationIds.push(value);
+            return;
+          }
+          if (!value || typeof value !== "object") return;
+          if (Array.isArray(value)) {
+            for (const child of value.slice(0, 40)) visit(child, key, depth + 1);
+          } else {
+            for (const [childKey, child] of Object.entries(value).slice(0, 100)) visit(child, childKey, depth + 1);
+          }
+        }
+        for (const script of Array.from(document.querySelectorAll("script[type='application/json'], script")).slice(0, 80)) {
+          const text = script.textContent || "";
+          if (!/token|account|organi[sz]ation/i.test(text)) continue;
+          try { visit(JSON.parse(text), "", 0); } catch (_) {}
+        }
+        hints.accountIds = [...new Set(hints.accountIds)].slice(0, 4);
+        hints.organizationIds = [...new Set(hints.organizationIds)].slice(0, 4);
+        return hints;
+      }
+
+      async function fetchAttempt(endpoint, label, headers) {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 12000);
+        try {
+          const response = await fetch(endpoint, {
+            method: "GET",
+            credentials: "include",
+            cache: "no-store",
+            headers,
+            signal: controller.signal
+          });
+          const text = await response.text();
+          let json = null;
+          try { json = JSON.parse(text); } catch (_) {}
+          attempts.push({
+            label,
+            endpoint,
+            status: response.status,
+            ok: response.ok,
+            content_type: response.headers.get("content-type"),
+            response_text_length: text.length,
+            has_mapping: !!(json && json.mapping),
+            has_messages: !!(json && json.messages),
+            detail_preview: json && json.detail ? String(json.detail).slice(0, 200) : null
+          });
+          if (response.ok && json && json.mapping) {
+            window.__cgsRawText = text;
+            window.__cgsRawStatus = {
+              done: true,
+              ok: true,
+              phase: "raw_source_obtained_from_backend_fetch",
+              analysis: analyzeRaw(json, "backend_fetch", text),
+              attempts
+            };
+            return true;
+          }
+        } catch (error) {
+          attempts.push({ label, endpoint, error: String(error) });
+        } finally {
+          clearTimeout(timer);
+        }
+        return false;
+      }
+
+      const hints = collectHeaderHints();
+      const endpoints = [
+        "/backend-api/conversation/" + conversationId,
+        "/backend-api/conversation/" + conversationId + "?tree_format=true"
+      ];
+      const headerSets = [{ label: "cookies_only", headers: { accept: "application/json" } }];
+      if (hints.token) {
+        headerSets.push({ label: "bearer_only", headers: { accept: "application/json", authorization: "Bearer " + hints.token } });
+        for (const accountId of hints.accountIds) {
+          headerSets.push({ label: "bearer_chatgpt_account_id", headers: { accept: "application/json", authorization: "Bearer " + hints.token, "chatgpt-account-id": accountId } });
+          headerSets.push({ label: "bearer_ChatGPT_Account_ID", headers: { accept: "application/json", authorization: "Bearer " + hints.token, "ChatGPT-Account-ID": accountId } });
+        }
+        for (const organizationId of hints.organizationIds) {
+          headerSets.push({ label: "bearer_openai_organization", headers: { accept: "application/json", authorization: "Bearer " + hints.token, "OpenAI-Organization": organizationId } });
+        }
+      }
+
+      for (const endpoint of endpoints) {
+        for (const headerSet of headerSets) {
+          window.__cgsRawStatus = { done: false, ok: false, phase: "raw_backend_fetch_attempt", endpoint, label: headerSet.label, attempts_so_far: attempts.length };
+          if (await fetchAttempt(endpoint, headerSet.label, headerSet.headers)) return;
+        }
+      }
+
+      window.__cgsRawStatus = {
+        done: true,
+        ok: false,
+        phase: "raw_source_unavailable",
+        attempts,
+        session_hints_present: {
+          token: !!hints.token,
+          account_id_count: hints.accountIds.length,
+          organization_id_count: hints.organizationIds.length
+        }
+      };
+    })().catch((error) => {
+      window.__cgsRawStatus = { done: true, ok: false, phase: "raw_source_error", error: String(error), stack: error && error.stack };
+    });
+
+    return "started";
+  })()`;
+}
+
+function pollRawSource(tab) {
+  for (let i = 0; i < 90; i += 1) {
+    const status = execJson(tab, `JSON.stringify(window.__cgsRawStatus || { done: false, phase: "not_started" })`, 1);
+    if (i % 2 === 0 || status.done) {
+      const attempts = status.attempts_so_far || (status.attempts ? status.attempts.length : 0);
+      console.log(`raw-source: phase=${status.phase} done=${status.done} ok=${status.ok} attempts=${attempts}`);
+    }
+    if (status.done) return status;
+    sleepSec(2);
+  }
+  return execJson(tab, `JSON.stringify(window.__cgsRawStatus || { done: false, ok: false, phase: "raw_source_poll_timeout" })`, 1);
+}
+
+function scrollUpJs() {
+  return `(() => {
+    const candidates = [document.scrollingElement, document.documentElement, document.body, ...Array.from(document.querySelectorAll("main, [role='main'], div"))]
+      .filter(Boolean)
+      .filter((element) => element.scrollHeight > element.clientHeight + 80);
+    candidates.sort((a, b) => (b.scrollHeight - b.clientHeight) - (a.scrollHeight - a.clientHeight));
+    const scroller = candidates[0] || document.scrollingElement || document.documentElement || document.body;
+    scroller.scrollTo({ top: 0, behavior: "instant" });
+    window.scrollTo({ top: 0, behavior: "instant" });
+    return JSON.stringify({ scrollTop: scroller.scrollTop, scrollHeight: scroller.scrollHeight, clientHeight: scroller.clientHeight });
+  })()`;
+}
+
+function unstickScrollJs() {
+  return `(() => {
+    const candidates = [document.scrollingElement, document.documentElement, document.body, ...Array.from(document.querySelectorAll("main, [role='main'], div"))]
+      .filter(Boolean)
+      .filter((element) => element.scrollHeight > element.clientHeight + 80);
+    candidates.sort((a, b) => (b.scrollHeight - b.clientHeight) - (a.scrollHeight - a.clientHeight));
+    const scroller = candidates[0] || document.scrollingElement || document.documentElement || document.body;
+    const amount = Math.max(300, Math.floor((window.innerHeight || 900) * 0.55));
+    scroller.scrollTo({ top: amount, behavior: "instant" });
+    window.scrollTo({ top: amount, behavior: "instant" });
+    return JSON.stringify({ scrollTop: scroller.scrollTop, amount });
+  })()`;
+}
+
+function pageStateJs(sentinel) {
+  return `(() => {
+    const sentinel = ${jsString(sentinel).toLowerCase()};
+    function cleanText(value) {
+      return String(value || "").replace(/\\u00a0/g, " ").replace(/[ \\t]+\\n/g, "\\n").trim();
+    }
+    const bodyText = cleanText(document.body && (document.body.innerText || document.body.textContent) || "");
+    const nodes = Array.from(document.querySelectorAll("section[data-testid^='conversation-turn-'], [data-testid^='conversation-turn-'], [data-testid*='conversation-turn'], article"));
+    const turns = nodes.map((element) => {
+      const match = String(element.getAttribute("data-testid") || "").match(/conversation-turn-(\\d+)/);
+      return match ? Number(match[1]) : null;
+    }).filter((value) => Number.isFinite(value));
+    const firstNode = nodes.find((element) => cleanText(element.innerText || element.textContent || "").length > 0);
+    const firstText = firstNode ? cleanText(firstNode.innerText || firstNode.textContent || "") : "";
+    const scroller = (() => {
+      const candidates = [document.scrollingElement, document.documentElement, document.body, ...Array.from(document.querySelectorAll("main, [role='main'], div"))]
+        .filter(Boolean)
+        .filter((element) => element.scrollHeight > element.clientHeight + 80);
+      candidates.sort((a, b) => (b.scrollHeight - b.clientHeight) - (a.scrollHeight - a.clientHeight));
+      return candidates[0] || document.scrollingElement || document.documentElement || document.body;
+    })();
+    return JSON.stringify({
+      ready: document.readyState,
+      url: location.href,
+      title: document.title,
+      bodyChars: bodyText.length,
+      nodeCount: nodes.length,
+      minTurn: turns.length ? Math.min(...turns) : null,
+      maxTurn: turns.length ? Math.max(...turns) : null,
+      firstTextPreview: firstText.slice(0, 240),
+      firstContainsSentinel: sentinel ? firstText.toLowerCase().includes(sentinel) : null,
+      anyContainsSentinel: sentinel ? bodyText.toLowerCase().includes(sentinel) : null,
+      scrollTop: scroller.scrollTop,
+      scrollHeight: scroller.scrollHeight,
+      clientHeight: scroller.clientHeight
+    });
+  })()`;
+}
+
+function loadTop(tab, sentinel) {
+  let lastKey = "";
+  let repeated = 0;
+  for (let i = 0; i < 180; i += 1) {
+    const state = execJson(tab, pageStateJs(sentinel), 1);
+    const hasTop = state.minTurn === 1;
+    const hasSentinel = sentinel ? !!state.anyContainsSentinel : true;
+    console.log(`top-load ${i + 1}: minTurn=${state.minTurn} maxTurn=${state.maxTurn} nodes=${state.nodeCount} sentinel=${hasSentinel} scrollTop=${state.scrollTop}`);
+    if (hasTop && hasSentinel) return state;
+    const key = [state.minTurn, state.maxTurn, state.nodeCount, state.scrollHeight, state.scrollTop, state.anyContainsSentinel].join("|");
+    repeated = key === lastKey ? repeated + 1 : 0;
+    lastKey = key;
+    if (repeated >= 3) {
+      execRaw(tab, unstickScrollJs());
+      sleepSec(1);
+      repeated = 0;
+    }
+    execRaw(tab, scrollUpJs());
+    sleepSec(2);
+  }
+  return execJson(tab, pageStateJs(sentinel), 1);
+}
+
+function startDomSweepJs(conversationId, sentinel) {
+  return `(() => {
+    window.__cgsDomJson = "";
+    window.__cgsDomHtml = "";
+    window.__cgsDomStatus = { done: false, ok: false, phase: "starting_dom_sweep" };
+
+    (async () => {
+      const conversationId = ${jsString(conversationId)};
+      const sentinel = ${jsString(sentinel)};
+      const originalTimer = window.__cgsOriginalSetTimeout || window.setTimeout.bind(window);
+      window.__cgsOriginalSetTimeout = originalTimer;
+      const sleep = (ms) => new Promise((resolve) => originalTimer(resolve, ms));
+      const records = new Map();
+
+      function cleanText(value) {
+        return String(value || "")
+          .replace(/\\u0000/g, "")
+          .replace(/\\u00a0/g, " ")
+          .replace(/[ \\t]+\\n/g, "\\n")
+          .replace(/\\n{4,}/g, "\\n\\n\\n")
+          .trim();
+      }
+      function norm(value) {
+        return cleanText(value).replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\\s+/g, " ");
+      }
+      function esc(value) {
+        return String(value || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      }
+      function pickScroller() {
+        const candidates = [document.scrollingElement, document.documentElement, document.body, ...Array.from(document.querySelectorAll("main, [role='main'], div"))]
+          .filter(Boolean)
+          .filter((element) => element.scrollHeight > element.clientHeight + 200);
+        candidates.sort((a, b) => (b.scrollHeight - b.clientHeight) - (a.scrollHeight - a.clientHeight));
+        return candidates[0] || document.scrollingElement || document.documentElement || document.body;
+      }
+      function inCaptureBand(element, marginBefore = 2.0, marginAfter = 3.5) {
+        const rect = element.getBoundingClientRect();
+        const height = window.innerHeight || 900;
+        return rect.bottom >= -height * marginBefore && rect.top <= height * marginAfter;
+      }
+      function turnNumber(section) {
+        const match = String(section.getAttribute("data-testid") || "").match(/conversation-turn-(\\d+)/);
+        return match ? Number(match[1]) : null;
+      }
+      function roleFrom(section) {
+        const explicit = section.getAttribute("data-turn");
+        if (explicit) return explicit;
+        const node = section.querySelector("[data-message-author-role]");
+        if (node) return node.getAttribute("data-message-author-role") || "unknown";
+        return "unknown";
+      }
+      function cleanHtml(section) {
+        const clone = section.cloneNode(true);
+        clone.querySelectorAll([
+          "[aria-label='Response actions']",
+          "[aria-label='Your message actions']",
+          "[data-testid='copy-turn-action-button']",
+          "button[aria-label^='Copy']",
+          "button[aria-label^='Edit']",
+          "button[aria-label^='Share']",
+          "button[aria-label^='Download']",
+          "script",
+          "style"
+        ].join(",")).forEach((node) => node.remove());
+        return clone.innerHTML.trim();
+      }
+      function attachments(section) {
+        return Array.from(section.querySelectorAll("img, a, video, audio, [data-testid*='attachment'], [data-testid*='file']")).map((node) => {
+          const item = { tag: node.tagName ? node.tagName.toLowerCase() : "node" };
+          for (const attr of ["src", "href", "alt", "title", "download", "aria-label", "data-testid"]) {
+            const value = node.getAttribute && node.getAttribute(attr);
+            if (value) item[attr] = value;
+          }
+          const text = cleanText(node.textContent || "");
+          if (text) item.text = text.slice(0, 500);
+          return item;
+        });
+      }
+      async function expandVisible() {
+        const buttons = Array.from(document.querySelectorAll("button[data-testid='collapsible-user-message-toggle'][aria-expanded='false']")).filter((button) => inCaptureBand(button, 2, 3));
+        for (const button of buttons) button.click();
+        if (buttons.length) await sleep(100);
+      }
+      async function captureVisible() {
+        await expandVisible();
+        const sections = Array.from(document.querySelectorAll("section[data-testid^='conversation-turn-'], [data-testid^='conversation-turn-']")).filter((section) => inCaptureBand(section));
+        for (const section of sections) {
+          const n = turnNumber(section);
+          if (!n) continue;
+          const text = cleanText(section.innerText || section.textContent || "");
+          const html = cleanHtml(section);
+          if (!text && !html) continue;
+          const record = {
+            turn: n,
+            role: roleFrom(section),
+            id: section.getAttribute("data-turn-id") || section.getAttribute("data-turn-id-container") || "",
+            data_testid: section.getAttribute("data-testid") || "",
+            plain_text: text || "[No text captured; possible media/attachment/system placeholder]",
+            html,
+            outer_html: section.outerHTML,
+            attachments: attachments(section)
+          };
+          const prior = records.get(n);
+          const score = record.plain_text.length + record.html.length;
+          const priorScore = prior ? prior.plain_text.length + prior.html.length : -1;
+          if (!prior || score > priorScore) records.set(n, record);
+        }
+      }
+
+      const scroller = pickScroller();
+      scroller.scrollTop = 0;
+      window.scrollTo(0, 0);
+      await sleep(500);
+      await captureVisible();
+      const firstRecord = [...records.values()].sort((a, b) => a.turn - b.turn)[0];
+      if (sentinel && (!firstRecord || !norm(firstRecord.plain_text).includes(norm(sentinel).slice(0, 160)))) {
+        throw new Error("First captured DOM turn did not match sentinel. First captured: " + (firstRecord ? firstRecord.plain_text.slice(0, 300) : "[none]"));
+      }
+
+      let knownHeight = pickScroller().scrollHeight;
+      const clientHeight = pickScroller().clientHeight || window.innerHeight || 900;
+      const step = Math.max(1800, Math.floor(clientHeight * 2.0));
+      let pos = 0;
+      let sweep = 0;
+      let stableBottom = 0;
+
+      while (sweep < 4000 && stableBottom < 4) {
+        sweep += 1;
+        const current = pickScroller();
+        current.scrollTop = pos;
+        window.scrollTo(0, pos);
+        await sleep(85);
+        await captureVisible();
+        const after = pickScroller();
+        knownHeight = Math.max(knownHeight, after.scrollHeight);
+        const turns = [...records.keys()];
+        const minTurn = turns.length ? Math.min(...turns) : null;
+        const maxTurn = turns.length ? Math.max(...turns) : null;
+        window.__cgsDomStatus = { done: false, ok: false, phase: "sweeping_down_from_verified_top", sweep, pos, scrollTop: after.scrollTop, scrollHeight: knownHeight, captured: records.size, minTurn, maxTurn };
+        if (pos >= knownHeight - (after.clientHeight || clientHeight) - 20) {
+          after.scrollTop = knownHeight;
+          window.scrollTo(0, knownHeight);
+          await sleep(180);
+          await captureVisible();
+          stableBottom += 1;
+        } else {
+          stableBottom = 0;
+        }
+        pos = Math.min(knownHeight, pos + step);
+      }
+
+      for (let round = 1; round <= 3; round += 1) {
+        const currentTurns = [...records.keys()].sort((a, b) => a - b);
+        const currentMin = currentTurns.length ? currentTurns[0] : null;
+        const currentMax = currentTurns.length ? currentTurns[currentTurns.length - 1] : null;
+        if (currentMin === null || currentMax === null) break;
+        const missing = [];
+        for (let n = currentMin; n <= currentMax; n += 1) if (!records.has(n)) missing.push(n);
+        if (!missing.length) break;
+        let gapIndex = 0;
+        for (const n of missing) {
+          gapIndex += 1;
+          const section = document.querySelector("section[data-testid='conversation-turn-" + n + "'], [data-testid='conversation-turn-" + n + "']");
+          if (section) {
+            section.scrollIntoView({ block: "center" });
+          } else {
+            const fraction = currentMax > currentMin ? (n - currentMin) / (currentMax - currentMin) : 0;
+            const estimate = Math.floor(pickScroller().scrollHeight * fraction);
+            pickScroller().scrollTop = estimate;
+            window.scrollTo(0, estimate);
+          }
+          await sleep(120);
+          await captureVisible();
+          if (gapIndex % 20 === 0) window.__cgsDomStatus = { done: false, ok: false, phase: "gap_fill_by_turn_number", round, gapIndex, missing_at_round_start: missing.length, captured: records.size, current_turn: n };
+        }
+      }
+
+      const messages = [...records.values()].sort((a, b) => a.turn - b.turn);
+      const capturedTurns = messages.map((message) => message.turn);
+      const minTurn = capturedTurns.length ? Math.min(...capturedTurns) : null;
+      const maxTurn = capturedTurns.length ? Math.max(...capturedTurns) : null;
+      const turnSet = new Set(capturedTurns);
+      const missingTurns = [];
+      if (minTurn !== null && maxTurn !== null) for (let n = minTurn; n <= maxTurn; n += 1) if (!turnSet.has(n)) missingTurns.push(n);
+      const firstText = messages[0] ? messages[0].plain_text : "";
+      const allText = messages.map((message) => message.plain_text).join("\\n\\n");
+      const extractedAt = new Date().toISOString();
+      const metadata = {
+        source: "ChatGPT web DOM rendered transcript export",
+        conversation_id: conversationId,
+        source_url: location.href,
+        source_title: document.title,
+        extraction_method: "Verified-top DOM sweep; expanded visible collapsed messages; swept downward; gap-filled by turn number; preserved plain text, rendered HTML, outer HTML, and attachment references.",
+        export_class: "dom_fallback_not_lossless",
+        extracted_at: extractedAt,
+        captured_messages: messages.length,
+        min_turn: minTurn,
+        max_turn: maxTurn,
+        missing_turn_count: missingTurns.length,
+        missing_turns_sample: missingTurns.slice(0, 200),
+        top_sentinel: sentinel || null,
+        top_sentinel_verified_first_message: sentinel ? firstText.toLowerCase().includes(sentinel.toLowerCase()) : null,
+        top_sentinel_verified_anywhere: sentinel ? allText.toLowerCase().includes(sentinel.toLowerCase()) : null,
+        first_preview: firstText.slice(0, 300),
+        last_preview: messages.length ? messages[messages.length - 1].plain_text.slice(0, 300) : "",
+        emoji_sample_present: /[\\u{1F300}-\\u{1FAFF}]/u.test(allText),
+        html_present: messages.some((message) => (message.html || "").length > 0),
+        timestamp_status: "not guaranteed; DOM path only includes timestamps if ChatGPT rendered them into captured HTML or text"
+      };
+      const html = "<!doctype html>\\n<meta charset='utf-8'>\\n<title>" + esc(document.title || conversationId) + "</title>\\n" +
+        "<style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;line-height:1.45;max-width:980px;margin:32px auto;padding:0 20px}.msg{border-top:1px solid #ddd;padding:18px 0}.meta{font-size:13px;color:#666;margin-bottom:8px}.html{white-space:normal}.text{white-space:pre-wrap}</style>\\n" +
+        "<h1>ChatGPT conversation " + esc(conversationId) + "</h1>\\n" +
+        "<p>Exported from rendered DOM at " + esc(extractedAt) + "</p>\\n" +
+        messages.map((message) => "<section class='msg'><div class='meta'>#" + message.turn + " | " + esc(message.role || "unknown") + "</div><div class='html'>" + (message.html || "<pre class='text'>" + esc(message.plain_text) + "</pre>") + "</div></section>").join("\\n");
+
+      window.__cgsDomJson = JSON.stringify({ metadata, messages }, null, 2);
+      window.__cgsDomHtml = html;
+      window.__cgsDomStatus = { done: true, ok: true, phase: "dom_sweep_complete", ...metadata, json_chars: window.__cgsDomJson.length, html_chars: html.length, sweep_steps: sweep };
+    })().catch((error) => {
+      window.__cgsDomStatus = { done: true, ok: false, phase: "dom_sweep_error", error: String(error), stack: error && error.stack };
+    });
+
+    return "started";
+  })()`;
+}
+
+function pollDomSweep(tab) {
+  for (let i = 0; i < 900; i += 1) {
+    const status = execJson(tab, `JSON.stringify(window.__cgsDomStatus || { done: false, phase: "not_started" })`, 1);
+    if (i % 5 === 0 || status.done) {
+      console.log(`dom-sweep: phase=${status.phase} done=${status.done} ok=${status.ok} captured=${status.captured || status.captured_messages || 0} min=${status.minTurn || status.min_turn || null} max=${status.maxTurn || status.max_turn || null}`);
+    }
+    if (status.done) return status;
+    sleepSec(2);
+  }
+  return execJson(tab, `JSON.stringify(window.__cgsDomStatus || { done: false, ok: false, phase: "dom_sweep_poll_timeout" })`, 1);
+}
+
+function parseArgs(argv) {
+  const target = argv[0];
+  if (!target) {
+    throw new Error("Usage: osascript -l JavaScript chatgpt_chrome_window_scraper.jxa <conversation-url-or-id> [output-dir] [first-message-sentinel] [--allow-dom-fallback] [--raw-only]");
+  }
+  const flags = new Set((argv || []).slice(3));
+  return {
+    target,
+    outputDir: (argv[1] || "/Users/brendamathisen/Downloads").replace(/\/$/, ""),
+    sentinel: argv[2] || "",
+    allowDomFallback: flags.has("--allow-dom-fallback") || flags.has("--dom-fallback"),
+    rawOnly: flags.has("--raw-only")
+  };
+}
+
+function run(argv) {
+  const args = parseArgs(argv || []);
+  const conversationId = conversationIdFrom(args.target);
+  const base = `chatgpt_conversation_${sanitizeFilePart(conversationId)}`;
+  const rawPath = `${args.outputDir}/${base}_raw_source.json`;
+  const domJsonPath = `${args.outputDir}/${base}_rich_dom_transcript.json`;
+  const domHtmlPath = `${args.outputDir}/${base}_rich_dom_transcript.html`;
+  const manifestPath = `${args.outputDir}/${base}_scrape_manifest.json`;
+  const failurePath = `${args.outputDir}/${base}_scrape_failure_manifest.json`;
+
+  const chrome = Application("Google Chrome");
+  chrome.includeStandardAdditions = true;
+  const found = findChromeTab(chrome, conversationId);
+  found.win.activeTabIndex = found.ti + 1;
+  chrome.activate();
+  sleepSec(1);
+  console.log(`Using Chrome tab: ${found.title} | ${found.url}`);
+
+  execRaw(found.tab, startRawSourceExtractionJs(conversationId, args.sentinel));
+  const rawStatus = pollRawSource(found.tab);
+  let rawPathWritten = null;
+  if (rawStatus.ok) {
+    writeBrowserVariableInChunks(found.tab, "__cgsRawText", rawPath);
+    rawPathWritten = rawPath;
+    console.log(`raw source written: ${rawPath}`);
+  } else {
+    console.log("raw source unavailable; strict lossless condition is not met");
+  }
+
+  let topState = null;
+  let domStatus = null;
+  let domJsonWritten = null;
+  let domHtmlWritten = null;
+  if (!args.rawOnly) {
+    topState = loadTop(found.tab, args.sentinel);
+    execRaw(found.tab, startDomSweepJs(conversationId, args.sentinel));
+    domStatus = pollDomSweep(found.tab);
+    if (domStatus.ok) {
+      writeBrowserVariableInChunks(found.tab, "__cgsDomJson", domJsonPath);
+      writeBrowserVariableInChunks(found.tab, "__cgsDomHtml", domHtmlPath);
+      domJsonWritten = domJsonPath;
+      domHtmlWritten = domHtmlPath;
+      console.log(`DOM JSON written: ${domJsonPath}`);
+      console.log(`DOM HTML written: ${domHtmlPath}`);
+    }
+  }
+
+  const rawAnalysis = rawStatus.analysis || null;
+  const rawOkWithTimestamps = !!(rawStatus.ok && rawAnalysis && rawAnalysis.valid_raw_source && rawAnalysis.has_message_timestamps);
+  const domOkWithFormatting = !!(args.rawOnly || (domStatus && domStatus.ok && domStatus.html_present && domStatus.emoji_sample_present));
+  const sentinelOk = !args.sentinel || !!(
+    (rawAnalysis && (rawAnalysis.sentinel_verified_first_branch_message || rawAnalysis.sentinel_verified_anywhere_in_branch)) ||
+    (domStatus && (domStatus.top_sentinel_verified_first_message || domStatus.top_sentinel_verified_anywhere))
+  );
+  const strictLosslessPassed = rawOkWithTimestamps && domOkWithFormatting && sentinelOk;
+  const exportClass = strictLosslessPassed
+    ? (args.rawOnly ? "raw_without_dom" : "lossless_raw_plus_dom")
+    : (domStatus && domStatus.ok ? "dom_fallback_not_lossless" : "failed_unverified");
+
+  const manifest = {
+    scraper: "chatgpt_chrome_window_scraper.jxa",
+    exported_at: new Date().toISOString(),
+    conversation_id: conversationId,
+    source_tab: { title: found.title, url: found.url },
+    requested_sentinel: args.sentinel || null,
+    strict_lossless_passed: strictLosslessPassed,
+    export_class: exportClass,
+    lossless_definition: {
+      raw_source_json_required: true,
+      raw_message_timestamps_required: true,
+      dom_companion_required_for_rendered_formatting: !args.rawOnly,
+      utf8_required_for_emojis: true,
+      top_history_proof_required_when_sentinel_provided: true
+    },
+    raw_source: {
+      ok: !!rawStatus.ok,
+      output_path: rawPathWritten,
+      output_bytes: rawPathWritten ? fileSize(rawPathWritten) : null,
+      analysis: rawAnalysis,
+      failure_summary: rawStatus.ok ? null : rawStatus
+    },
+    dom_companion: domStatus
+      ? {
+          ok: !!domStatus.ok,
+          json_path: domJsonWritten,
+          html_path: domHtmlWritten,
+          json_bytes: domJsonWritten ? fileSize(domJsonWritten) : null,
+          html_bytes: domHtmlWritten ? fileSize(domHtmlWritten) : null,
+          top_state_before_sweep: topState,
+          status: domStatus
+        }
+      : null
+  };
+
+  const manifestOut = strictLosslessPassed || args.allowDomFallback ? manifestPath : failurePath;
+  writeUtf8(manifestOut, JSON.stringify(manifest, null, 2));
+  execRaw(found.tab, `delete window.__cgsRawText; delete window.__cgsRawStatus; delete window.__cgsDomJson; delete window.__cgsDomHtml; delete window.__cgsDomStatus; "cleared";`);
+
+  if (!strictLosslessPassed && !args.allowDomFallback) {
+    throw new Error(`Lossless export failed. Raw source with timestamps was not captured. Manifest: ${manifestOut}`);
+  }
+  console.log(JSON.stringify(manifest, null, 2));
+}

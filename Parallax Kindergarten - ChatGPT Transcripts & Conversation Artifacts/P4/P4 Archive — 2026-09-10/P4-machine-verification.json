@@ -1,0 +1,26 @@
+{
+  "status": "Complete for the captured source object",
+  "source_current_node": "4a929551-54c7-4df8-873d-d64ec4d2b2b9",
+  "last_readable_message_id": "d33178e9-51ba-41d7-8729-40a451f1c0d2",
+  "source_bytes": 18614849,
+  "source_sha256": "ce0dd43715307604c3d37509d05d2d7b4d38a76d024c56aa0716992978eb9103",
+  "nodes": 2749,
+  "message_records": 2748,
+  "active_branch_nodes": 2677,
+  "nodes_outside_active_branch": 72,
+  "readable_messages": 717,
+  "record_chunks": 43,
+  "checks": {
+    "strict_json_no_duplicate_keys": true,
+    "original_capture_byte_identical": true,
+    "jsonl_every_node_and_field_equal": true,
+    "metadata_plus_jsonl_reconstructs_entire_source_object": true,
+    "all_chunk_records_equal_source_order_and_values": true,
+    "every_node_reachable_no_cycles": true,
+    "every_parent_child_link_reciprocal": true,
+    "all_content_markdown_contains_every_content_object_unchanged": true,
+    "readable_view_ids_order_source_text_speakers_timestamps_match": true,
+    "readable_markdown_contains_every_display_body": true
+  },
+  "limits": "Complete relative to the captured returned object. Later live messages, deleted/unreturned data, and binary contents of externally linked files are not implied by source-record completeness. Readable Markdown is the active conversation view, not the full metadata archive."
+}

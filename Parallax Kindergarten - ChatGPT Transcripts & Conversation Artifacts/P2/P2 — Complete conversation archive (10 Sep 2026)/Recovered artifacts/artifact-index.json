@@ -1,0 +1,126 @@
+{
+  "written_artifacts": [
+    {
+      "title": "Written artifact",
+      "path": "artifacts/01-Written-artifact.md",
+      "message_id": "da8a5822-bd87-5970-bb6c-1968948549be",
+      "writing_id": "48217",
+      "created_at": "2026-09-01T17:25:52.044512+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/02-Written-artifact.md",
+      "message_id": "335417f2-b976-51c4-b99f-aaa90c4fe2f4",
+      "writing_id": "73194",
+      "created_at": "2026-09-01T21:15:10.663101+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/03-Written-artifact.md",
+      "message_id": "1f0156dc-467e-5076-957c-e67236452ade",
+      "writing_id": "84621",
+      "created_at": "2026-09-01T21:36:58.669314+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/04-Written-artifact.md",
+      "message_id": "9d4340a7-08e0-570c-b52d-ce6cc3ce6be7",
+      "writing_id": "59308",
+      "created_at": "2026-09-01T21:53:36.731819+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/05-Written-artifact.md",
+      "message_id": "34466b8c-c0cd-5d0a-aeea-51c874a57745",
+      "writing_id": "28461",
+      "created_at": "2026-09-02T01:45:52.562880+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/06-Written-artifact.md",
+      "message_id": "8eb63b49-462f-55fc-87ee-c99b80864c8f",
+      "writing_id": "48317",
+      "created_at": "2026-09-02T21:31:15.821051+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/07-Written-artifact.md",
+      "message_id": "6af09a62-d5e2-55d6-b69a-7e2ab52eebd2",
+      "writing_id": "91642",
+      "created_at": "2026-09-02T21:35:55.370456+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/08-Written-artifact.md",
+      "message_id": "6f7ad7c9-2353-5543-988e-a5951246ac8c",
+      "writing_id": "20473",
+      "created_at": "2026-09-02T21:40:10.187025+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/09-Written-artifact.md",
+      "message_id": "3a397767-7790-5a90-a07b-a3a9b39016a9",
+      "writing_id": "65731",
+      "created_at": "2026-09-02T21:55:49.157842+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/10-Written-artifact.md",
+      "message_id": "809be58e-5b26-551a-b62a-421389ea4f97",
+      "writing_id": "58216",
+      "created_at": "2026-09-02T22:02:22.485706+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/11-Written-artifact.md",
+      "message_id": "f74249b8-181a-5f2a-be71-280e562215f3",
+      "writing_id": "48317",
+      "created_at": "2026-09-02T22:37:39.331503+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/12-Written-artifact.md",
+      "message_id": "45f6c566-eb5f-5f1e-a7bc-4ec34567a1b1",
+      "writing_id": "84621",
+      "created_at": "2026-09-03T01:59:10.819298+00:00",
+      "verbatim_body": true
+    },
+    {
+      "title": "Written artifact",
+      "path": "artifacts/13-Written-artifact.md",
+      "message_id": "baeb87bd-0670-5fca-9af2-708ef65fbf13",
+      "writing_id": "58417",
+      "created_at": "2026-09-03T02:28:40.674728+00:00",
+      "verbatim_body": true
+    }
+  ],
+  "embedded_widgets": [
+    {
+      "title": "Torah as a living compression ecology",
+      "path": "artifacts/widget-023db7c7-a415-512b-96d4-8b6e05f237ea.html",
+      "preview": "artifacts/widget-023db7c7-a415-512b-96d4-8b6e05f237ea.png",
+      "message_id": "023db7c7-a415-512b-96d4-8b6e05f237ea",
+      "source": "Exact embedded widget HTML"
+    },
+    {
+      "title": "The current causal ecology",
+      "path": "artifacts/widget-aaf83922-aa45-582a-a8d5-766dfba229e5.html",
+      "preview": "artifacts/widget-aaf83922-aa45-582a-a8d5-766dfba229e5.png",
+      "message_id": "aaf83922-aa45-582a-a8d5-766dfba229e5",
+      "source": "Exact embedded widget HTML"
+    }
+  ],
+  "referenced_images": [],
+  "native_document": null
+}

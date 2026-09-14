@@ -1,0 +1,745 @@
+{
+  "scope": "Attachment metadata and sandbox download links in the full returned graph. References are not binary file copies. Generated library files may also be identified within tool records in the preservation master.",
+  "attachments": [
+    {
+      "message_id": "051a19f5-1417-4dbe-a4ef-627612133916",
+      "source_attachment": {
+        "size": 615913,
+        "width": 1536,
+        "id": "file_00000000d2e481fbb36758f17065f93d",
+        "height": 1152,
+        "mime_type": "image/jpeg",
+        "name": "IMG_0282.jpeg",
+        "library_file_id": "libfile_f4c5b0d9620881918f92a851c50c9e6b"
+      },
+      "recovered_path": "artifacts/file_00000000d2e481fbb36758f17065f93d.jpg",
+      "status": "recovered as served"
+    },
+    {
+      "message_id": "19795c87-438c-4793-8928-1e0c058f03e3",
+      "source_attachment": {
+        "id": "file_000000008cb881fb9562dfec69b1156b",
+        "size": 3943019,
+        "name": "Screenshot 2026-08-25 at 8.08.01 PM.png",
+        "mime_type": "image/png",
+        "width": 2048,
+        "height": 1330,
+        "source": "local",
+        "library_file_id": "libfile_08afb3fb23648191a4359d1b0a4659b7",
+        "is_big_paste": false
+      },
+      "recovered_path": "artifacts/file_000000008cb881fb9562dfec69b1156b.png",
+      "status": "recovered as served"
+    },
+    {
+      "message_id": "19795c87-438c-4793-8928-1e0c058f03e3",
+      "source_attachment": {
+        "id": "file_00000000b06c81fba98e145d117f5da5",
+        "size": 6806123,
+        "name": "Screenshot 2026-08-25 at 8.08.04 PM.png",
+        "mime_type": "image/png",
+        "width": 2048,
+        "height": 1330,
+        "source": "local",
+        "library_file_id": "libfile_b97fd83bd60c8191ba84de4d2b70f66e",
+        "is_big_paste": false
+      },
+      "recovered_path": "artifacts/file_00000000b06c81fba98e145d117f5da5.png",
+      "status": "recovered as served"
+    },
+    {
+      "message_id": "19795c87-438c-4793-8928-1e0c058f03e3",
+      "source_attachment": {
+        "id": "file_00000000128881fba269b28e106a0c3e",
+        "size": 3874376,
+        "name": "Screenshot 2026-08-25 at 8.08.07 PM.png",
+        "mime_type": "image/png",
+        "width": 2048,
+        "height": 1330,
+        "source": "local",
+        "library_file_id": "libfile_d6c6d1c40d148191b52da150bc1a5314",
+        "is_big_paste": false
+      },
+      "recovered_path": "artifacts/file_00000000128881fba269b28e106a0c3e.png",
+      "status": "recovered as served"
+    },
+    {
+      "message_id": "19795c87-438c-4793-8928-1e0c058f03e3",
+      "source_attachment": {
+        "id": "file_00000000186881fb8cbaf94c8b874140",
+        "size": 5878415,
+        "name": "Screenshot 2026-08-25 at 8.08.20 PM.png",
+        "mime_type": "image/png",
+        "width": 2048,
+        "height": 1330,
+        "source": "local",
+        "library_file_id": "libfile_089dd95d79f48191a3863b78a08182b7",
+        "is_big_paste": false
+      },
+      "recovered_path": "artifacts/file_00000000186881fb8cbaf94c8b874140.png",
+      "status": "recovered as served"
+    },
+    {
+      "message_id": "66979fce-3e20-41f4-9757-065ae651aaca",
+      "source_attachment": {
+        "id": "file_0000000020c48230974f0fcd164fae04",
+        "size": 49687,
+        "name": "3c77a677-c3c1-4293-a124-489834540cb0.png",
+        "mime_type": "image/png",
+        "width": 1867,
+        "height": 589,
+        "source": "local",
+        "library_file_id": "libfile_ae80ac668e048191920969fd3f4171c9",
+        "is_big_paste": false
+      },
+      "recovered_path": "artifacts/file_0000000020c48230974f0fcd164fae04.png",
+      "status": "recovered as served"
+    },
+    {
+      "message_id": "8b59e085-7b3c-4bfd-93f4-cd78236bc091",
+      "source_attachment": {
+        "id": "file_00000000efd081fdaf28a0a1dfc37262",
+        "size": 1820421,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/a_clean_professional_brand_identity_logo_system.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "ed9da46e-dffd-4f4e-b6b2-4ec40826847f",
+      "source_attachment": {
+        "id": "file_000000003f9881fd8aa4b34e7458b801",
+        "size": 32743,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_light_trans.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "bdab3648-736a-45c8-af41-61cced7b938e",
+      "source_attachment": {
+        "id": "file_00000000160481fd9a24bdb23a5b0b9b",
+        "size": 42896,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_primary_trans.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "bc4ef67d-595c-4342-b291-4510fd7ec73b",
+      "source_attachment": {
+        "id": "file_00000000fcb881fdb97eae6a418e98f1",
+        "size": 38604,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_primary_trans.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "b9b7932f-1806-426d-88d1-64fa613d127a",
+      "source_attachment": {
+        "id": "file_00000000197881fd89115030a0f4e937",
+        "size": 264151,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_montage.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "0122c288-7de7-40d6-b924-ea2eec2445ce",
+      "source_attachment": {
+        "id": "file_00000000089c81fd88f40820a71ed8bf",
+        "size": 37971,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_primary_trans.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "3294c9d8-4114-4543-aced-a175e2317216",
+      "source_attachment": {
+        "id": "file_00000000ce5481fd99f19f82c449fc6f",
+        "size": 37971,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_primary_trans.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "b66d6e6d-78e6-4a95-8cb1-713b91bacaac",
+      "source_attachment": {
+        "id": "file_000000006dd881fd8fa15e6f93d6be11",
+        "size": 2483296,
+        "name": "1b50631e-b7ad-4780-9280-f331d683787c.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "source": "local",
+        "library_file_id": "libfile_58b176b838c481918ad5a81eff4004f7",
+        "is_big_paste": false
+      },
+      "recovered_path": "artifacts/file_000000006dd881fd8fa15e6f93d6be11.png",
+      "status": "recovered as served"
+    },
+    {
+      "message_id": "cc8ef087-80cc-478f-aeff-5b63a19f6d15",
+      "source_attachment": {
+        "id": "file_000000007ed081f7bc6bb566e1b70393",
+        "size": 158685,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/light_crop.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "7c940c15-59d9-4a1c-b895-d7a9d49f7952",
+      "source_attachment": {
+        "id": "file_00000000826c81fd961e3c27fc3890a5",
+        "size": 60159,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_primary_approved_trans.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "f536ad60-4d08-4d9a-9075-7c53fdad9e7c",
+      "source_attachment": {
+        "id": "file_00000000b63081fdbcccc035e619256d",
+        "size": 152390,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_dark_approved_trans.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "5a1fe466-9b2d-4b45-bded-e19ce95ed1b1",
+      "source_attachment": {
+        "id": "file_000000002de481fdaa3d78ec6666d082",
+        "size": 22910,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_dark_approved_trans.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "ff37ede0-4480-4a38-91b7-142d9c7b876c",
+      "source_attachment": {
+        "id": "file_00000000e76881fdbc8984f3d289868d",
+        "size": 251707,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_logo_fix_montage.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "cd6f7715-4947-4a9a-80bc-cec824d46a52",
+      "source_attachment": {
+        "id": "file_00000000379881fdbae9e5aa168bd8c7",
+        "size": 43204,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_work/mark_dark_approved_trans2.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "0e3cdcb6-0f06-4e92-b3b9-4ed687a1cbfe",
+      "source_attachment": {
+        "id": "file_0000000061c081fd98773391993aeaf6",
+        "size": 263417,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/da12f5be7fe34d6c97dc577d487aac96/mnt/data/av_template_logo_fix_montage2.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "79cff91e-f561-4212-896b-44eb0a2247c9",
+      "source_attachment": {
+        "id": "file_0000000001a481fba8219d7d2ffe9390",
+        "size": 865081,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/07cf748673014216a99078da6d9064bc/mnt/data/hst_diagrams_montage.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "74425cca-4b27-4b69-b47a-22b81c1b7b5b",
+      "source_attachment": {
+        "id": "file_00000000cffc81fbbd90e3a0b4c27c1e",
+        "size": 52757,
+        "name": "user-c5XrPsd7MwWO3iDazqQRrupm__d25c47d0-e37c-4d58-ad11-356c6573b995/07cf748673014216a99078da6d9064bc/mnt/data/hst_diagrams_old_montage.png",
+        "mime_type": "image/png"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "1db2000a-ffa0-4151-aab9-186e7325f79f",
+      "source_attachment": {
+        "id": "file_00000000ed6481fb9ed20f16048e7418",
+        "name": "diagrams_v2.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_00000000ed6481fb9ed20f16048e7418"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "7e57a118-9273-4ef6-997f-ed6100c42ccb",
+      "source_attachment": {
+        "id": "file_00000000f26c81fbaf066c75cc5a03c0",
+        "name": "Entropy Field Management - A Management Philosophy for Individuals, Fields, and Organizations - Google Doc Export.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_00000000f26c81fbaf066c75cc5a03c0"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "544dd749-9a60-4ec6-b5ca-936c1c55f934",
+      "source_attachment": {
+        "id": "file_000000002bc881fbb0c55fcf6945dfeb",
+        "name": "ChatGPT window history.pdf",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/pdf",
+        "download_url": "sediment://file_000000002bc881fbb0c55fcf6945dfeb"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "78205399-96af-4c28-b3e5-f8cc71055fd0",
+      "source_attachment": {
+        "id": "file_00000000559c81fb8ea1e62d496589b2",
+        "name": "HST_manuscript_v0.3.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000559c81fb8ea1e62d496589b2"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "5e8a82d7-f6c3-4847-9a46-41f2d99f3924",
+      "source_attachment": {
+        "id": "file_00000000cd5881fbaaef581a8393bbdc",
+        "name": "full_treatise.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000cd5881fbaaef581a8393bbdc"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "e13148ad-c6c6-4fe8-bd0a-4a6612cb168a",
+      "source_attachment": {
+        "id": "file_000000003d9081fb90afee05d276e468",
+        "name": "full_manuscript_snapshot_v1.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_000000003d9081fb90afee05d276e468"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "11d9dda8-a28e-4c4d-ad1e-efc5c25fa3c9",
+      "source_attachment": {
+        "id": "file_00000000fa0c81fb8a8cdee4cd23a51c",
+        "name": "diagrams_v2.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000fa0c81fb8a8cdee4cd23a51c"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "18c977d7-2c31-4da2-b332-fd925b39d3e1",
+      "source_attachment": {
+        "id": "file_00000000202881fb98e25e789412b462",
+        "name": "treatise_v2.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000202881fb98e25e789412b462"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "0d059e0b-8afa-41a4-911c-ce2fbc622889",
+      "source_attachment": {
+        "id": "file_000000009b9c81fbbf7f1d7bfb16728f",
+        "name": "diagrams.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_000000009b9c81fbbf7f1d7bfb16728f"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "b7063893-ab8e-47bd-b961-3d47af016cf2",
+      "source_attachment": {
+        "id": "file_000000002c2c81fba03fd6f0349ee70c",
+        "name": "table_of_contents_v1.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_000000002c2c81fba03fd6f0349ee70c"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "48bbc485-9e6b-4492-9335-cb8310e96a25",
+      "source_attachment": {
+        "id": "file_00000000509881fb863a48ae065ff3aa",
+        "name": "treatise.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000509881fb863a48ae065ff3aa"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "2e671f09-a6c8-403d-9544-203ea0704816",
+      "source_attachment": {
+        "id": "file_00000000770c81fbb5c31776bac2dbe4",
+        "name": "seven_laws_v1.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000770c81fbb5c31776bac2dbe4"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "7034c350-0dd2-439a-8566-57683d8e2c76",
+      "source_attachment": {
+        "id": "file_00000000749081fbaf8ef069ae93701a",
+        "name": "knowledge_graph_v1.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000749081fbaf8ef069ae93701a"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "a68842dc-c27a-4683-bd4b-ed3e78af07d4",
+      "source_attachment": {
+        "id": "file_00000000101c81fb9eed4f17d64d6ab5",
+        "name": "concept_clusters_v1.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000101c81fb9eed4f17d64d6ab5"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "c19b0b45-99c7-418b-b9b2-a53e5df8917c",
+      "source_attachment": {
+        "id": "file_00000000a06c81fbb109c887b435ad15",
+        "name": "manuscript.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000a06c81fbb109c887b435ad15"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "11624394-7ab1-45d4-acaf-a198aceb224f",
+      "source_attachment": {
+        "id": "file_00000000839081fb8b467e1a33c45754",
+        "name": "concept_inventory_v1.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_00000000839081fb8b467e1a33c45754"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "725763c7-5262-4ca7-a5d8-2a123d832390",
+      "source_attachment": {
+        "id": "file_0000000011ac81fbb81a087c342a4a0b",
+        "name": "partial_outline_v1.docx",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "download_url": "sediment://file_0000000011ac81fbb81a087c342a4a0b"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "c537959f-b058-4f0f-9a49-b828cf1ab96d",
+      "source_attachment": {
+        "id": "file_0000000045cc81fb9817407790ecefeb",
+        "name": "HST_manuscript_v0.3.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_0000000045cc81fb9817407790ecefeb"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "8a80ad86-5c91-450b-b78d-4cf75fc0194c",
+      "source_attachment": {
+        "id": "file_00000000caac81fb9c934c27ff5d3016",
+        "name": "full_treatise.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_00000000caac81fb9c934c27ff5d3016"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "5bbf692b-3602-4bad-896a-ce3461d1b836",
+      "source_attachment": {
+        "id": "file_00000000b29c81fb88c70ec577c971b9",
+        "name": "full_manuscript_snapshot_v1.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_00000000b29c81fb88c70ec577c971b9"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "6bab0b00-d451-4ea9-afb8-7eee42725faa",
+      "source_attachment": {
+        "id": "file_0000000014a481fb9ca4e2b596f73922",
+        "name": "diagrams_v2.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_0000000014a481fb9ca4e2b596f73922"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "1e450bc7-1bc1-4b91-b759-ac9cd9a7f32a",
+      "source_attachment": {
+        "id": "file_00000000a95c81fb81438db03aa9f7b5",
+        "name": "treatise_v2.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_00000000a95c81fb81438db03aa9f7b5"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "144fd51d-4888-49f5-ad91-a676fb06d3ad",
+      "source_attachment": {
+        "id": "file_00000000b4c481fb87044dcbd5afbb45",
+        "name": "diagrams.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_00000000b4c481fb87044dcbd5afbb45"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "60b13811-b1d3-405f-a9ff-2126b934b4e3",
+      "source_attachment": {
+        "id": "file_00000000afe081fba80f9b45788fe7ce",
+        "name": "table_of_contents_v1.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_00000000afe081fba80f9b45788fe7ce"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "76a3400e-5ef7-431a-ac06-ddcfbcd0e661",
+      "source_attachment": {
+        "id": "file_000000009b2c81f5af0bb1e2c96e3a19",
+        "name": "treatise.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_000000009b2c81f5af0bb1e2c96e3a19"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "398fadb2-4197-4451-90b3-aca2a72b84a2",
+      "source_attachment": {
+        "id": "file_00000000335481fb83eb7e43ea94f938",
+        "name": "seven_laws_v1.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_00000000335481fb83eb7e43ea94f938"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "0924f73e-11c6-4218-a3c2-80eccd97a676",
+      "source_attachment": {
+        "id": "file_00000000944c81fb9bb2c93f0520e629",
+        "name": "knowledge_graph_v1.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_00000000944c81fb9bb2c93f0520e629"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "d317d922-00ee-4eac-8978-89d1f8414c98",
+      "source_attachment": {
+        "id": "file_0000000098e481fbba00754db13a8cc7",
+        "name": "concept_clusters_v1.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_0000000098e481fbba00754db13a8cc7"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "dbbef9ff-abac-4010-b324-5b9d6daf3d3f",
+      "source_attachment": {
+        "id": "file_000000009e2481fb87fb477574d10493",
+        "name": "manuscript.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_000000009e2481fb87fb477574d10493"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "4db6cfd1-6755-44a2-9814-103338491dcc",
+      "source_attachment": {
+        "id": "file_000000005a708230868b587a8ae0844f",
+        "name": "concept_inventory_v1.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_000000005a708230868b587a8ae0844f"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "9776966a-b606-4f9b-8af2-8b6a7f75ff3b",
+      "source_attachment": {
+        "id": "file_000000000d7881fb8fd7fd3319bc1d86",
+        "name": "partial_outline_v1.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_000000000d7881fb8fd7fd3319bc1d86"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "6a6df8fc-39f5-4024-8fab-2112889689e2",
+      "source_attachment": {
+        "id": "file_00000000d97481fb8cb2c4ce1f828da6",
+        "size": 1383235,
+        "name": "Oneness Is a Recursive Feedback Loop Fractal.docx",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "source": "library",
+        "mounted_library_file_id": "external-gdrive:file:1quXj0RtGn6a0UbIz6igXZ8931yr3YrS_LYy-1CLBb2o",
+        "mounted_library_mime_type": "application/vnd.google-apps.document",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "adbe93cd-c247-4593-8d2d-d2bf1f782ddd",
+      "source_attachment": {
+        "height": 2622,
+        "name": "IMG_0289.png",
+        "id": "file_00000000eb7081fdb788b79b82d09346",
+        "library_file_id": "libfile_ffec1b80bb5c8191b9ef01d536abbd2a",
+        "width": 1206,
+        "mime_type": "image/png",
+        "size": 402398
+      },
+      "recovered_path": "artifacts/file_00000000eb7081fdb788b79b82d09346.png",
+      "status": "recovered as served"
+    }
+  ],
+  "sandbox_links": [
+    {
+      "message_id": "e2371db6-0273-4428-8e60-2ea10b348ded",
+      "uri": "sandbox:/mnt/data/Achieve_Vitality_Google_Slides_Template.pptx",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "84158d3d-95b6-46f3-96b0-2a11fb30af70",
+      "uri": "sandbox:/mnt/data/Achieve_Vitality_Google_Slides_Template.pptx",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "cf023125-45a7-4125-bea8-2c305b277d12",
+      "uri": "sandbox:/mnt/data/Achieve_Vitality_Google_Slides_Template.pptx",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "4a0b1d89-3d87-4d10-b9e5-694434bec59a",
+      "uri": "sandbox:/mnt/data/Achieve_Vitality_Living_Design_Compressed_Conversation_v1.docx",
+      "status": "source link retained; external file bytes not recovered"
+    }
+  ]
+}

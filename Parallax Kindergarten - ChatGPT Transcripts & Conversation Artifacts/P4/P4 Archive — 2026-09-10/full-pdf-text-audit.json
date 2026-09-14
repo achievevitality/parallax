@@ -1,0 +1,94 @@
+{
+  "pages": 1657,
+  "messages": 717,
+  "sparse_pages": [],
+  "full_text_mismatches": [],
+  "formatting_only_differences": [
+    {
+      "id": "e0aa30c7-87e1-4f0a-bb9c-0550d3622ba0",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "cb9402a6-00b3-4d4e-a83b-400da7da84ea",
+      "differences": [
+        [
+          "insert",
+          "",
+          "SectionApprox.readingtime"
+        ]
+      ],
+      "list_markers": []
+    },
+    {
+      "id": "58fb7f78-ca76-43e4-a5b8-425a604c5636",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "56c73483-f664-4a56-888a-a35ef19ee924",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "93e3272b-2654-4297-91c8-24fa199f1b36",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "7217fad6-ada7-4272-94e1-ca9f4e96c4df",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "14c6ec57-ed20-4321-a963-d83695f076f2",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "0290eae7-90d1-4e05-9b04-76ffa03804ec",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "bfd3205e-c363-4516-a5ff-d3c5ca93742f",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "9e8a1fb1-dba3-45bf-a9fd-9de49d7d8952",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "852e44f1-1a9c-4180-a2a3-08570ce37c8d",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "cf2a0567-ec35-4fca-bec3-59e90b23aa02",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "9d281ab3-b1bd-4199-8ab3-8f84043c3593",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "008e4179-8370-4ab6-ae7d-04bf4ffeef98",
+      "difference": "Generated ordered-list markers only"
+    },
+    {
+      "id": "6551bc19-cff0-4e6a-b49f-fe2028e93e5a",
+      "differences": [
+        [
+          "insert",
+          "",
+          "DevelopmentalinheritanceWhatrecursiveamplificationcoulddoHuman/ecologicalconsequenceDevelopmentalcapacityRSIwouldneed"
+        ],
+        [
+          "insert",
+          "",
+          "DevelopmentalinheritanceWhatrecursiveamplificationcoulddoHuman/ecologicalconsequenceDevelopmentalcapacityRSIwouldneed"
+        ]
+      ],
+      "list_markers": []
+    },
+    {
+      "id": "26f3ec9c-fadc-4fe3-8409-54b2d1f3d933",
+      "difference": "Generated ordered-list markers only"
+    }
+  ],
+  "normalization": "Whitespace, Unicode compatibility normalization and emoji presentation selectors. Generated list markers checked separately.",
+  "null_characters": 0,
+  "private_use_characters": 0
+}

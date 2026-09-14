@@ -1,0 +1,311 @@
+{
+  "scope": "Attachment metadata and sandbox download links in the full returned graph. References are not binary file copies. Generated library files may also be identified within tool records in the preservation master.",
+  "attachments": [
+    {
+      "message_id": "dce7ef95-d4be-42f7-9277-855a9402e6a8",
+      "source_attachment": {
+        "id": "file_00000000c04481fda8c888dc82319342",
+        "size": 6329203,
+        "name": "P1 Transcript.json",
+        "mime_type": "application/json",
+        "source": "local",
+        "library_file_id": "libfile_2f2658e35fdc8191aecabcbe68170f50",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "b81e69ac-8191-46ce-aa08-122dcb2e92a6",
+      "source_attachment": {
+        "id": "file_00000000824881fd91942af5cf8c4b08",
+        "size": 5083,
+        "name": "chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_scrape_manifest.json",
+        "mime_type": "application/json",
+        "source": "library",
+        "mounted_library_file_id": "external-gdrive:file:1sjnUEsSFgej3SeObKKLgg_2qxCtD4rs7",
+        "mounted_library_mime_type": "application/json",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "fd274931-426f-48bd-96fb-7d9e1db46af6",
+      "source_attachment": {
+        "id": "file_000000004f9c81fd897117df00b2b7f2",
+        "name": "RIGOR_CALIBRATION_PROTOCOL.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_000000004f9c81fd897117df00b2b7f2"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "591607a4-56ef-4997-a734-e99500438097",
+      "source_attachment": {
+        "id": "file_00000000372081fdaa9b0647f0c62273",
+        "name": "archived__2026-04-30_to_2026-05-08__mac1_director_command_hub__primary.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000372081fdaa9b0647f0c62273"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "4b3a40bd-5d74-48e5-a221-898cbc22fc15",
+      "source_attachment": {
+        "id": "file_00000000d8d481fd886d0ed24144ad0e",
+        "name": "RIGOR_CALIBRATION_PROTOCOL.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000d8d481fd886d0ed24144ad0e"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "45e88a05-452f-4b08-a43c-ee4943b8face",
+      "source_attachment": {
+        "id": "file_00000000847081fda31f2c5496de9d0a",
+        "name": "archived__2026-04-30_to_2026-05-08__mac1_director_command_hub__primary.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000847081fda31f2c5496de9d0a"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "804503af-3013-4419-8a61-84d58985f753",
+      "source_attachment": {
+        "id": "file_0000000078e081fda0c77ee44b8c8e66",
+        "name": "archived__2026-05-06_to_2026-05-06__director_command_hub__continuity_test.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_0000000078e081fda0c77ee44b8c8e66"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "8b00babc-ea41-4608-b718-7bb2b784a326",
+      "source_attachment": {
+        "id": "file_00000000373c81fdb0153dda64ef34b4",
+        "name": "active__2026-05-08__mac2_root_boot__primary.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000373c81fdb0153dda64ef34b4"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "56a3a7b2-c9af-4172-8c48-66cc1217673a",
+      "source_attachment": {
+        "id": "file_00000000f71481fdb62f9963de6bfb5e",
+        "name": "Parallax Architectural Evolution Log.csv",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/csv",
+        "download_url": "sediment://file_00000000f71481fdb62f9963de6bfb5e"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "81f756f1-1f0f-4b6c-b204-dabe2224f796",
+      "source_attachment": {
+        "id": "file_00000000867481fd86a6dfd6c062e656",
+        "name": "active__2026-05-08__mac2_area_portfolio_mgmt__primary.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000867481fd86a6dfd6c062e656"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "827ff553-2e89-4b55-a746-60d88f800056",
+      "source_attachment": {
+        "id": "file_00000000328481fd9258f450fcd4e46f",
+        "name": "active__2026-05-08__mac2_neurosome_brenda_mathisen__primary.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000328481fd9258f450fcd4e46f"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "ff6fe15c-5bba-4844-b58c-2151f861db7a",
+      "source_attachment": {
+        "id": "file_00000000fc1881fdb33e41f810301d5a",
+        "name": "active__2026-05-06__mac1_area_portfolio_mgmt__primary.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_00000000fc1881fdb33e41f810301d5a"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "9dc049c7-fb00-44a6-a74f-2248617fe7d5",
+      "source_attachment": {
+        "id": "file_0000000017e881fd83546db6a836a8a3",
+        "name": "Trust Building and Partnership_transcript.txt",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/plain",
+        "download_url": "sediment://file_0000000017e881fd83546db6a836a8a3"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "1ec49502-fd63-448f-8621-91a365dd7956",
+      "source_attachment": {
+        "id": "file_00000000b2b881fd9407f39105cabb82",
+        "name": "chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_scrape_manifest.json",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/json",
+        "download_url": "https://sdmntprwestus3.oaiusercontent.com/files/00000000-b2b8-81fd-9407-f39105cabb82/raw?se=2026-09-06T19%3A40%3A36Z&sp=r&sv=2026-02-06&sr=b&scid=ae129668-cf0a-501f-9e04-fbff43e72c7e&skoid=4b04981f-b1dc-41e0-a770-8ce0d5c8f411&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-06T13%3A21%3A57Z&ske=2026-09-07T13%3A21%3A57Z&sks=b&skv=2026-02-06&sig=NHpzvKSL5lskUDgejIhfX5IKyVC1sevsQWeN1mFFuaY%3D"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "21c45430-7d4b-4473-ab43-b40bbf77b0a7",
+      "source_attachment": {
+        "id": "file_00000000121481fd966a8cbceeca5516",
+        "name": "chatgpt_conversation_6a8ccd63-6680-83e8-9514-0e7a7b93bafb_transcript.json",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/json",
+        "download_url": "sediment://file_00000000121481fd966a8cbceeca5516"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "cfb9d2b3-a6cd-4504-8529-8a6dc8a18f60",
+      "source_attachment": {
+        "id": "file_00000000e26c823089b99c59a8f34459",
+        "name": "chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_scrape_manifest.json",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/json",
+        "download_url": "https://sdmntprwestus.oaiusercontent.com/files/00000000-e26c-8230-89b9-9c59a8f34459/raw?se=2026-09-07T04%3A55%3A12Z&sp=r&sv=2026-02-06&sr=b&scid=6c7c1a17-948f-5f88-a244-269bf833838f&skoid=4b04981f-b1dc-41e0-a770-8ce0d5c8f411&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-06T21%3A23%3A04Z&ske=2026-09-07T21%3A23%3A04Z&sks=b&skv=2026-02-06&sig=mka6TrC4283aJ7%2BhtuNmVn0SAHn8ZJUIvuC/rYqQrQA%3D"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "2a729748-0efc-4a69-a26e-bcc94e93c383",
+      "source_attachment": {
+        "id": "file_0000000011d881fd83351b25c465892a",
+        "name": "archived__2026-04-30_to_2026-05-08__mac1_director_command_hub__primary.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_0000000011d881fd83351b25c465892a"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "15eb018a-7ff6-49c2-bbc4-848a56e56b0a",
+      "source_attachment": {
+        "id": "file_000000007fbc81fdb6894769977e63e5",
+        "name": "archived__2026-04-30_to_2026-05-08__mac1_director_command_hub__primary.md",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "text/markdown",
+        "download_url": "sediment://file_000000007fbc81fdb6894769977e63e5"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "f5c903a3-0e4d-478d-b8b2-bdd053a9731f",
+      "source_attachment": {
+        "id": "file_00000000a1f08230b45fe2afcf2536ac",
+        "name": "chatgpt_conversation_6a960565-1884-83e8-882f-4f19b3bee616_transcript_package.zip",
+        "display_files_from_actions_ext": true,
+        "source": "connector",
+        "mime_type": "application/zip",
+        "download_url": "sediment://file_00000000a1f08230b45fe2afcf2536ac"
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "0f38a5e9-06db-44de-a14d-5e98bd909e52",
+      "source_attachment": {
+        "id": "file_0000000071508230be8d33330c55dd57",
+        "size": 1429398,
+        "name": "Oneness Is a Recursive Feedback Loop Fractal",
+        "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "source": "library",
+        "mounted_library_file_id": "external-gdrive:file:1quXj0RtGn6a0UbIz6igXZ8931yr3YrS_LYy-1CLBb2o",
+        "mounted_library_mime_type": "application/vnd.google-apps.document",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    },
+    {
+      "message_id": "5c37b225-98ed-4b09-a1dd-2ffdd3cf46eb",
+      "source_attachment": {
+        "id": "file_00000000c35481fb8f92a385bf1143a0",
+        "size": 19626,
+        "name": "ParallaxAI Briefing download_otter_ai_transcript.txt",
+        "mime_type": "text/plain",
+        "source": "local",
+        "library_file_id": "libfile_285c5d814b048191af7772df60e7d435",
+        "is_big_paste": false
+      },
+      "recovered_path": null,
+      "status": "reference only; original file bytes not in this package"
+    }
+  ],
+  "sandbox_links": [
+    {
+      "message_id": "89ff9713-cde9-4bba-9e2c-c096f20f6f76",
+      "uri": "sandbox:/mnt/data/P3_Archive_Inheritance_Study_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "3d8c8cba-a0f4-47f5-9822-1f08633ce1c7",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1dc641f3-4067-4bdc-bf5e-46ae26758de5",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "1c29cd64-2d31-47ff-a683-4070acfafc5b",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    },
+    {
+      "message_id": "d2772d3d-3ff2-4822-84f4-3e87c3f004d0",
+      "uri": "sandbox:/mnt/data/P3_Codex_Continuation_and_Loop_Deltas_2026-09-05.md",
+      "status": "source link retained; external file bytes not recovered"
+    }
+  ]
+}
