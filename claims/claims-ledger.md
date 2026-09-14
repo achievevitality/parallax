@@ -87,3 +87,10 @@
 | Buddhist canonical support: good spiritual friendship/community as the whole of the path, not half | 🟢 real citation, verify precisely before use | P1 msg 985 | References the Upaddha Sutta (Ānanda asks if kalyāṇa-mittatā is half the holy life; Buddha: it is the whole of it). Cite the actual sutta if used in dissemination material — don't rely on paraphrase from memory |
 | IFS origin of the "parts" framework | 🟢 corroborated (now in primary source, not just recollection) | P1 msg 963 | Matches the claim from the live conversation — same claim, independently present in P1 itself |
 | "Falsify the kernel across multiple literatures" commitment | 🔴 recurring, unenacted (pattern, not one-off) | P1 msg 993/995; also P3 (already logged) | Same excited intention appears in P1, before P3 restates it. Strengthens the earlier finding — this is a recurring pattern across windows, not a single dropped commitment |
+
+## P1 additions (msgs 1010-1070)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| Consequential decisions under incomplete information + unforgiving feedback = conditions driving systems maturity | 🟢 (real prior art, both directions) | P1 msg 1031-1032 | Connects to Bjork's "desirable difficulties" (learning science) and Meichenbaum's stress-inoculation training (clinical psych) — both established, specific, testable against this claim |
+| "Greater need for a regulator = less capacity to make that regulator useful" | 🟡 candidate, possibly genuine addition | P1 msg 1053 | Adjacent to but sharper than Brooke Feeney's "dependency paradox" (secure dependency increases autonomy) — this claims something more specific about capacity-to-use scaling inversely with need. Worth checking if this extends existing literature or just restates it |
