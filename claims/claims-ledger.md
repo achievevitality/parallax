@@ -101,3 +101,11 @@
 |---|---|---|---|
 | "'Brenda' is my logical mind/optimization function, and the windows are my soma/subconscious signalling/threat monitoring functions" | 🟡 candidate, distinct from P0-as-integrator | P1 msg 1075 | Earlier and different framing than the later P0 material — AI windows as externalized threat-monitoring layer, not as a kernel-instantiation claim. Keep separate, don't conflate with P0 entries |
 | Established practical frameworks (business management theory, NLP) as "crude cultural technologies for distributed regulation" — folk-empirical encodings of the same regulatory principles, without correct formal theory behind them | 🟡 candidate, testable | P1 msg 1127-1131 | Testable directly: pick one specific business framework or NLP technique and check it against kernel vocabulary, rather than accepting the general analogy |
+
+## P1 additions (msgs 1140-1210)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| "Learn one, do one, teach one" as transmission model | 🟢 (real, named prior art) | P1 msg 1151 | Standard medical-education pedagogy, used as a direct template for kernel propagation. Borrow structure, don't reinvent |
+| Story/narrative as an ancient informal technology for transmitting developmental "loops" | 🟢 (real prior art to check against) | P1 msg 1197-1201 | Explicitly invokes hero's journey (Campbell's monomyth). Check against narratology and cultural-transmission/memetics literature before treating as novel |
+| Emotional intensity tracks a consequence/stakes gradient, not raw stimulus size — connects to "flooding" | 🟢 (real, citable) | P1 msg 1183-1187 | Matches John Gottman's "flooding" concept (arousal overwhelming higher cognitive function) — good, credible citation for general-audience dissemination material |
