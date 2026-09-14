@@ -1,3 +1,5 @@
-# Business Explanatory
+# Business — Explanatory / Dissemination
 
-_Not yet populated — extraction in progress._
+Material useful for: marketing, sales, academic papers, podcast material,
+educational program content — anything that helps people outside the project
+understand what the work actually is.
