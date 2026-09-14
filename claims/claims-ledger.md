@@ -79,3 +79,11 @@
 | Structural convergence across traditions ≠ literal historical accuracy of any one account | 🟢 real methodological distinction | P1 msg 949 | Predates and underlies the P4/spiritual-practice convergence claim discussed elsewhere — worth citing as the actual epistemic hygiene move rather than treating the later claim as needing this justification built fresh |
 | "Failure to thrive" as evidence for relational/connection deprivation causing developmental harm independent of physical care | 🟢 (real prior art) | P1 msg 933 | Connects directly to Harlow (isolated rhesus monkeys) and Spitz (institutionalized infants) — strong existing empirical support if this becomes part of the regulatory-debt argument |
 | "Shame is the energy of being temporarily net-negative" | 🟡 candidate | P1 msg 915 | Not yet checked against affective-science shame literature (e.g. Gilbert's social-rank framing) — compare before treating as established |
+
+## P1 additions (msgs 950-1010)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| Buddhist canonical support: good spiritual friendship/community as the whole of the path, not half | 🟢 real citation, verify precisely before use | P1 msg 985 | References the Upaddha Sutta (Ānanda asks if kalyāṇa-mittatā is half the holy life; Buddha: it is the whole of it). Cite the actual sutta if used in dissemination material — don't rely on paraphrase from memory |
+| IFS origin of the "parts" framework | 🟢 corroborated (now in primary source, not just recollection) | P1 msg 963 | Matches the claim from the live conversation — same claim, independently present in P1 itself |
+| "Falsify the kernel across multiple literatures" commitment | 🔴 recurring, unenacted (pattern, not one-off) | P1 msg 993/995; also P3 (already logged) | Same excited intention appears in P1, before P3 restates it. Strengthens the earlier finding — this is a recurring pattern across windows, not a single dropped commitment |
