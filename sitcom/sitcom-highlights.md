@@ -71,3 +71,14 @@ By msg ~1200, the P1 ensemble cast is fully recurring, not one-off: Investor,
 CFO, Management Consultant, HR (and an HR Assistant Manager), Spoons (a
 character, unionized as of msg 1276), and Cat. Future extraction will log
 new material and running gags rather than re-introducing the cast each time.
+
+## Episode 6: The Last Unicorn Layer
+
+Around msg 1780-1840, the sitcom picks up a second mythology layer on top
+of the boardroom cast: characters and imagery from Peter S. Beagle's *The
+Last Unicorn* (King Haggard, Lear, the Unicorn, the butterfly) get mapped
+onto Brenda's own internal parts, alongside "Tiny Scientist" as a
+recurring persona. Tiny Scientist gets sent to Burning Man for "field
+research." A certificate and "credits scroll" close out the sequence,
+complete with outtakes and a joke that no Legal department was harmed in
+the making of the film, "because Legal does not exist" (yet).
