@@ -268,3 +268,21 @@ relationship." 🟢 clean, actionable test for whether a helping relationship
 (coaching, therapy, AI assistance) is healthy. Should be an explicit design
 principle for the AI backend/case-management project, not just a
 background value.
+
+## P2 addition (msgs 559-567) — authority as stewardship, not possession
+
+"Liberation is not transferring control of the governed intelligence to a
+better governor. It is making governance sufficiently alterable that the
+intelligence can participate in its own governance... Authority must
+maintain its own incompleteness... Authority is therefore closer to a
+stewardship relation than a possession." 🟢 strong claim, directly relevant
+to the epistemic-monarchy thread. Real kinship with separation-of-powers
+theory and Ostrom's commons-governance work (already flagged). Possibly the
+clearest existing articulation of why the epistemic-monarchy concern
+matters practically — worth developing into its own section rather than
+staying folded into the broader ledger.
+
+*(Note: msgs 544-548 in this range touch on suicidal ideation as a subject
+of analysis — deliberately not extracted or summarized here, regardless of
+clinical vs. personal framing. Left for Brenda to handle directly if she
+chooses to.)*
