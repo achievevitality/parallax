@@ -36,3 +36,9 @@ strategic-implication claims.
 - **Udi Dahan** — msg 1113, named with permission ("if he wishes to be
   named") — entrepreneur & consultant friend, was about to share an
   organizational-development insight.
+
+## Stated constraint: deliverables will not be standardized
+
+"How do we standardize Brenda's deliverables?" / "We never will." — P1 msg
+1305. Explicit acknowledgment that the work resists standardization —
+relevant directly to any scaling/productization planning.

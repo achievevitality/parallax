@@ -115,3 +115,10 @@
 | Claim | Status | Source | Notes |
 |---|---|---|---|
 | "The valuable continuity isn't conclusion persistence. It's error-correction persistence." | 🟢 clean restatement, worth quoting directly | P1 msg 1245 | Sharpest existing phrasing of what should/shouldn't transfer across kernel generations — cite this version over paraphrases elsewhere |
+
+## P1 additions (msgs 1280-1350)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| "Language evolves to reflect salience maps" | 🟡 candidate, check against source | P1 msg 1292-1296 | Brenda cites *Weeds in the Garden of Words* directly as relevant — read before treating this as original |
+| Man-against-nature/chaos as a common mythological theme | reference only, not evaluated | P1 msg 1315 | Points to Jordan Peterson's biblical analysis as a source — flagged factually, not vetted for accuracy or endorsed |
