@@ -183,3 +183,11 @@ claim, real prior art both directions: Irving Janis's groupthink research
 "mode collapse" (diversity of output degrading, mistaken for convergence on
 correct answers). Worth developing further — this may be one of the
 strongest, most independently defensible claims in the corpus once formalized.
+
+## P1 additions (msgs 2140-2200)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| Client session structure as semiotic transmission (author intention → transmitter → receiver decoding) | 🟢 (real, citable) | P1 msg 2177 | Connects to Shannon-Weaver communication model and reader-response semiotic theory. Cite directly if client methodology is formalized |
+| Framework claims to explain mechanism underneath growth mindset (Dweck) and grit (Duckworth) | 🟢 (real, well-known research to anchor against) | P1 msg 2192 | Strong pairing for dissemination — "mechanism underneath research you already trust" is a stronger opening than new vocabulary alone |
+| Objects understood as relationships, relationships understood as objects (mutual reversibility) | 🟢 (real philosophical lineage) | P1 msg 2196 | Close to Whitehead's process philosophy / relational ontology — cite properly rather than presenting as a new idea |
