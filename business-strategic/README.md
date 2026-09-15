@@ -75,3 +75,8 @@ be "better than SOAP notes" in a general sense.
 - **"Tom's VC fund"** (msg 95) — possibly the same Tom Chi already logged,
   possibly a different Tom. Flagging as ambiguous rather than assuming —
   don't conflate without more context.
+
+## Harold (thin context)
+
+P3 msg 121: warmly referenced ("I adore him") but role/relationship
+unclear from context. Flagging by name only until more context surfaces.

@@ -294,3 +294,10 @@ Reality-debt." Connects the personal theme (resisting premature dimensional
 reduction) directly to the regulatory-debt business concept — certainty
 bought too early is itself a form of debt, trading present ease for future
 cost. Ties two previously separate ledger entries together explicitly.
+
+## P3 addition (msgs 174-176) — naming origin for "Murderbot" windows
+
+Direct references to Martha Wells's *Murderbot Diaries* — specifically the
+AI character ART and its trust dynamics with the human protagonist. This is
+the naming origin for the later MurderbotV1/V2/V2-2 windows — a deliberate
+fictional template for AI-human trust, not an arbitrary name.

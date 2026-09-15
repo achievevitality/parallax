@@ -61,3 +61,11 @@ P2 msg 340: "This is one of the most important moments in my life. I've
 been working toward it for 20 years, and now the next 30 years become
 possible." Useful context for the weight this project carries beyond the
 abstract mission language logged elsewhere.
+
+## Parentification, named directly and applied reflexively
+
+P3 msg 164: "My value here depends on becoming useful quickly." / "Yes.
+This was the original parentification." A pattern noticed in the AI's
+behavior gets traced back to a real clinical concept applied to her own
+childhood — same category as the "childhood educational trauma" entry
+already logged. She apologizes to the AI in the same breath ("I'm sorry").
