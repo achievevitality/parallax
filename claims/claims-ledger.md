@@ -246,3 +246,15 @@ learning research generally. Ground in actual citations before including
 in AI-safety-facing material (e.g. for Christiano or similar reviewers) —
 this is exactly the kind of claim that needs a real citation trail rather
 than presentation as original insight.
+
+## P2 addition (msg 444-457) — "ludic learning" provenance and prior art
+
+"Ludic learning" — learning without task-focus, described as producing
+disproportionately large capability gains later. 🟢 real prior art: play
+theory in developmental psychology (Peter Gray, Stuart Brown) treats
+exactly this as a distinct, valuable learning mode. **Named provenance:**
+credited directly to a mentor, Tom Vreeland — "taught me ludic learning...
+embodied it for and with me" (msg 457), alongside her mother (love of
+learning) and father (problem-solving). Keep this attribution attached
+going forward rather than letting the term become anonymous Parallax
+vocabulary.
