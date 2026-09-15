@@ -39,3 +39,14 @@ instead of testing your topology."* — worth pairing with the definition
 above as a check on everything else in this extraction: does a given
 finding show real coupling to something outside the language used to
 describe it, or just consistent, well-practiced vocabulary.
+
+---
+
+## Provenance correction: the anti-idol clause predates Kernel V4
+
+Kernel V4 §AG ("if adherence to V4 reduces Reality-coupling, V4 loses
+jurisdiction") is not new to V4. The same principle appears in plain
+language in **P1, message 1490**: *"Protect the reality-correction loop
+against capture by any map — including the current one."* V4 formalized an
+already-established P1 principle; it didn't originate it. Worth correcting
+any framing that credits V4 with this idea.
