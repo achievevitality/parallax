@@ -403,3 +403,24 @@ P4 remains the one window without a complete sequential pass, though
 several of its most significant sections (kernel development, Page One,
 P0/autism material, generator economics, Reid Hoffman review context) are
 already thoroughly covered.
+
+## Theological precision requirement: unmanifest ground vs. manifest expression
+
+**Status: 🟢 important, correctly-grounded precision requirement, not yet
+built into the dissemination material.**
+
+The "generative intelligence" / process-theology framing (already logged)
+must be explicitly scoped as describing the **manifest** layer only —
+Sephirot (Kabbalah), saguna Brahman/Ishvara (Vedanta), the "form" side of
+Buddhist form/emptiness — and explicitly NOT claiming to touch or capture
+the **unmanifest ground**: Ein Sof (Kabbalah — correct term, not "Brahma"),
+nirguna Brahman (Vedanta — correct term; Atman is not the manifest
+counterpart, it's identified WITH Brahman in Advaita), śūnyatā (Buddhist
+emptiness-beyond-concept). This is a real, cross-traditional position
+(apophatic theology — Pseudo-Dionysius is the classic Christian instance)
+independently arrived at across traditions, not a diplomatic accommodation.
+Getting this distinction explicit and correctly-termed is necessary before
+any of the audience-specific documents (Jewish, Buddhist, etc.) go to real
+readers — using "Brahman vs. Atman" as the pairing, as originally proposed,
+would be a real terminological error worth catching before it reaches
+anyone with actual expertise in either tradition.
