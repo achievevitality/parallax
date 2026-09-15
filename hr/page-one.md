@@ -50,3 +50,14 @@ second one hasn't been located yet — searched P4 for several phrasings
 ("treat the team," "same level of care," "employees deserve," "how we
 treat") with no hits. May be in P3, or phrased differently than guessed.
 **Not yet found — flagging as open, not fabricating a placeholder.**
+
+---
+
+## Update: why part 2 wasn't found
+
+P5 msg 275: "It's possible that some of the HR page one stuff might be in
+the part of P4 you don't have a transcript for." This may explain the
+earlier failed search for the team-care-promise half of Page One — it may
+exist in P4 material not yet fully accessible to this extraction, not
+because it doesn't exist. Re-search once additional P4 material is
+confirmed available, rather than treating "not found" as "doesn't exist."

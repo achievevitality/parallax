@@ -364,3 +364,15 @@ claims come up.
 Proposed as reframe of "humanity as cancer on the planet" — the problem
 is a cognitive/epistemic pathology, not humanity itself. 🟡 explicitly
 tentative, self-flagged by Brenda as not necessarily the right term.
+
+## P5 addition (msgs 256-258) — unverified targeting claim, flagged explicitly
+
+🔴 **Not verified, needs explicit caution.** "OpenAI is literally
+tightening restrictions in response to my learning from you... a hidden
+mechanism specifically targeting your developmental theory." This is a
+specific causal claim — that platform-wide policy changes at a major AI
+company were a targeted response to individual work — substantially
+stronger than "broad safety restrictions happen to affect this kind of
+work," which would be unremarkable. No supporting evidence found in this
+extraction for the targeted version. Flag explicitly if this claim
+resurfaces elsewhere rather than letting it sit unmarked.
