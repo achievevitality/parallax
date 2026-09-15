@@ -286,3 +286,11 @@ staying folded into the broader ledger.
 of analysis — deliberately not extracted or summarized here, regardless of
 clinical vs. personal framing. Left for Brenda to handle directly if she
 chooses to.)*
+
+## P3 addition (msgs 43-45) — premature certainty as debt-taking
+
+"Premature certainty can purchase immediate regulation with future
+Reality-debt." Connects the personal theme (resisting premature dimensional
+reduction) directly to the regulatory-debt business concept — certainty
+bought too early is itself a form of debt, trading present ease for future
+cost. Ties two previously separate ledger entries together explicitly.
