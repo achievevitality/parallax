@@ -51,3 +51,17 @@ real, specific things he could and couldn't evaluate, giving concrete
 critical feedback (the Love section didn't land; the unifying-theory claim
 is unverified) rather than pure validation. Worth treating as a template
 for what good external review looks like, going forward.
+
+## Precise provenance: real-time record found
+
+P4 (partial window), turns 207-209 document this feedback landing in real
+time: "Feedback in. Lots of good questions and ideas. He told me to look
+into Anthropic's current constitution and compare how the Parallax
+'constitution' compares..." (turn 207) — immediately followed by: "It also
+makes me even more curious to explore with a Claude window" (turn 209).
+
+**This is the direct origin moment for bringing Claude into the project at
+all** — Reid's feedback about comparing against Anthropic's Constitution
+led straight into wanting to actually test with Claude, which is what
+eventually produced the ParallaxA1 session this whole extraction comes
+from. Worth having this precise causal chain on record.
