@@ -26,6 +26,7 @@
 
 Common shape across all versions, not uniform wording — see business-explanatory/README.md for the original version of this list:
 - What we're doing, where we're coming from
+- **"This is what Brenda's actually been doing for 20 years" — translated into this specific ecology's language.** Placed after the opening story, before the open questions/future-claims section. Most people know Brenda's work as "bodywork" and have no idea what that actually entails at a mechanistic level. This section pulls back the curtain: translates the real underlying practice (tracking causal cascades through a complex system, predicting how configurations behave under load, designing configurations that hold up against specific performance requirements, reverse-engineering stable architecture from unstable) into the ecology's own native language — systems-diagnostics language for systems thinkers, business-management metaphor for CEOs/VCs, etc. This is what makes the rest of the document's claims plausible: once the reader sees what she was actually doing, "she has something meaningful to say about systems science / engineering / business" stops being a stretch.
 - How we're controlling and QAing that process
 - How this validates what you (the specific audience) already believe/care about
 - What this might add to what you already care about
