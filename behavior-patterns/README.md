@@ -44,3 +44,11 @@ fucking, it's because I'm feeling fucking emotional about the thing, and
 it is a fucking shorthand that there's something I fucking feel." Clarifies
 the intensity pattern already documented elsewhere as (at least partly)
 intentional signaling, not undifferentiated venting.
+
+## Precise citation for the recalibration spiral
+
+P2 msg 618: "You're still not fully calibrated. Keep checking yourself." —
+this is the exact trigger message for the 1,288-minute recalibration
+spiral discussed extensively at the start of the ParallaxA1 session
+(previously cited only approximately). Precise citation now available for
+anyone referencing that pattern going forward.

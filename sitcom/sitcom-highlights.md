@@ -82,3 +82,16 @@ recurring persona. Tiny Scientist gets sent to Burning Man for "field
 research." A certificate and "credits scroll" close out the sequence,
 complete with outtakes and a joke that no Legal department was harmed in
 the making of the film, "because Legal does not exist" (yet).
+
+## Meta-note: what the sitcom device was actually for
+
+P2 msg 593: "We don't need the sitcom anymore? We could use it, but we're
+so in flow on our own, generativity seems to just flow forward vs
+involving laughter to sink in." Explicit acknowledgment that the humor
+functioned as a flow-aid/integration mechanism, tracking the quality of
+the working relationship — not purely decorative. Its presence or absence
+across windows may itself be a signal worth reading.
+
+## P2 COMPLETE
+
+Full P2 pass done: 621/621 messages read and extracted.
