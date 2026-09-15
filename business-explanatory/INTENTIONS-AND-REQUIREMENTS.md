@@ -34,9 +34,43 @@ Common shape across all versions, not uniform wording — see business-explanato
 
 ## Audience segmentation — corrected understanding
 
-**"Systems thinkers" is a real, specific audience bucket, not a neutral generic hub document for everyone.** Native systems thinkers — people who natively think in patterns, connections, and regulatory ecologies, whether by disposition or by hard-won professional experience, even without having formal language for it — are their own distinct readership, and the systems-thinkers document should be written to and for them specifically, not as a background-neutral base template other documents borrow from.
+**Think in ecologies, not demographic audiences.** Each document speaks to
+an ecology — a group of people who share real interdependence and mutual
+stakes in each other's response, not just a shared label. For each
+ecology: identify what everyone in it has in common first, then map the
+demographic and psychographic variety *within* it, and draft inclusively
+across that variety rather than writing to one subset and hoping the rest
+follows. Example: CEOs and VCs are one ecology, not two — VCs need to know
+CEOs will accept this and that it helps the founders they've invested in;
+CEOs need to know operating this way will be appealing to their investors.
+Speaking to only one side misses the actual interdependence that makes the
+message land for either.
 
-People who fit multiple audience categories get multiple documents, explicitly framed: "these sections will repeat some content — reading each version will show you how the perspectives converge." This overlap is a feature for multi-bucket readers, not a flaw to eliminate.
+**"Systems thinkers" is a real, specific ecology, not a neutral generic
+hub document for everyone.** Native systems thinkers — people who natively
+think in patterns, connections, and regulatory ecologies, whether by
+disposition or by hard-won professional experience, even without having
+formal language for it — are their own distinct ecology, and the
+systems-thinkers document should be written to and for them specifically,
+not as a background-neutral base template other documents borrow from.
+
+People who fit multiple ecologies get multiple documents, explicitly
+framed: "these sections will repeat some content — reading each version
+will show you how the perspectives converge." This overlap is a feature
+for multi-ecology readers, not a flaw to eliminate.
+
+## Ecologies identified so far
+
+- **Systems thinkers** — native pattern/connection/regulatory-ecology
+  thinkers, with or without formal language for it. Spans from purely
+  systems-oriented (Reid Hoffman) to systems-plus-human-development
+  (David Sze).
+- **CEOs and VCs** — one ecology, not two, given their mutual
+  interdependence: VCs need CEO buy-in to matter to their portfolios;
+  CEOs need investor-legible framing.
+- (Others pending: Jewish, Christian, Buddhist, Burning-Man/New-Age
+  healer, AI community, scientific/engineering, medical, human-
+  developmental — same ecology-not-demographic treatment applies to each.)
 
 ## Feedback integration process (not yet designed — flagged as a real open task)
 
