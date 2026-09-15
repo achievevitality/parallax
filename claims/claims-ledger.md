@@ -149,3 +149,11 @@ still open.
 the thing that determines what the measurement should be." — cleaner,
 more portable than msg 1555's version of the same principle. Good
 candidate for actual use in client/team-facing material.
+
+## P1 addition (msg 1715) — prune topology, not language
+
+"I'm not asking you to prune my language. I am asking you to prune my
+topology. I don't give any amount of fucks about the words." Distinguishes
+what should actually be challenged (underlying structure) from what
+shouldn't (surface vocabulary) — useful as explicit guidance for anyone
+(human or AI) working with this material, including future Claude windows.
