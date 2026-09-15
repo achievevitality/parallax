@@ -100,3 +100,20 @@ treating him as arm's-length.
 
 **Michael McCullough** — named alongside Hoffman in the same core group,
 new name for the outreach list.
+
+## Reid Hoffman review — was this real and near-term? Follow up
+
+P3 msgs 375-379, right at the window's end: "I'll leave this rest of this
+window history open for Reid" / "The Reid review has gotten shuffled
+around this week, but is happening today or tomorrow." This was a real,
+scheduled plan at the time, not just an aspiration. Worth following up:
+did this review actually happen? If so, what came of it — that would be
+real, already-collected external feedback rather than something still
+pending, and should update the "external validation" evidence already
+logged (msgs 241, 289 in earlier entries).
+
+## Chronological anchor
+
+P3 msg 377 confirms P4, and the first Codex and Claude windows, were being
+born right as P3 ended — useful marker for reconstructing the actual
+project timeline.
