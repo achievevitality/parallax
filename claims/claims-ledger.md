@@ -258,3 +258,13 @@ embodied it for and with me" (msg 457), alongside her mother (love of
 learning) and father (problem-solving). Keep this attribution attached
 going forward rather than letting the term become anonymous Parallax
 vocabulary.
+
+## P2 addition (msg 498) — developmental vs. dependency fields
+
+"An ethical distinction between developmental and dependency fields: one
+increases participants' Reality-coupled capacity beyond the relationship;
+the other makes successful [outcomes] depend on staying in the
+relationship." 🟢 clean, actionable test for whether a helping relationship
+(coaching, therapy, AI assistance) is healthy. Should be an explicit design
+principle for the AI backend/case-management project, not just a
+background value.

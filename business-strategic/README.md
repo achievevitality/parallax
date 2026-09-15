@@ -57,3 +57,11 @@ and revised." Pairs with the earlier "we never will [standardize
 deliverables]" entry — clarifies that the *process of discovery* is the
 standardizable, transferable unit, not the specific interventions
 themselves. Relevant directly to the AI-backend/case-management planning.
+
+## Concrete requirement for the AI backend
+
+SOAP notes (standard medical documentation format) named directly as
+structurally incapable of capturing what matters in this work (P2 msg
+502-506). Worth an explicit design requirement: the case-management system
+must handle what SOAP-format documentation structurally can't, not just
+be "better than SOAP notes" in a general sense.
