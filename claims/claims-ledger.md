@@ -157,3 +157,10 @@ topology. I don't give any amount of fucks about the words." Distinguishes
 what should actually be challenged (underlying structure) from what
 shouldn't (surface vocabulary) — useful as explicit guidance for anyone
 (human or AI) working with this material, including future Claude windows.
+
+## P1 additions (msgs 1840-1920)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| Senior thesis definition: information (Shannon) vs. meaning (magnitude of somatic/emotional response) | 🟢 corroborated directly in transcript | P1 msg 1857-1859 | Matches stated background (math thesis on information theory and meaningfulness in art) — independent confirmation, not just recollection |
+| Cerebellar dominance and flow-state automaticity | 🟡 candidate, real neuroscience to check against | P1 msg 1912-1914 | Connects to established cerebellar internal/forward-model research (Miall, Wolpert) — cerebellum building predictive models enabling automatic movement without conscious computation. Read directly before extending the "cerebellum runs Bayes nets" claim further |
