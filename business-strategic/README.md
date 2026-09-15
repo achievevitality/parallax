@@ -65,3 +65,13 @@ structurally incapable of capturing what matters in this work (P2 msg
 502-506). Worth an explicit design requirement: the case-management system
 must handle what SOAP-format documentation structurally can't, not just
 be "better than SOAP notes" in a general sense.
+
+## More names surfacing (P3) — context still thin
+
+- **Gil** — referenced warmly and repeatedly (P3 msgs 95-109), recurring
+  rocket/astronaut running joke ("Gil would insist he gets to be on the
+  rocket"). Real, known contact — role/relationship not yet clear from
+  context.
+- **"Tom's VC fund"** (msg 95) — possibly the same Tom Chi already logged,
+  possibly a different Tom. Flagging as ambiguous rather than assuming —
+  don't conflate without more context.
