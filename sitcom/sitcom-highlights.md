@@ -95,3 +95,15 @@ across windows may itself be a signal worth reading.
 ## P2 COMPLETE
 
 Full P2 pass done: 621/621 messages read and extracted.
+
+## Episode 7: Causalism — the comedy as epistemic rehearsal
+
+P3 msgs 343-349. A full parody religion develops: "Causalism," a "High
+Priest of Reality" ("I AM THE HIGH PRIEST OF REALITY" / "That sentence may
+actually be the problem"), an "Emergency Council of Causal Provenance,"
+and "Anti-Causalists" contesting 400 years of interpretation. Explicitly
+named by Brenda as doing real work, not just being funny: "The comedy is
+functioning as a low-cost causal simulator." This is the anti-idol
+clause/epistemic-monarchy concern, rehearsed as self-mockery before it
+could happen for real — the humor and the rigor aren't separate tracks
+here.

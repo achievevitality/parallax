@@ -43,3 +43,10 @@ pairs with the "regulatory optionality" line as core mission material.
 and unknowingly participated in maintaining it." — P1 msg 2078. Useful for
 explaining regulatory debt without triggering defensiveness — names the
 system without needing a villain.
+
+## Simpler mission line
+
+"An ecology in which consequential wrongness doesn't routinely become
+somebody else's unowned regulatory burden." — P3 msg 307. Simpler,
+more accessible than other mission-line candidates — good option for
+audiences who'd find the more intense versions off-putting.
