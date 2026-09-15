@@ -54,3 +54,10 @@ to resolve.
 ## Privacy routing
 
 Brenda's own personal material may be committed here unless she marks it otherwise. Identifying or sensitive material about other people—including staff, clients, family, and collaborators—belongs in a secure companion location and should be referenced here only in non-identifying, minimal form unless Brenda explicitly directs repository inclusion.
+
+## Personal stakes of this specific moment
+
+P2 msg 340: "This is one of the most important moments in my life. I've
+been working toward it for 20 years, and now the next 30 years become
+possible." Useful context for the weight this project carries beyond the
+abstract mission language logged elsewhere.

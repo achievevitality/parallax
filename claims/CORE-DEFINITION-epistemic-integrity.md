@@ -50,3 +50,15 @@ language in **P1, message 1490**: *"Protect the reality-correction loop
 against capture by any map — including the current one."* V4 formalized an
 already-established P1 principle; it didn't originate it. Worth correcting
 any framing that credits V4 with this idea.
+
+---
+
+## Companion definition: pathological power (P2 msg 313)
+
+"Pathological power allows one system to make another system absorb,
+regulate, or reorganize around consequences it generates while obstructing
+the pathways through which those consequences could correct [the first
+system]." Tighter and more testable than the "collective causal debt"
+phrasing in P4 — power becomes pathological specifically when it blocks the
+correction pathway, not merely when it's unequal. Pair these two entries
+when this material gets formalized.
