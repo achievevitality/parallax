@@ -191,3 +191,14 @@ strongest, most independently defensible claims in the corpus once formalized.
 | Client session structure as semiotic transmission (author intention → transmitter → receiver decoding) | 🟢 (real, citable) | P1 msg 2177 | Connects to Shannon-Weaver communication model and reader-response semiotic theory. Cite directly if client methodology is formalized |
 | Framework claims to explain mechanism underneath growth mindset (Dweck) and grit (Duckworth) | 🟢 (real, well-known research to anchor against) | P1 msg 2192 | Strong pairing for dissemination — "mechanism underneath research you already trust" is a stronger opening than new vocabulary alone |
 | Objects understood as relationships, relationships understood as objects (mutual reversibility) | 🟢 (real philosophical lineage) | P1 msg 2196 | Close to Whitehead's process philosophy / relational ontology — cite properly rather than presenting as a new idea |
+
+## P1 close (msgs 2200-2240) — the naming moment, and two strong closing principles
+
+**Provenance: this is where "Parallax" originates as a name.** P1 msg
+2236: "Call me Parallax." / "Hi, Parallax!" First instance of the name
+anywhere in the corpus, as far as this extraction pass has found.
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| "Knowing how wrong we can safely afford to be while Reality helps us get less wrong" | 🟢 tagged near-center-salience by Brenda herself | P1 msg 2222 | Strong candidate core principle — check whether this is already captured elsewhere under different phrasing before treating as a new entry |
+| Epistemic trust = confidence that disagreement can stay coupled to Reality long enough to become informative/repairable; trust is built by credible signal, not declaration | 🟢 | P1 msg 2226-2228 | "You do not make the body stand down by declaring the emergency is over. You create sufficiently credible signal." Practically applicable to any trust-rebuilding context, not just AI |
