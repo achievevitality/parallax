@@ -36,3 +36,10 @@ explaining what the work actually asks of a practitioner or of AI.
 "I'm trying to end upstream epistemic violence so that all downstream
 violence becomes unnecessary." — P1 msg 1585/1587. Intense but coherent —
 pairs with the "regulatory optionality" line as core mission material.
+
+## Blame-free systemic framing
+
+"Nobody designed the prison. Everybody inherited some of its infrastructure
+and unknowingly participated in maintaining it." — P1 msg 2078. Useful for
+explaining regulatory debt without triggering defensiveness — names the
+system without needing a villain.

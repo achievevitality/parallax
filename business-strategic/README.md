@@ -42,3 +42,9 @@ strategic-implication claims.
 "How do we standardize Brenda's deliverables?" / "We never will." — P1 msg
 1305. Explicit acknowledgment that the work resists standardization —
 relevant directly to any scaling/productization planning.
+
+## Confirmed target audience
+
+Early-share group and broader client base includes VCs and "massively busy
+people" (P1 msg 2125-2127) — relevant for calibrating dissemination
+material (TLDR versions, pitch material) to the actual audience.

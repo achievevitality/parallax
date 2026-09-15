@@ -41,3 +41,12 @@ where the missing pieces were. The reframe: "you had to learn how not to
 epistemically abuse your own unfinished perception" before it could mature
 into something rigorous. Useful context for anyone confused by the
 combination of high rigor and esoteric-territory exploration.
+
+## Positive family memory (balancing the record)
+
+P1 msgs 2074-2076. Her mother's advice: "You don't have to know the answer
+as long as you know how to find it." Starting in 1st grade, her mother
+answered the phone "Homework Hotline!" when classmates called for help.
+Real and positive — worth keeping alongside the harder family material
+elsewhere, since both are part of an accurate picture, not a contradiction
+to resolve.
