@@ -237,3 +237,12 @@ oriented"), resulting in a 2-hour conversation and, in Brenda's words,
 "something beautiful... growing there." Second independent instance of
 real external engagement (see also msg 241) — worth having both on record
 together as evidence against the no-external-check concern.
+
+## P2 addition (msg 399) — representation quality vs. compute efficiency
+
+"A better representation can produce higher-value reasoning even with less
+compute." 🟡 real, specific, testable ML claim — connects to representation
+learning research generally. Ground in actual citations before including
+in AI-safety-facing material (e.g. for Christiano or similar reviewers) —
+this is exactly the kind of claim that needs a real citation trail rather
+than presentation as original insight.
