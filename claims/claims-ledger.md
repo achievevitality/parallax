@@ -358,3 +358,9 @@ claims come up.
   thesis content — suggests the thesis covered broader ground than
   currently documented. Worth asking Brenda if she has the original thesis
   to check both claims against.
+
+## P5 addition (msg 131-133) — "epistemic cancer" (tentative)
+
+Proposed as reframe of "humanity as cancer on the planet" — the problem
+is a cognitive/epistemic pathology, not humanity itself. 🟡 explicitly
+tentative, self-flagged by Brenda as not necessarily the right term.
