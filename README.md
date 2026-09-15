@@ -49,3 +49,15 @@ public/broader-team safety, and a note that full transcripts are available
 upon request — while keeping the complete, unredacted originals in a more
 restricted, secure archive. This applies to raw source material (e.g. the
 P1-P5a conversation JSONs), not just the curated extraction lanes.
+
+## Data-quality flag: P4-conversation.json is incomplete
+
+`P4-conversation.json` in this repo has only 717 entries. The actual full
+transcript — `P4-human-readable-FINAL.pdf` in the same folder, and matching
+the version originally uploaded directly to the ParallaxA1 (Claude) session
+— is 1,657 pages, with message numbers running past 2,000. The JSON is a
+truncated/lossy capture, similar to the known DOM-scrape issue already
+documented for P2's raw export. **Any P4 extraction work should use the
+full PDF/text version, not P4-conversation.json, until a corrected full
+JSON is generated.** Flagging for Codex too, in case its parallel P4 pass
+used the same incomplete JSON.
