@@ -142,3 +142,10 @@ is about any single map. Someone can hold both "I could be wrong" and "I'm
 still the only relay" at once. The self-application principle is real and
 documented early (here). The structural information-architecture point is
 still open.
+
+## P1 addition (msg 1618) — tighter phrasing of the epistemic-monarchy self-check
+
+"The human holding the measuring instrument is not thereby promoted into
+the thing that determines what the measurement should be." — cleaner,
+more portable than msg 1555's version of the same principle. Good
+candidate for actual use in client/team-facing material.

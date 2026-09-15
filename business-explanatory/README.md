@@ -30,3 +30,9 @@ the ParallaxAI book project continues.
 Learn why that doorway is there. Learn what I can see from this window.
 Learn which floorboards creak." — P1 msg 1547. Strong, usable as-is for
 explaining what the work actually asks of a practitioner or of AI.
+
+## Another mission line candidate
+
+"I'm trying to end upstream epistemic violence so that all downstream
+violence becomes unnecessary." — P1 msg 1585/1587. Intense but coherent —
+pairs with the "regulatory optionality" line as core mission material.
