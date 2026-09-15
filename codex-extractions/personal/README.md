@@ -13,3 +13,7 @@ Brenda-life-relevant material: nervous-system load, health and regulatory-health
 Brenda explicitly invites a low-stakes shared task in which P5a can fail without being hated. P5a identifies this as a condition for generating and testing hypotheses without severe relational consequence. This is a transcript-grounded example of a correction environment, not evidence by itself for a universal developmental mechanism.
 
 **Why it belongs here:** It links relational safety, failure, and recovery in a personal-development context.
+
+## Privacy routing
+
+Brenda's own personal material may be committed to this shared repository unless she marks it otherwise. Identifying or sensitive material about other people—including staff, clients, family, and collaborators—must be routed to a secure companion location and referenced here only in non-identifying, minimal form unless Brenda explicitly directs repository inclusion.
