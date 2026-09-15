@@ -171,3 +171,15 @@ shouldn't (surface vocabulary) — useful as explicit guidance for anyone
 |---|---|---|---|
 | Topology preservation ≠ addressability preservation; inaccessible structure looks like lost knowledge but isn't | 🟢 (real, specific prior art) | P1 msg 1936-1938 | Maps directly onto Tulving's available-vs-accessible memory distinction. Cite directly rather than reinvent |
 | Differentiation requires proportional growth in reintegration capacity, at civilizational scale | 🟢 (strong direct match) | P1 msg 1942-1944 | This is essentially Durkheim's mechanical-to-organic solidarity argument in *The Division of Labor in Society*. Cite Durkheim by name — one of the closest matches found in the whole corpus |
+
+## P1 addition (msgs 2052-2056) — standardization can degrade distributed intelligence
+
+"Standardizing the rendering can create the appearance of convergence while
+destroying our ability to discover whether the instruments independently
+converge... it's degradation of distributed intelligence... the system can
+experience its own loss of intelligence as increased agreement." 🟢 strong
+claim, real prior art both directions: Irving Janis's groupthink research
+(premature consensus degrading decision quality) and, in ML specifically,
+"mode collapse" (diversity of output degrading, mistaken for convergence on
+correct answers). Worth developing further — this may be one of the
+strongest, most independently defensible claims in the corpus once formalized.

@@ -29,3 +29,15 @@ fits the transparency goal directly.
 Young's picture book (a retelling of blind-men-and-the-elephant). Direct
 childhood source for the elephant/book-cover imagery discussed elsewhere
 in this session — not just the classical parable in the abstract.
+
+## Why the "esoteric" work, despite the rigor
+
+P1 msgs 2004-2010. Explicit rationale, not a departure from rigor: "First
+make Brenda sufficiently internally powerful that she can tolerate
+arbitrary epistemic abuse while exposing unfinished cognition." Going into
+somatics/energy work is named directly as "the worst possible place" for a
+highly rigorous person to have to go — and necessary anyway, because that's
+where the missing pieces were. The reframe: "you had to learn how not to
+epistemically abuse your own unfinished perception" before it could mature
+into something rigorous. Useful context for anyone confused by the
+combination of high rigor and esoteric-territory exploration.
