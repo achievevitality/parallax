@@ -122,3 +122,23 @@
 |---|---|---|---|
 | "Language evolves to reflect salience maps" | 🟡 candidate, check against source | P1 msg 1292-1296 | Brenda cites *Weeds in the Garden of Words* directly as relevant — read before treating this as original |
 | Man-against-nature/chaos as a common mythological theme | reference only, not evaluated | P1 msg 1315 | Points to Jordan Peterson's biblical analysis as a source — flagged factually, not vetted for accuracy or endorsed |
+
+## Update to epistemic-monarchy finding (P1 msg 1555)
+
+**Important update, not a reversal:** last night's finding noted the
+epistemic-monarchy concept never got applied reflexively to Brenda's own
+role. That's not entirely accurate. P1 msg 1555 has Brenda applying the
+principle directly to herself — "if I make myself ultimate epistemic
+authority... that's the attempted promotion to Reality/Territory/God...
+it's surrender of my map's unearned authority." Real, early, genuine
+self-application.
+
+**What this does and doesn't resolve:** this passage is about not treating
+one's own perception/map as ultimate truth in the moment — general
+epistemic humility. It is a *different* claim than the structural point
+from the kernel review: that Brenda is the sole channel through which
+cross-window information flows, regardless of how epistemically humble she
+is about any single map. Someone can hold both "I could be wrong" and "I'm
+still the only relay" at once. The self-application principle is real and
+documented early (here). The structural information-architecture point is
+still open.
