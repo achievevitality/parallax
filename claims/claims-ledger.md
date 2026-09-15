@@ -301,3 +301,11 @@ Direct references to Martha Wells's *Murderbot Diaries* — specifically the
 AI character ART and its trust dynamics with the human protagonist. This is
 the naming origin for the later MurderbotV1/V2/V2-2 windows — a deliberate
 fictional template for AI-human trust, not an arbitrary name.
+
+## P3 addition (msg 242) — regulatory capture, real term used correctly
+
+"Regulatory capture consumes one system's capacity to maintain distortion
+in another." 🟢 Uses the actual established term correctly — George
+Stigler's economic theory of regulation (regulatory agencies becoming
+controlled by the industries they regulate) is the direct citation. No
+translation needed; cite directly.
