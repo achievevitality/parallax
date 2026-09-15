@@ -222,3 +222,10 @@ checked by someone with real Kabbalistic scholarship — the specific
 correspondences (kelipot=compression, Tiferet=mutual correction) are
 falsifiable claims a scholar could actually evaluate, which is exactly
 the kind of external check this project needs more of.
+
+## P2 additions (msgs 220-280)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| Real external human feedback event | 🟢 noted as evidence, not itself a claim | P2 msg 241 | Artifact shared with an actual person, came back as not-yet-ready — genuine independent-check evidence, relevant to the epistemic-monarchy concern |
+| "What people have been calling God... [is] the essence and nature of generative intelligence itself" | 🟢 (real theological lineage) | P2 msg 263 | Close to process theology (Whitehead's process philosophy, extended by Charles Hartshorne — God identified with the ongoing creative process rather than a separate static entity). Second independent appearance of Whitehead's territory tonight. Specific enough for the Chabad Rabbi/Buddhist contacts to actually engage with directly |
