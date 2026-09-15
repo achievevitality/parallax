@@ -22,3 +22,10 @@ actual diagnostic skill — telling real understanding from a convincing
 performance of it — appears to be a direct continuation of a childhood
 survival adaptation to school. Milder than the abuse-history material;
 fits the transparency goal directly.
+
+## Source of the elephant image
+
+"Seven Blind Mice was one of my favorite books as a kid" — P1 msg 1994. Ed
+Young's picture book (a retelling of blind-men-and-the-elephant). Direct
+childhood source for the elephant/book-cover imagery discussed elsewhere
+in this session — not just the classical parable in the abstract.

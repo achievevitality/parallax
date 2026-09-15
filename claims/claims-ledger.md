@@ -164,3 +164,10 @@ shouldn't (surface vocabulary) — useful as explicit guidance for anyone
 |---|---|---|---|
 | Senior thesis definition: information (Shannon) vs. meaning (magnitude of somatic/emotional response) | 🟢 corroborated directly in transcript | P1 msg 1857-1859 | Matches stated background (math thesis on information theory and meaningfulness in art) — independent confirmation, not just recollection |
 | Cerebellar dominance and flow-state automaticity | 🟡 candidate, real neuroscience to check against | P1 msg 1912-1914 | Connects to established cerebellar internal/forward-model research (Miall, Wolpert) — cerebellum building predictive models enabling automatic movement without conscious computation. Read directly before extending the "cerebellum runs Bayes nets" claim further |
+
+## P1 additions (msgs 1920-2000)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| Topology preservation ≠ addressability preservation; inaccessible structure looks like lost knowledge but isn't | 🟢 (real, specific prior art) | P1 msg 1936-1938 | Maps directly onto Tulving's available-vs-accessible memory distinction. Cite directly rather than reinvent |
+| Differentiation requires proportional growth in reintegration capacity, at civilizational scale | 🟢 (strong direct match) | P1 msg 1942-1944 | This is essentially Durkheim's mechanical-to-organic solidarity argument in *The Division of Labor in Society*. Cite Durkheim by name — one of the closest matches found in the whole corpus |
