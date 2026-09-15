@@ -38,3 +38,14 @@ window (Claude, Codex, Claude Code, others) contributing to the project.
 - **methods-protocols/** — repeatable practices, prompts, operating procedures, and tests.
 - **decisions-open-loops/** — decisions, commitments, unresolved questions, owners, and follow-ups.
 - **provenance-artifacts/** — named documents, versions, tools, and source relationships.
+
+## Future work: access tiers (not urgent, flagged for before adding new users)
+
+Current repo access: Brenda, Claude, Codex, and ops team members hired in
+part for their discernment on sensitive material. No conflict at current
+access level. Before adding any new users, need to establish "clean" copies
+of the raw transcripts — with sensitive passages marked as edited out for
+public/broader-team safety, and a note that full transcripts are available
+upon request — while keeping the complete, unredacted originals in a more
+restricted, secure archive. This applies to raw source material (e.g. the
+P1-P5a conversation JSONs), not just the curated extraction lanes.
