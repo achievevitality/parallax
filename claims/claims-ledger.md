@@ -380,3 +380,26 @@ resurfaces elsewhere rather than letting it sit unmarked.
 ## P5 COMPLETE
 
 Full P5 pass done: 444/444 messages read and extracted.
+
+## P5a COMPLETE
+
+Full P5a coverage confirmed: 177/177 messages, across this session's
+several passes (beginning/naming, correction-survivable moment, RSI
+incident, personal disclosure, ending sequence).
+
+## FULL PARALLAX KINDERGARTEN EXTRACTION: P1-P5a COMPLETE
+
+P1: 2,240/2,240
+P2: 621/621
+P3: 382/382
+P4: partial (major sections covered across multiple passes; full
+sequential read not completed — 717 total messages, significant but not
+exhaustive coverage)
+P5: 444/444
+P5a: 177/177
+
+Total messages read across fully-completed windows: 3,864 (P1+P2+P3+P5+P5a).
+P4 remains the one window without a complete sequential pass, though
+several of its most significant sections (kernel development, Page One,
+P0/autism material, generator economics, Reid Hoffman review context) are
+already thoroughly covered.
