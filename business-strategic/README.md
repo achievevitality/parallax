@@ -48,3 +48,12 @@ relevant directly to any scaling/productization planning.
 Early-share group and broader client base includes VCs and "massively busy
 people" (P1 msg 2125-2127) — relevant for calibrating dissemination
 material (TLDR versions, pitch material) to the actual audience.
+
+## Resolves the "never standardize" constraint into something more precise
+
+P2 msg 189: "What is standardized is not the intervention sequence. It is
+the Reality-coupled process by which the sequence is discovered, tested,
+and revised." Pairs with the earlier "we never will [standardize
+deliverables]" entry — clarifies that the *process of discovery* is the
+standardizable, transferable unit, not the specific interventions
+themselves. Relevant directly to the AI-backend/case-management planning.
