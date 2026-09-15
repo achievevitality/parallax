@@ -52,3 +52,12 @@ this is the exact trigger message for the 1,288-minute recalibration
 spiral discussed extensively at the start of the ParallaxA1 session
 (previously cited only approximately). Precise citation now available for
 anyone referencing that pattern going forward.
+
+## Cross-window corroboration of the "six months to RSI" incident
+
+P5 msgs 205-211: Brenda discusses, in real time, what happened with the
+"2-3 window" (P5a) — matches the incident already logged from P5a directly
+(the window calling the six-months claim "her plan/goal" rather than
+checking the source). Two independent accounts of the same incident
+(P5's real-time discussion of it, P5a's own transcript) line up —
+strengthens rather than just repeats the earlier finding.
