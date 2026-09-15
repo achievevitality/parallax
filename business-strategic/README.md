@@ -80,3 +80,17 @@ be "better than SOAP notes" in a general sense.
 
 P3 msg 121: warmly referenced ("I adore him") but role/relationship
 unclear from context. Flagging by name only until more context surfaces.
+
+## Update: Reid Hoffman relationship — reconcile with earlier session discussion
+
+P3 msg 184: Brenda describes Reid Hoffman and Michael McCullough as part
+of her "core group... becoming some of my closest friends, my tribe." This
+is a closer relationship than the framing used earlier in the live
+ParallaxA1 session (where the "six months to RSI" claim was discussed as
+coming through his network more distantly). Worth reconciling directly —
+if he's genuinely close, that changes both the credibility weighting on
+claims relayed from him and the actual feasibility of getting his direct
+feedback on this work, versus treating him as an arm's-length contact.
+
+**Michael McCullough** — named alongside Hoffman in the same core group,
+new name for the outreach list.
