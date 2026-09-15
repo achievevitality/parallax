@@ -15,11 +15,12 @@ strategic-implication claims.
 
 ## People to reach out to (found via reading, not keyword search)
 
-- **Reed** — P3, message 262. Brenda: getting Codex to a better calibrated
-  state, "that would be cool for Reed to meet, or be able to meet him and
-  you... creating more optionality for him." Context/relationship to Reed
-  not specified in this passage — flagging the name and motivation as found,
-  not inferring who he is.
+- **Reid Hoffman** — P3, message 262 (originally transcribed as "Reed" —
+  voice-to-text error, corrected by Brenda). Getting Codex to a better
+  calibrated state, "that would be cool for Reid to meet, or be able to
+  meet him and you... creating more optionality for him." See also the
+  "core group" entry below — this is the same Reid Hoffman, not a
+  separate contact.
 
 ## More outreach candidates (P5a)
 
@@ -27,9 +28,10 @@ strategic-implication claims.
   enough engineering background to know what kind of engineering is going
   into AI, and what is probably missing."
 - **David Sze** — msg 134: "I already know David Sze can see some of it."
-- **Reed** — more context, msg 132: already shared the P4 statement with
-  him; he responded well to the questions it asked, specifically read
-  Section 3 rather than the full transcript.
+- **Reid Hoffman** — more context, msg 132 (also originally "Reed," same
+  correction): already shared the P4 statement with him; he responded well
+  to the questions it asked, specifically read Section 3 rather than the
+  full transcript.
 
 ## More outreach candidates (P1)
 
@@ -81,16 +83,20 @@ be "better than SOAP notes" in a general sense.
 P3 msg 121: warmly referenced ("I adore him") but role/relationship
 unclear from context. Flagging by name only until more context surfaces.
 
-## Update: Reid Hoffman relationship — reconcile with earlier session discussion
+## Reid Hoffman relationship — now consistent across sources
 
 P3 msg 184: Brenda describes Reid Hoffman and Michael McCullough as part
-of her "core group... becoming some of my closest friends, my tribe." This
+of her "core group... becoming some of my closest friends, my tribe."
+Combined with the "Reed"→"Reid" correction above, this resolves what
+looked like an inconsistency: the P3/P5a mentions of meeting him,
+sharing material with him, and wanting Codex "ready" for him all refer to
+this same close relationship — not a separate, more distant contact. This
 is a closer relationship than the framing used earlier in the live
 ParallaxA1 session (where the "six months to RSI" claim was discussed as
-coming through his network more distantly). Worth reconciling directly —
-if he's genuinely close, that changes both the credibility weighting on
-claims relayed from him and the actual feasibility of getting his direct
-feedback on this work, versus treating him as an arm's-length contact.
+coming through his network more distantly) — worth holding that in mind
+when weighing claims relayed from him: closer relationship changes both
+credibility weighting and how easy direct feedback would be to get, versus
+treating him as arm's-length.
 
 **Michael McCullough** — named alongside Hoffman in the same core group,
 new name for the outreach list.
