@@ -78,10 +78,13 @@ be "better than SOAP notes" in a general sense.
   possibly a different Tom. Flagging as ambiguous rather than assuming —
   don't conflate without more context.
 
-## Harold (thin context)
+## CORRECTION: Harold is a fictional character, not a contact
 
-P3 msg 121: warmly referenced ("I adore him") but role/relationship
-unclear from context. Flagging by name only until more context surfaces.
+Previously flagged as a possible real contact. Resolved: P4 turn 102
+confirms "Harold" refers to Harold Finch, the character from *Person of
+Interest* — the show already noted elsewhere as one she identifies with
+strongly. Removing from the outreach-candidates list; not a real person to
+follow up with.
 
 ## Reid Hoffman relationship — now consistent across sources
 

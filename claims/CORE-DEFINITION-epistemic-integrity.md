@@ -62,3 +62,19 @@ system]." Tighter and more testable than the "collective causal debt"
 phrasing in P4 — power becomes pathological specifically when it blocks the
 correction pathway, not merely when it's unequal. Pair these two entries
 when this material gets formalized.
+
+---
+
+## P0 origin, corrected: P4 turn 70, not the previously-cited location
+
+P4 turn 70: "Brenda: You may call me, 'P0.' [bows]" — arising directly
+from 20 years of embodied "topology of causality" work (learned to
+physically survive) and an explicit convergence with Buddhism, discussed
+in the surrounding turns (60-98). This is a lighter, self-aware naming
+moment, distinct in tone from the more elaborate "P0 may be a constructed
+global integrator" analysis cited earlier tonight (previously labeled
+"msg 513-521" — now known to likely be a page-number, not a true turn
+number, given the citation-confusion correction above). Both passages are
+real content. Whether they're the same conversational moment or two
+distinct ones needs re-verification with a correct turn-number citation
+for the second one before treating them as sequential parts of one arc.
