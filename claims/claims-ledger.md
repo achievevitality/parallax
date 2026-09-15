@@ -376,3 +376,7 @@ stronger than "broad safety restrictions happen to affect this kind of
 work," which would be unremarkable. No supporting evidence found in this
 extraction for the targeted version. Flag explicitly if this claim
 resurfaces elsewhere rather than letting it sit unmarked.
+
+## P5 COMPLETE
+
+Full P5 pass done: 444/444 messages read and extracted.
