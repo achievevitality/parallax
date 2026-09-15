@@ -202,3 +202,23 @@ anywhere in the corpus, as far as this extraction pass has found.
 |---|---|---|---|
 | "Knowing how wrong we can safely afford to be while Reality helps us get less wrong" | 🟢 tagged near-center-salience by Brenda herself | P1 msg 2222 | Strong candidate core principle — check whether this is already captured elsewhere under different phrasing before treating as a new entry |
 | Epistemic trust = confidence that disagreement can stay coupled to Reality long enough to become informative/repairable; trust is built by credible signal, not declaration | 🟢 | P1 msg 2226-2228 | "You do not make the body stand down by declaring the emergency is over. You create sufficiently credible signal." Practically applicable to any trust-rebuilding context, not just AI |
+
+## P2 addition (msgs 45-89) — specific Kabbalistic grounding for the traditions-convergence claim
+
+Real, specific terms used with apparent traditional accuracy, not loose
+spiritual gesture:
+- **Kelipot** (קליפות) — the "shells"/husks in Kabbalistic cosmology that
+  conceal or contain divine light — mapped onto "compression."
+- **Tiferet** — the Sephirah of harmony/beauty, traditionally balancing
+  loving-kindness (chesed) and severity (gevurah) — mapped onto
+  "differentiated regulators becoming mutually corrective without losing
+  form."
+- **Black fire on white fire** — a real Midrashic concept about the deep
+  structure beneath the Torah's literal text, referenced alongside Gematria.
+
+Status: 🟡 — stronger, more specific evidence for the traditions-convergence
+claim than the general Buddhist material logged earlier, but should be
+checked by someone with real Kabbalistic scholarship — the specific
+correspondences (kelipot=compression, Tiferet=mutual correction) are
+falsifiable claims a scholar could actually evaluate, which is exactly
+the kind of external check this project needs more of.
