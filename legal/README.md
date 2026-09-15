@@ -33,3 +33,12 @@ growing number of state-level AI-generated political content disclosure
 laws. Flagging as higher priority than the other legal items — worth
 clarifying with counsel whether any version of this was actually pursued,
 and if so, to what extent, before any further work in this direction.
+
+## Update: election-related item status
+
+Confirmed by Brenda: stayed at the exploratory-conversation stage in P2,
+no action taken. If pursued, she'd hand it to contacts who work
+professionally in elections to design and execute — not drive it herself.
+No action anytime soon. Downgrading urgency accordingly; still worth a
+lawyer's eyes eventually given the regulatory territory, but not
+time-sensitive.
