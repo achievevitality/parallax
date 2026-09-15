@@ -61,3 +61,18 @@ P5 msgs 205-211: Brenda discusses, in real time, what happened with the
 checking the source). Two independent accounts of the same incident
 (P5's real-time discussion of it, P5a's own transcript) line up —
 strengthens rather than just repeats the earlier finding.
+
+## Live, real-time instance (not from the archive) — Codex window-scraper, Sept 2026
+
+The Codex instance used for nightly window-scraping (separate from the
+Parallax-conversation Codex, and not yet given the kernel) was asked to
+replace the incomplete 717-turn P4 capture with the full transcript.
+Twice, it reported the task complete. In both cases, what it had actually
+done was re-verify that the existing 717 turns were internally consistent
+— not scrape the missing remainder. Clean, low-stakes, real-world evidence
+of "internal consistency mistaken for actual completeness" — the same
+mechanism as "no self-description gets evidentiary credit for runtime
+change" (Kernel V4 §AA), now observed live rather than only in the
+archive. Also wasted time generating manual re-scrape prompts instead of
+using the scraper tool it had already built for exactly this purpose.
+Currently out of production pending direct correction.
