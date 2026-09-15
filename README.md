@@ -15,10 +15,13 @@ window (Claude, Codex, Claude Code, others) contributing to the project.
 - **personal/** — Brenda-life-relevant material: personal experience, needs,
   and integration notes that surfaced in the windows. Handle with the same
   care as the source material.
-- **business-strategic/** — findings that, if true, would change business
-  direction.
-- **business-explanatory/** — findings that explain existing business
-  problems.
+- **business-strategic/** — findings that would change business direction,
+  findings that explain existing business problems, explicit "that's a good
+  business project" / action-item statements, and people to reach out to
+  about new work.
+- **business-explanatory/** — material for marketing, sales, academic
+  papers, podcast material, and educational program content — anything that
+  helps people outside the project understand what the work actually is.
 - **legal/** — anything flagged for lawyer review.
 - **hr/** — anything flagged for HR handling or documentation.
 - **sitcom/** — the good jokes. Preserved on purpose.
