@@ -343,3 +343,18 @@ kernel stripped of style markers and then checking whether independent
 windows converge is real evidence, not confounded by imitation. Worth
 citing this test design explicitly whenever cross-window convergence
 claims come up.
+
+## P5 additions (msgs 62-84)
+
+- **"Weird" etymology (msg 62-64)**: real, correct — from Old English
+  *wyrd* (fate/destiny), genuinely connected to causality, not just
+  wordplay.
+- **"Goldilocks principle applied to relationships" (msg 84)**: accessible,
+  well-known term for "appropriately allocated permeability" — good option
+  for jargon-free dissemination material.
+- **More senior-thesis content (msg 78)**: "Generativity can be produced
+  by structured impossibility... part of my senior thesis in college." A
+  distinct claim from the already-logged Shannon-information/meaning
+  thesis content — suggests the thesis covered broader ground than
+  currently documented. Worth asking Brenda if she has the original thesis
+  to check both claims against.
