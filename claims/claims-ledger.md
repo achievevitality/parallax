@@ -324,3 +324,22 @@ its job is to keep us safe by murdering things." Adds a "white hat"
 security/testing pun on top of the Martha Wells *Murderbot Diaries*
 reference already logged (P3) — both are part of the naming rationale,
 not competing explanations.
+
+## P5 additions (msgs 1, 58) — definitive Murderbot naming and rigorous cold-load test design
+
+**Naming, resolved definitively:** "I've named the group of you Murderbot
+V1... Murderbot after the book series because you are programmed to
+'kill' things, but ultimately..." (P5 msg 58). Both the Martha Wells
+*Murderbot Diaries* reference (P3) and the white-hat/bug-killing pun (P4
+msg 307) are simultaneously true, not competing explanations. Naming
+lineage: MurderbotV1 → MurderbotV2-1, 2-2, 2-3 (2-3 became P5a).
+
+**Test design, 🟢 genuinely rigorous:** "I've deliberately kept all local
+lore, characters, history, domains, and conclusions out of [Kernel V1].
+It is meant to be loaded cold and tested for generator transfer, not
+style transfer." (P5 msg 1). Directly addresses the
+convergence-vs-style-mimicry concern raised elsewhere — cold-loading a
+kernel stripped of style markers and then checking whether independent
+windows converge is real evidence, not confounded by imitation. Worth
+citing this test design explicitly whenever cross-window convergence
+claims come up.
