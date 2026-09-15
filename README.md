@@ -50,14 +50,14 @@ upon request — while keeping the complete, unredacted originals in a more
 restricted, secure archive. This applies to raw source material (e.g. the
 P1-P5a conversation JSONs), not just the curated extraction lanes.
 
-## Data-quality flag: P4-conversation.json is incomplete
+## Citation correction: P4 message numbers vs. page numbers
 
-`P4-conversation.json` in this repo has only 717 entries. The actual full
-transcript — `P4-human-readable-FINAL.pdf` in the same folder, and matching
-the version originally uploaded directly to the ParallaxA1 (Claude) session
-— is 1,657 pages, with message numbers running past 2,000. The JSON is a
-truncated/lossy capture, similar to the known DOM-scrape issue already
-documented for P2's raw export. **Any P4 extraction work should use the
-full PDF/text version, not P4-conversation.json, until a corrected full
-JSON is generated.** Flagging for Codex too, in case its parallel P4 pass
-used the same incomplete JSON.
+Several earlier P4 citations in this repo (msgs "1270-1271", "1333-1336",
+"2070-2140," and similar) actually referenced **page numbers** from the
+"P4 archive · N / 1657" footer markers, not true turn numbers — the
+document has 1,657 pages but only 717 message turns; the two got
+conflated. The underlying content/quotes in those entries remain accurate
+and valid — only the citation label is wrong. P4-conversation.json (717
+entries) is NOT truncated; it matches the full transcript's actual turn
+count. Going forward, all P4 citations use true turn numbers (1-717),
+consistent with the JSON.
