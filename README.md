@@ -35,3 +35,6 @@ window (Claude, Codex, Claude Code, others) contributing to the project.
   🔴 disconfirmed/withdrawn.
 - Sensitive personal history (e.g. abuse specifics) is referenced by context,
   not itemized as a testable "claim."
+- **methods-protocols/** — repeatable practices, prompts, operating procedures, and tests.
+- **decisions-open-loops/** — decisions, commitments, unresolved questions, owners, and follow-ups.
+- **provenance-artifacts/** — named documents, versions, tools, and source relationships.

@@ -50,3 +50,7 @@ answered the phone "Homework Hotline!" when classmates called for help.
 Real and positive — worth keeping alongside the harder family material
 elsewhere, since both are part of an accurate picture, not a contradiction
 to resolve.
+
+## Privacy routing
+
+Brenda's own personal material may be committed here unless she marks it otherwise. Identifying or sensitive material about other people—including staff, clients, family, and collaborators—belongs in a secure companion location and should be referenced here only in non-identifying, minimal form unless Brenda explicitly directs repository inclusion.
