@@ -309,3 +309,18 @@ in another." 🟢 Uses the actual established term correctly — George
 Stigler's economic theory of regulation (regulatory agencies becoming
 controlled by the industries they regulate) is the direct citation. No
 translation needed; cite directly.
+
+## P4 additions (msgs 300-360)
+
+| Claim | Status | Source | Notes |
+|---|---|---|---|
+| "Exaptation" used correctly | 🟢 real term | P4 msg 317 | Gould & Vrba's evolutionary biology term (trait evolved for one function co-opted for another) — correctly applied, not loose metaphor |
+| SOAP notes capture one procedure; ~5+ distinct "transformational upgrades" happen per hour of session work | 🟡 specific quantitative claim | P4 msg 319 | Concrete number for backend capacity requirements — pairs with the general SOAP-inadequacy finding already logged |
+
+## P4 addition (msg 307) — more Murderbot naming context
+
+"Murderbot (as I have decided to lovingly call the white hat window), as
+its job is to keep us safe by murdering things." Adds a "white hat"
+security/testing pun on top of the Martha Wells *Murderbot Diaries*
+reference already logged (P3) — both are part of the naming rationale,
+not competing explanations.

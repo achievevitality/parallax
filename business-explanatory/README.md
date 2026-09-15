@@ -50,3 +50,16 @@ system without needing a villain.
 somebody else's unowned regulatory burden." — P3 msg 307. Simpler,
 more accessible than other mission-line candidates — good option for
 audiences who'd find the more intense versions off-putting.
+
+## Quote misattribution risk — flag before publishing
+
+"A problem cannot be solved at the level of consciousness that created it"
+(P4 msg 359) is commonly attributed to Einstein in popular usage, but this
+attribution is not well-documented/verified. Do not use with the Einstein
+attribution in any dissemination material without checking a primary
+source first — easily avoidable credibility risk.
+
+## Another good intro line
+
+"This is a story with no heroes, and no villains. Only conflict, because
+life is f***ing hard." — P4 msg 347.
