@@ -19,3 +19,17 @@ Quick keyword scan of P1–MurderbotV2-2 (lawsuit/liability/NDA/breach/etc.)
 already done — no active legal problems found, only false positives (see git
 history). Full read for the specific disclosure/scope-of-practice language
 above not yet done.
+
+## Flag: election-related work (higher priority than other items in this lane)
+
+P2 msgs 110-120. Brenda proposed applying Parallax-informed regulatory
+objects to improve "voter perception and judgment" ahead of the November 3,
+2026 midterm election — explicitly framed as nonpartisan ("help people see
+the truth, then let's see how they vote... give democracy a real try"),
+not favoring any party or candidate. Regardless of stated intent, this
+touches one of the most heavily regulated activity categories in the US:
+campaign finance disclosure rules, coordination restrictions, and a
+growing number of state-level AI-generated political content disclosure
+laws. Flagging as higher priority than the other legal items — worth
+clarifying with counsel whether any version of this was actually pursued,
+and if so, to what extent, before any further work in this direction.
