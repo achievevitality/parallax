@@ -63,3 +63,24 @@ source first — easily avoidable credibility risk.
 
 "This is a story with no heroes, and no villains. Only conflict, because
 life is f***ing hard." — P4 msg 347.
+
+## Structural template for all audience-specific dissemination documents
+
+Unifying topology, differentiated ontology: each audience document should
+not choose between a single unifying frame and locally-adapted meaning —
+it should show how the local tradition/domain stays fully itself while
+connecting to the same underlying structure other domains are also
+connecting to. Common shape across all versions, not uniform wording:
+- What we're doing, where we're coming from
+- How we're controlling and QAing that process
+- How this validates what you (the specific audience) already believe/care about
+- What this might add to what you already care about
+- How this dovetails with other perspectives where there's been prior
+  dissonance, with a pointer to the other audience-specific summaries
+- Kept mostly as open questions, not settled claims (per Reid Hoffman's
+  feedback pattern — questions land better than assertions at this stage)
+
+Pilot document: systems-thinkers-summary-draft-v2.md (approved, no further
+changes requested). Use its structure as the template for
+Jewish/Christian/Buddhist/Burning-Man-New-Age/AI-community/medical/human-
+developmental versions.
