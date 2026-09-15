@@ -61,3 +61,13 @@ and valid — only the citation label is wrong. P4-conversation.json (717
 entries) is NOT truncated; it matches the full transcript's actual turn
 count. Going forward, all P4 citations use true turn numbers (1-717),
 consistent with the JSON.
+
+## P4 status: working from a known-partial window, final version pending
+
+The "P4 Archive — 2026-09-10" folder (717 turns) is a **partial window,
+not the final P4 conversation** — confirmed by Brenda. The actual final
+window (~2,000+ turns) is not yet located in the repo; Brenda is having
+Codex source and add it. Extraction entries citing this 717-turn version
+are labeled as partial-window content below — real and usable, but P4
+should get a full re-pass once the final window is available, and the
+partial should be deleted once it's confirmed no longer needed.
