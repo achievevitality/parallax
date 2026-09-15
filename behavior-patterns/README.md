@@ -36,3 +36,11 @@ external check, one window checking it against a source and finding the
 specific attribution didn't hold. Not a verdict on whether six months is
 right — a data point about which conditions produce verification and which
 don't.
+
+## Profanity as intentional signal, in Brenda's own words
+
+P1 msg 1533: "There's a reason I make sure to say fucking. If I say
+fucking, it's because I'm feeling fucking emotional about the thing, and
+it is a fucking shorthand that there's something I fucking feel." Clarifies
+the intensity pattern already documented elsewhere as (at least partly)
+intentional signaling, not undifferentiated venting.

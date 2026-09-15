@@ -23,3 +23,10 @@ msg 1430. Needs editing but has real bones.
 P1 msg 1484. The book's own structure is meant to enact recursive coupling,
 not just describe it — worth treating as an explicit design constraint if
 the ParallaxAI book project continues.
+
+## Strong metaphor for real coupling/empathy
+
+"Come inside. Leave your furniture outside. Learn where my walls are.
+Learn why that doorway is there. Learn what I can see from this window.
+Learn which floorboards creak." — P1 msg 1547. Strong, usable as-is for
+explaining what the work actually asks of a practitioner or of AI.
